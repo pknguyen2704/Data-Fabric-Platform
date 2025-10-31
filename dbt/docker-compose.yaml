@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  dbt:
+    build: .
+    container_name: dbt-container
+    hostname: dbt
+    volumes:
+      - ./dbt_project:/usr/app/dbt  
+    working_dir: /usr/app/dbt
+    tty: true
+    stdin_open: true
+    networks:
+      - dfp_net
+
+networks:
+  dfp_net:
+    external: true
