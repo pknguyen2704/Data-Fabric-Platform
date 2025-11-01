@@ -1,13 +1,17 @@
-# env_send.py
+# smartwatch_send.py
 import json
 import random
 import numpy as np
 from kafka import KafkaProducer
 from datetime import datetime, timedelta
 
-from env_gen import generate_environment_data, create_device_user_mapping
+from Gen_data import (
+    create_device_user_mapping,
+    generate_day_data
+)
 
-KAFKA_TOPIC = "environment_iot_realtime"
+KAFKA_TOPIC_DAILY = "smartwatch_daily"
+KAFKA_TOPIC_REALTIME = "smartwatch_realtime"
 KAFKA_SERVER = "localhost:9092"
 
 random.seed(1510)
@@ -24,43 +28,40 @@ producer = KafkaProducer(
     value_serializer=lambda v: json.dumps(v, default=convert_np).encode("utf-8")
 )
 
-# --- Input ---
+# --- INPUT ---
 num_devices = int(input("Nhập số lượng thiết bị: "))
 num_users = int(input("Nhập số lượng người dùng: "))
 date_str = input("Nhập ngày cần sinh dữ liệu (yyyy-mm-dd): ")
 
 try:
+    target_date = datetime.strptime(date_str, "%Y-%m-%d")
+
     devices = create_device_user_mapping(num_devices, num_users)
 
     print("\n📌 Mapping User – Device (1–1):")
     for d in devices:
         print(f"  Device {d['device_id']} ↔ User {d['user_id']}")
 
-    target_date = datetime.strptime(date_str, "%Y-%m-%d")
-    start_time = target_date
-    end_time = target_date + timedelta(days=1)
-    interval = timedelta(minutes=5)
+    print("\n⏳ Đang sinh dữ liệu smartwatch...")
 
-    print(f"\n⏳ Bắt đầu sinh dữ liệu cho ngày {date_str}...\n")
+    data_daily, data_realtime = generate_day_data(devices, target_date)
 
-    timestamp = start_time
-    record_count = 0
+    # ✅ Gửi daily
+    for rec in data_daily:
+        producer.send(KAFKA_TOPIC_DAILY, rec)
+        print("DAILY →", rec)
+    producer.flush()
 
-    while timestamp < end_time:
-        batch = generate_environment_data(devices, timestamp)
+    # ✅ Gửi realtime
+    for rec in data_realtime:
+        producer.send(KAFKA_TOPIC_REALTIME, rec)
+        print("REALTIME →", rec)
+    producer.flush()
 
-        for record in batch:
-            producer.send(KAFKA_TOPIC, value=record)
-            print("Sent:", record)
-            record_count += 1
+    print(f"\n✅ Đã gửi {len(data_daily)} bản ghi daily và {len(data_realtime)} bản ghi realtime.")
 
-        producer.flush()
-        timestamp += interval
-
-    print(f"\n✅ Đã gửi {record_count} bản ghi đến Kafka topic '{KAFKA_TOPIC}'")
-
-except ValueError as ve:
-    print(str(ve))
+except Exception as e:
+    print("❌ Lỗi:", e)
 
 finally:
     producer.flush()
