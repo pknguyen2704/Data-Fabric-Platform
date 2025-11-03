@@ -1,3 +1,3 @@
-mysql-data/*
-postgres-data/*
+csv/medical_visits
+csv/user
 realtime/venv
