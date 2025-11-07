@@ -1,0 +1,32 @@
+services:
+  postgres-ds:
+    image: postgres:15
+    container_name: postgres-ds
+    hostname: postgres-ds
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Postgres123@
+      POSTGRES_DB: mydb
+    ports:
+      - "54321:5432"
+    volumes:
+      - ./datasources/postgres-data:/var/lib/postgresql/data
+    networks:
+      - dfp_net
+  mysql:
+    image: mysql:latest
+    container_name: mysql-ds
+    hostname: mysql-ds
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - MYSQL_ROOT_PASSWORD=Mysqlroot123@
+    ports:
+      - "33061:3306"
+    volumes:
+      - ./datasources/mysql-data:/var/lib/mysql
+    networks:
+      - dfp_net
+
+networks:
+  dfp_net:
+    external: true

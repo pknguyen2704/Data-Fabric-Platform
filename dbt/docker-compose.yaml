@@ -1,9 +1,7 @@
-version: "3"
-
 services:
   dbt:
     build: .
-    container_name: dbt-container
+    container_name: dbt
     hostname: dbt
     volumes:
       - ./dbt_project:/usr/app/dbt  
