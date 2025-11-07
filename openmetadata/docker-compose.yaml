@@ -11,7 +11,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-     - ./docker-volume/db-data:/var/lib/mysql
+      - ./docker-volume/db-data:/var/lib/mysql
     networks:
       - dfp_net
     healthcheck:
