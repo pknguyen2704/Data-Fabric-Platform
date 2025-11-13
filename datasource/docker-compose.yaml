@@ -10,10 +10,15 @@ services:
     ports:
       - "54321:5432"
     volumes:
-      - ./datasources/postgres-data:/var/lib/postgresql/data
+      - ./postgres-data:/var/lib/postgresql/data
+    command:
+      - "postgres"
+      - "-c"
+      - "shared_preload_libraries=pg_stat_statements"
     networks:
       - dfp_net
-  mysql:
+
+  mysql-ds:
     image: mysql:latest
     container_name: mysql-ds
     hostname: mysql-ds
@@ -23,7 +28,7 @@ services:
     ports:
       - "33061:3306"
     volumes:
-      - ./datasources/mysql-data:/var/lib/mysql
+      - ./mysql-data:/var/lib/mysql
     networks:
       - dfp_net
 
