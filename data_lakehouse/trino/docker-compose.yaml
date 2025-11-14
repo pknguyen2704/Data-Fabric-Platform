@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   trino:
     image: 'trinodb/trino:476'
@@ -13,8 +11,8 @@ services:
     environment:
       - TZ=Asia/Ho_Chi_Minh
     networks:
-      - dfp_net
+      - dfp-net
 
 networks:
-  dfp_net:
+  dfp-net:
     external: true

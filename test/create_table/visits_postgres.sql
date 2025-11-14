@@ -1,3 +1,4 @@
+-- Create table
 create schema patients
 CREATE TABLE patients.visits (
     visit_id        BIGINT PRIMARY KEY,
@@ -42,3 +43,11 @@ CREATE TRIGGER trigger_update_patient_visits
 BEFORE UPDATE ON patients.visits
 FOR EACH ROW
 EXECUTE FUNCTION update_updated_at_column();
+
+
+CREATE EXTENSION IF NOT EXISTS pg_stat_statements;
+
+SELECT * FROM pg_stat_statements LIMIT 5;
+
+
+select count(*) from patients.visits

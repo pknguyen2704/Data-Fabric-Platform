@@ -1,4 +1,4 @@
-patient_id,national_id,full_name,age,gender,date_of_birth,address,health_insurance_id,phone,job,height_cm,weight_kg,bmi,blood_type,comorbidities,created_at
+patient_id,national_id,full_name,age,gender,date_of_birth,address,health_insurance_id,phone,occupation,height_cm,weight_kg,bmi,blood_type,comorbidities,created_at
 1,1062980500,Lê Thanh Minh,63,Nam,1962-01-30,"Số 414 Tô Ngọc Vân, Phường Bưởi, Quận Tây Hồ, Hà Nội",2699854353,762475107,Ngân hàng,162,72,27.4,A+,Tăng huyết áp,2025-06-24 10:50:00
 2,1047841241,Mai Thái Nam,78,Nam,1947-12-08,"Số 928 Cao Lỗ, Xã Vân Nội, Huyện Đông Anh, Hà Nội",5005242786,901128059,Thiết kế đồ họa,162,63,24.0,A+,Thoái hóa khớp,2025-06-12 10:30:00
 3,1083315869,Đặng Đức Lâm,42,Nam,1983-04-18,"Số 111 Hoàng Hoa Thám, Phường Kim Mã, Quận Ba Đình, Hà Nội",6433036541,758685014,Bán hàng,170,66,22.8,O+,Không có,2025-06-18 15:20:00

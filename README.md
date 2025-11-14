@@ -14,4 +14,17 @@ sudo apt install docker-ce
 
 #create network in docker
 
-sudo docker network create dfp_net --driver bridge
+sudo docker network create dfp-net --driver bridge
+
+
+# Các port để làm việc
+ds-mysql: 33061
+ds-postgres: 54321
+nifi: 8443
+kafka:
+hdfs: 9870
+airflow: 8089
+trino: 8085
+openmetadata: 8585
+superset: 8088
+

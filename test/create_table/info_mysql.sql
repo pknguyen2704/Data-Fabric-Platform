@@ -30,3 +30,5 @@ COMMENT='Bảng lưu trữ hồ sơ y tế của bệnh nhân phục vụ phân 
 
 
 DROP TABLE patients.info;
+
+

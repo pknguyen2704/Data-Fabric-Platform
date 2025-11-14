@@ -74,6 +74,7 @@ x-airflow-common:
     # The following line can be used to set a custom config file, stored in the local config folder
     # If you want to use it, outcomment it and replace airflow.cfg with the name of your config file
     # AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
+    TZ: Asia/Ho_Chi_Minh
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
@@ -86,11 +87,12 @@ x-airflow-common:
     postgres:
       condition: service_healthy
   networks:
-    - dfp_net
+    - dfp-net
 services:
   postgres:
     image: postgres:13
     environment:
+      TZ: Asia/Ho_Chi_Minh
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
@@ -103,7 +105,7 @@ services:
       start_period: 5s
     restart: always
     networks:
-      - dfp_net
+      - dfp-net
 
   airflow-webserver:
     <<: *airflow-common
@@ -121,8 +123,10 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
     networks:
-      - dfp_net
+      - dfp-net
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
@@ -137,8 +141,10 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
     networks:
-      - dfp_net
+      - dfp-net
   airflow-triggerer:
     <<: *airflow-common
     command: triggerer
@@ -153,8 +159,10 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
     networks:
-      - dfp_net
+      - dfp-net
   airflow-init:
     <<: *airflow-common
     entrypoint: /bin/bash
@@ -215,11 +223,12 @@ services:
       _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
       _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
       _PIP_ADDITIONAL_REQUIREMENTS: ''
+      TZ: Asia/Ho_Chi_Minh
     user: "0:0"
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}:/sources
     networks:
-      - dfp_net
+      - dfp-net
 
   airflow-cli:
     <<: *airflow-common
@@ -228,17 +237,18 @@ services:
     environment:
       <<: *airflow-common-env
       CONNECTION_CHECK_MAX_COUNT: "0"
+      TZ: Asia/Ho_Chi_Minh
     # Workaround for entrypoint issue. See: https://github.com/apache/airflow/issues/16252
     command:
       - bash
       - -c
       - airflow
     networks:
-      - dfp_net
+      - dfp-net
 
 
 volumes:
   postgres-db-volume:
 networks:
-  dfp_net:
+  dfp-net:
     external: true

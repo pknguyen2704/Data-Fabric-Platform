@@ -17,7 +17,7 @@ services:
       - "-c"
       - "shared_preload_libraries=pg_stat_statements"
     networks:
-      - dfp_net
+      - dfp-net
 
   ds-mysql:
     image: mysql:latest
@@ -31,8 +31,8 @@ services:
     volumes:
       - ./mysql-data:/var/lib/mysql
     networks:
-      - dfp_net
+      - dfp-net
 
 networks:
-  dfp_net:
+  dfp-net:
     external: true

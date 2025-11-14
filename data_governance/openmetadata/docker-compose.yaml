@@ -5,6 +5,7 @@ services:
     command: "--sort_buffer_size=10M"
     restart: always
     environment:
+      TZ: Asia/Ho_Chi_Minh
       MYSQL_ROOT_PASSWORD: password
     expose:
       - 3306
@@ -13,7 +14,7 @@ services:
     volumes:
       - ./docker-volume/db-data:/var/lib/mysql
     networks:
-      - dfp_net
+      - dfp-net
     healthcheck:
       test: mysql --user=root --password=$$MYSQL_ROOT_PASSWORD --silent --execute "use openmetadata_db"
       interval: 15s
@@ -23,11 +24,12 @@ services:
     container_name: openmetadata_elasticsearch
     image: docker.elastic.co/elasticsearch/elasticsearch:8.11.4
     environment:
+      - TZ=Asia/Ho_Chi_Minh
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms1024m -Xmx1024m
       - xpack.security.enabled=false
     networks:
-      - dfp_net
+      - dfp-net
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -43,6 +45,7 @@ services:
     image: docker.getcollate.io/openmetadata/server:1.10.1
     command: "./bootstrap/openmetadata-ops.sh migrate"
     environment:
+      TZ: Asia/Ho_Chi_Minh
       OPENMETADATA_CLUSTER_NAME: ${OPENMETADATA_CLUSTER_NAME:-openmetadata}
       SERVER_PORT: ${SERVER_PORT:-8585}
       SERVER_ADMIN_PORT: ${SERVER_ADMIN_PORT:-8586}
@@ -253,12 +256,13 @@ services:
       mysql:
         condition: service_healthy
     networks:
-      - dfp_net
+      - dfp-net
   openmetadata-server:
     container_name: openmetadata_server
     restart: always
     image: docker.getcollate.io/openmetadata/server:1.10.1
     environment:
+      TZ: Asia/Ho_Chi_Minh
       OPENMETADATA_CLUSTER_NAME: ${OPENMETADATA_CLUSTER_NAME:-openmetadata}
       SERVER_PORT: ${SERVER_PORT:-8585}
       SERVER_ADMIN_PORT: ${SERVER_ADMIN_PORT:-8586}
@@ -464,7 +468,7 @@ services:
       execute-migrate-all:
         condition: service_completed_successfully
     networks:
-      - dfp_net
+      - dfp-net
     healthcheck:
       test: [ "CMD", "wget", "-q", "--spider",  "http://localhost:8586/healthcheck" ]
   ingestion:
@@ -478,6 +482,7 @@ services:
       openmetadata-server:
         condition: service_started
     environment:
+      TZ: Asia/Ho_Chi_Minh
       AIRFLOW__API__AUTH_BACKENDS: "airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session"
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__OPENMETADATA_AIRFLOW_APIS__DAG_GENERATED_CONFIGS: "/opt/airflow/dag_generated_configs"
@@ -505,7 +510,7 @@ services:
     ports:
       - "8080:8080"
     networks:
-      - dfp_net
+      - dfp-net
     volumes:
       - ingestion-volume-dag-airflow:/opt/airflow/dag_generated_configs
       - ingestion-volume-dags:/opt/airflow/dags
@@ -519,5 +524,5 @@ volumes:
   es-data:
 
 networks:
-  dfp_net:
+  dfp-net:
     external: true
