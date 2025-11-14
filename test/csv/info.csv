@@ -1,0 +1,1001 @@
+patient_id,national_id,full_name,age,gender,date_of_birth,address,health_insurance_id,phone,job,height_cm,weight_kg,bmi,blood_type,comorbidities,created_at
+1,1062980500,Lê Thanh Minh,63,Nam,1962-01-30,"Số 414 Tô Ngọc Vân, Phường Bưởi, Quận Tây Hồ, Hà Nội",2699854353,762475107,Ngân hàng,162,72,27.4,A+,Tăng huyết áp,2025-06-24 10:50:00
+2,1047841241,Mai Thái Nam,78,Nam,1947-12-08,"Số 928 Cao Lỗ, Xã Vân Nội, Huyện Đông Anh, Hà Nội",5005242786,901128059,Thiết kế đồ họa,162,63,24.0,A+,Thoái hóa khớp,2025-06-12 10:30:00
+3,1083315869,Đặng Đức Lâm,42,Nam,1983-04-18,"Số 111 Hoàng Hoa Thám, Phường Kim Mã, Quận Ba Đình, Hà Nội",6433036541,758685014,Bán hàng,170,66,22.8,O+,Không có,2025-06-18 15:20:00
+4,1076169340,Đỗ Thanh Huy,49,Nam,1976-09-18,"Số 738 Tráng Việt, Xã Tráng Việt, Huyện Mê Linh, Hà Nội",6648236629,946804436,Kỹ sư cơ khí,160,63,24.6,B+,Không có,2025-06-24 16:03:00
+5,1098148951,Lê Thái Thắng,27,Nam,1998-03-28,"Số 908 Phố Vọng, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",3016328708,517278895,Luật sư,150,48,21.3,AB+,Không có,2025-06-23 12:36:00
+6,1185774348,Tạ Thuỳ Hoa,40,Nữ,1985-03-23,"Số 155 Trần Phú (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",7658760366,909670546,Tiếp viên hàng không,166,54,19.6,B+,Không có,2025-06-13 14:10:00
+7,1091670656,Lê Thanh Thắng,34,Nam,1991-05-20,"Số 139 Quất Động, Xã Tô Hiệu, Huyện Thường Tín, Hà Nội",7537556464,370805310,Nhạc công,175,70,22.9,B+,Không có,2025-06-12 11:18:00
+8,1068419049,Đinh Khánh Bảo,57,Nam,1968-03-24,"Số 356 Ngõ 166 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",8165726284,987769453,Nông dân,152,50,21.6,B+,Tăng huyết áp,2025-06-16 16:30:00
+9,1168480831,Bùi Bích Như,57,Nữ,1968-11-01,"Số 709 Duy Tân, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",9568557444,513518233,Bảo vệ,154,60,25.3,B+,Tăng huyết áp,2025-06-15 16:30:00
+10,1179524082,Bùi Thanh Vy,46,Nữ,1979-04-27,"Số 452 Đội Cấn, Phường Kim Mã, Quận Ba Đình, Hà Nội",2167190229,713186999,Diễn viên,161,55,21.2,O+,Không có,2025-06-15 16:30:00
+11,1042812067,Đinh Thanh Long,83,Nam,1942-03-30,"Số 436 Minh Khai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",2024994717,764887719,Luật sư,163,55,20.7,O+,Thoái hóa khớp,2025-06-24 10:04:00
+12,1057296717,Ngô Hải Phúc,68,Nam,1957-05-23,"Số 38 Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",9087603859,870348247,Thợ xây,154,61,25.7,B+,Dị ứng thời tiết,2025-06-13 11:09:00
+13,1099613171,Tạ Đức Sơn,26,Nam,1999-10-10,"Số 196 Quang Minh, Xã Đại Thịnh, Huyện Mê Linh, Hà Nội",5658404499,827875588,Nhân viên logistics,153,58,24.8,O+,Không có,2025-06-13 16:30:00
+14,1158702895,Võ Hạnh Ngân,67,Nữ,1958-03-19,"Số 639 Cầu Giấy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",7578091343,361172400,Nhân viên khách sạn,165,66,24.2,O+,Không có,2025-06-14 16:30:00
+15,1208219693,Bùi Thanh Phúc,17,Nam,2008-03-28,"Số 162 Vũ Trọng Phụng, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",5743671369,794406409,Học sinh,152,48,20.8,B+,Không có,2025-06-12 11:22:00
+16,1154104709,Hồ Phương Bích,71,Nữ,1954-11-18,"Số 936 Chùa Bộc, Phường Phương Liên, Quận Đống Đa, Hà Nội",5517123685,360481754,Nhân viên IT,166,49,17.8,A+,Rối loạn mỡ máu,2025-06-11 13:48:00
+17,1165461200,Tạ Minh Quỳnh,60,Nữ,1965-12-25,"Số 761 Nguyễn Văn Cừ, Phường Phúc Lợi, Quận Long Biên, Hà Nội",7405377351,785064317,Kỹ sư cơ khí,160,57,22.3,O+,Không có,2025-06-23 16:30:00
+18,1160020539,Võ Thanh Ngọc,65,Nữ,1960-02-26,"Số 526 Hồ Tùng Mậu, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",1847007661,871159212,Nông dân,172,84,28.4,O+,Rối loạn mỡ máu,2025-06-23 13:39:00
+19,1182118367,Đặng Anh Hoa,43,Nữ,1982-08-09,"Số 704 Nguyễn Văn Linh, Xã Yên Viên, Huyện Gia Lâm, Hà Nội",2615280988,716560494,Thợ cơ khí,161,65,25.1,O+,Không có,2025-06-11 16:30:00
+20,1055402445,Mai Gia Sơn,70,Nam,1955-11-08,"Số 430 Chùa Bộc, Phường Kim Liên, Quận Đống Đa, Hà Nội",2022901476,897643815,Đầu bếp,160,62,24.2,A+,Rối loạn mỡ máu,2025-06-21 13:33:00
+21,1186762268,Lê Anh Quỳnh,39,Nữ,1986-01-04,"Số 440 Nguyễn Trãi (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",1529751613,896816453,Ngân hàng,154,64,27.0,O+,Đái tháo đường type 2,2025-06-25 11:50:00
+22,1181127799,Bùi Hạnh Quỳnh,44,Nữ,1981-12-02,"Số 58 Hàng Bài, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",1541199867,980793597,Kỹ sư điện,163,77,29.0,A+,Hội chứng chuyển hóa,2025-06-17 13:18:00
+23,1079665905,Lê Minh Kiên,46,Nam,1979-05-25,"Số 145 Đốc Tín, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",2486528168,705423573,Nhà văn,166,83,30.1,O+,Rối loạn mỡ máu,2025-06-15 16:30:00
+24,1070927065,Phan Tuấn Kiên,55,Nam,1970-04-03,"Số 970 Đình Thôn, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",9862392407,781814124,Huấn luyện viên,176,49,15.8,A+,Loãng xương,2025-06-19 16:30:00
+25,1180606853,Trần Hạnh Vy,45,Nữ,1980-01-14,"Số 713 Tây Đằng, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",2043289861,734103697,Giảng viên,164,64,23.8,O+,Không có,2025-06-24 16:30:00
+26,1199953962,Ngô Thanh Chi,26,Nữ,1999-01-01,"Số 651 Lê Văn Lương, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",2531952058,727722170,Thiết kế đồ họa,162,66,25.1,O+,Dị ứng thời tiết,2025-06-25 15:09:00
+27,1047667652,Huỳnh Anh Phong,78,Nam,1947-07-08,"Số 329 Lê Văn Lương, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",7275705964,316582029,Ngư dân,159,55,21.8,A+,Đái tháo đường type 2; Suy tim,2025-06-22 16:30:00
+28,1077275571,Võ Anh Sơn,48,Nam,1977-11-06,"Số 936 Tân Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",5731217271,751884422,Bảo vệ,171,74,25.3,B+,Không có,2025-06-10 16:30:00
+29,1077578291,Đỗ Thanh Dũng,48,Nam,1977-10-21,"Số 461 Xuân Đỉnh, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",3268018242,553584143,Lái xe,168,68,24.1,A+,Không có,2025-06-17 16:19:00
+30,1055094396,Lê Phương Bảo,70,Nam,1955-02-11,"Số 162 Đình Thôn, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",3555625881,737147321,Thợ hàn,158,59,23.6,O+,Đái tháo đường type 2,2025-06-17 09:40:00
+31,1303532787,Đinh Anh Chi,22,Nữ,2003-10-23,"Số 52 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội",2624565060,983584168,Sinh viên,152,58,25.1,A+,Không có,2025-06-12 15:28:00
+32,1169680002,Đỗ Ngọc Như,56,Nữ,1969-09-18,"Số 632 Hoàng Mai, Phường Mai Động, Quận Hoàng Mai, Hà Nội",9794705516,940974993,Nhân viên chăm sóc khách hàng,162,48,18.3,B+,Không có,2025-06-21 14:52:00
+33,1076091307,Hoàng Anh Long,49,Nam,1976-05-04,"Số 575 Nguyễn Chí Thanh, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",3785854973,548434437,Nhân viên logistics,161,53,20.4,O+,Không có,2025-06-16 16:30:00
+34,1172484219,Võ Thuỳ Giang,53,Nữ,1972-10-02,"Số 790 Cầu Diễn, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",8345401938,326206724,Huấn luyện viên,167,87,31.2,B+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-18 16:30:00
+35,1167274205,Ngô Hải Hà,58,Nữ,1967-06-19,"Số 190 Vân Hòa, Xã Vân Hòa, Huyện Ba Vì, Hà Nội",1463745499,345301742,Kỹ sư cơ khí,166,65,23.6,O+,Thoái hóa khớp,2025-06-12 16:30:00
+36,1198933272,Lê Phương Trang,27,Nữ,1998-07-08,"Số 541 Trần Hưng Đạo, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",9398225871,597187072,Phi công,163,61,23.0,A+,Không có,2025-06-22 09:53:00
+37,1033046226,Huỳnh Anh Sơn,92,Nam,1933-08-30,"Số 542 Bạch Mai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",8868633752,731069033,Kế toán,162,68,25.9,O+,Tăng huyết áp,2025-06-14 16:30:00
+38,1070283644,Mai Tuấn Lâm,55,Nam,1970-06-04,"Số 427 Kim Đồng, Phường Mai Động, Quận Hoàng Mai, Hà Nội",8334270866,982634351,Pha chế,154,67,28.3,AB+,Đái tháo đường type 2; Loãng xương,2025-06-14 14:20:00
+39,1090398373,Ngô Gia Phúc,35,Nam,1990-02-07,"Số 330 La Phù, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",5458771753,756093204,Tiếp viên hàng không,170,60,20.8,A+,Viêm xoang mạn,2025-06-15 12:22:00
+40,1191772522,Dương Ngọc Yến,34,Nữ,1991-11-25,"Số 237 Tây Sơn, Phường Phương Liên, Quận Đống Đa, Hà Nội",6099770088,800848408,Thợ mộc,168,92,32.6,B+,Không có,2025-06-17 13:12:00
+41,1184454615,Ngô Minh Hạnh,41,Nữ,1984-09-26,"Số 488 Ngõ 217 Giảng Võ, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",2803397401,789025039,Dược sĩ,159,61,24.1,O+,Không có,2025-06-23 16:30:00
+42,1177856218,Ngô Anh Anh,48,Nữ,1977-12-13,"Số 650 Đình Thôn, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",7629619431,342626551,Giáo viên,151,55,24.1,O+,Không có,2025-06-10 16:30:00
+43,1085861015,Lê Phương Phúc,40,Nam,1985-10-12,"Số 927 Phú Túc, Xã Phú Túc, Huyện Phú Xuyên, Hà Nội",3244472126,764715437,Diễn viên,167,56,20.1,A+,Không có,2025-06-15 16:30:00
+44,1046526547,Tạ Đức Kiên,79,Nam,1946-09-03,"Số 787 Nguyễn Trãi (Hà Đông), Phường Mộ Lao, Quận Hà Đông, Hà Nội",8416724342,861797968,Thợ hàn,157,58,23.5,A+,Dị ứng thời tiết,2025-06-13 10:35:00
+45,1157610143,Đinh Phương Hoa,68,Nữ,1957-06-19,"Số 354 Tản Lĩnh, Xã Cẩm Lĩnh, Huyện Ba Vì, Hà Nội",7112545738,857177514,Thiết kế đồ họa,154,61,25.7,O+,Dị ứng thời tiết,2025-06-10 10:48:00
+46,1050660937,Huỳnh Tuấn Quân,75,Nam,1950-04-06,"Số 202 Kim Đồng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",7969155792,799125134,Kinh doanh tự do,151,58,25.4,O+,Thoái hóa khớp,2025-06-15 13:46:00
+47,1066225790,Võ Tấn Lâm,59,Nam,1966-05-28,"Số 861 Tây Sơn, Phường Trung Liệt, Quận Đống Đa, Hà Nội",5043842797,981914858,Tạp vụ,170,55,19.0,B+,Tăng huyết áp,2025-06-18 16:30:00
+48,1189407451,Hoàng Bích Lan,36,Nữ,1989-05-07,"Số 825 Vũ Trọng Phụng, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",3544948126,342232536,Thiết kế đồ họa,168,71,25.2,A+,Không có,2025-06-16 11:03:00
+49,1203845775,Võ Quang Quân,22,Nam,2003-07-26,"Số 849 Tây Tựu, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",6001701277,363242415,Sinh viên,166,58,21.0,O+,Không có,2025-06-13 15:43:00
+50,1165271361,Mai Khánh Anh,60,Nữ,1965-12-22,"Số 625 Lê Quang Đạo, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",7973112196,765234138,Điều dưỡng,158,81,32.4,A+,Hội chứng chuyển hóa,2025-06-19 16:30:00
+51,1062526965,Trần Văn Sơn,63,Nam,1962-07-04,"Số 519 Phùng Hưng (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",7188924141,932856914,Nhân viên khách sạn,154,65,27.4,B+,Tăng huyết áp,2025-06-25 16:30:00
+52,1184758842,Đặng Khánh Yến,41,Nữ,1984-03-24,"Số 79 Ngách 48 ngõ 220 Xuân Đỉnh, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",5191380003,375622086,Nhân viên văn phòng,170,82,28.4,O+,Béo phì,2025-06-25 15:25:00
+53,1182238061,Bùi Khánh Mai,43,Nữ,1982-01-27,"Số 758 Lê Quang Đạo, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",4832060385,350641383,Thợ cơ khí,171,75,25.6,O+,Không có,2025-06-13 11:22:00
+54,1182657191,Bùi Hạnh Ngân,43,Nữ,1982-09-24,"Số 949 Xuân Phú, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",5313291212,875618537,Bác sĩ,179,76,23.7,O+,Không có,2025-06-14 09:59:00
+55,1083521356,Vũ Hữu Tuấn,42,Nam,1983-04-21,"Số 105 Cao Viên, Xã Bích Hòa, Huyện Thanh Oai, Hà Nội",1323651994,301372151,Điều dưỡng,157,58,23.5,O+,Không có,2025-06-10 12:30:00
+56,1064146263,Đinh Anh Quân,61,Nam,1964-02-01,"Số 398 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",5078593213,548039652,Biên phiên dịch,166,78,28.3,O+,Rối loạn mỡ máu,2025-06-18 09:20:00
+57,1169427010,Hoàng Anh My,56,Nữ,1969-10-05,"Số 182 Vân Phúc, Xã Tam Hiệp, Huyện Phúc Thọ, Hà Nội",3921851569,354522675,Nhân viên khách sạn,175,70,22.9,O+,Đái tháo đường type 2,2025-06-25 14:59:00
+58,1130959391,Lý Thị Ly,95,Nữ,1930-04-04,"Số 215 Hàng Bài, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",1067626765,961793271,Nhân viên chăm sóc khách hàng,169,61,21.4,B+,Tăng huyết áp,2025-06-12 10:49:00
+59,1086815997,Phan Tấn Lâm,39,Nam,1986-02-08,"Số 568 Phùng Hưng (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",5310698720,706149731,Thợ xây,167,64,22.9,O+,Không có,2025-06-19 13:17:00
+60,1082418625,Đặng Minh Bảo,43,Nam,1982-12-05,"Số 155 Quốc lộ 3, Xã Phù Lỗ, Huyện Sóc Sơn, Hà Nội",9693806868,893741608,Giảng viên,167,68,24.4,A+,Không có,2025-06-15 16:30:00
+61,1192945116,Mai Minh Hà,33,Nữ,1992-03-16,"Số 425 Võ Chí Công, Phường Bưởi, Quận Tây Hồ, Hà Nội",2914856467,997024629,Nhân viên chăm sóc khách hàng,160,70,27.3,A+,Hội chứng chuyển hóa; Đái tháo đường type 2,2025-06-11 16:12:00
+62,1066475469,Huỳnh Hữu Phong,59,Nam,1966-03-10,"Số 727 Ô Chợ Dừa, Phường Láng Hạ, Quận Đống Đa, Hà Nội",3330307053,757861035,Kinh doanh tự do,154,58,24.5,A+,Tăng huyết áp; Viêm xoang mạn,2025-06-19 09:56:00
+63,1164333346,Trịnh Hạnh My,61,Nữ,1964-10-19,"Số 991 Kim Đồng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",8437489691,385899441,Kiểm toán,156,62,25.5,A+,Không có,2025-06-12 10:43:00
+64,1069520744,Võ Thanh Quang,56,Nam,1969-12-05,"Số 520 Ô Chợ Dừa, Phường Láng Hạ, Quận Đống Đa, Hà Nội",8248251353,765549471,Thợ cơ khí,154,60,25.3,A+,Đái tháo đường type 2,2025-06-23 16:30:00
+65,1161752500,Dương Hải Thảo,64,Nữ,1961-02-11,"Số 414 Ngõ 137 Đình Thôn, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",1583003354,516894210,Nhân viên chăm sóc khách hàng,172,86,29.1,O+,Rối loạn mỡ máu,2025-06-19 10:56:00
+66,1190532603,Ngô Hải Ly,35,Nữ,1990-09-08,"Số 790 Nguyễn Thái Học, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",1016761847,530461849,Nhân viên IT,156,63,25.9,A+,Không có,2025-06-10 16:30:00
+67,1162530011,Đặng Thanh Chi,63,Nữ,1962-09-04,"Số 103 Nguyễn Văn Huyên (kéo dài), Xã Uy Nỗ, Huyện Đông Anh, Hà Nội",6611002255,894155216,Kỹ sư cơ khí,168,107,37.9,O+,Không có,2025-06-14 16:30:00
+68,1161027716,Đỗ Phương Bích,64,Nữ,1961-11-10,"Số 705 Lý Thường Kiệt, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",8562890028,872175354,Nhân viên khách sạn,173,86,28.7,O+,Tăng huyết áp,2025-06-17 11:50:00
+69,1160755037,Nguyễn Anh Ngọc,65,Nữ,1960-12-01,"Số 850 Hoàng Mai, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",1272614933,363735160,Nội trợ,161,72,27.8,AB+,Suy tim,2025-06-16 11:59:00
+70,1181080869,Đỗ Phương Như,44,Nữ,1981-09-13,"Số 429 Vân Từ, Xã Phú Túc, Huyện Phú Xuyên, Hà Nội",6472269848,783339452,Vận động viên,162,55,21.0,AB+,Không có,2025-06-22 15:35:00
+71,1168460810,Trần Hạnh Lan,57,Nữ,1968-09-30,"Số 772 Nguyễn Xiển, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",4863840666,780043973,Nghiên cứu viên,182,54,16.3,B+,Không có,2025-06-20 11:13:00
+72,1159484229,Trịnh Hải Mai,66,Nữ,1959-08-08,"Số 503 Phùng, Xã Hồng Hà, Huyện Đan Phượng, Hà Nội",9328182688,815335554,Diễn viên,151,52,22.8,O+,Loãng xương,2025-06-10 14:28:00
+73,1153484085,Phạm Ngọc Hạnh,72,Nữ,1953-07-17,"Số 547 Tràng Tiền, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",7138612075,311024819,Nhiếp ảnh,164,55,20.4,B+,Mất ngủ mạn tính,2025-06-23 16:30:00
+74,1080919015,Nguyễn Thái Khoa,45,Nam,1980-11-24,"Số 547 Nguyễn Trãi (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",5245088210,399688143,Luật sư,169,60,21.0,B+,Mất ngủ mạn tính,2025-06-22 16:30:00
+75,1099431290,Võ Tuấn Quang,26,Nam,1999-11-12,"Số 132 Bạch Mai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",4577594929,955620533,Sinh viên,164,57,21.2,B+,Không có,2025-06-18 12:39:00
+76,1060834110,Tạ Anh Hải,65,Nam,1960-03-12,"Số 670 Đan Phượng, Xã Liên Trung, Huyện Đan Phượng, Hà Nội",5278816580,592827229,Bán hàng,147,55,25.5,AB+,Không có,2025-06-11 11:59:00
+77,1179453038,Đặng Khánh Hạnh,46,Nữ,1979-02-02,"Số 584 Nguyễn Chí Thanh, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",9463865577,908272318,Nhạc công,170,60,20.8,A+,Mất ngủ mạn tính,2025-06-16 16:30:00
+78,1071202428,Võ Đức Minh,54,Nam,1971-10-21,"Số 851 Ô Chợ Dừa, Phường Trung Liệt, Quận Đống Đa, Hà Nội",9425799136,821038862,Bán hàng,168,77,27.3,A+,Hội chứng chuyển hóa,2025-06-15 15:49:00
+79,1188298068,Đinh Thuỳ Thảo,37,Nữ,1988-12-03,"Số 138 Bạch Mai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",7430098180,835651269,Nhân viên IT,161,57,22.0,O+,Dị ứng thời tiết,2025-06-17 15:15:00
+80,1079872588,Huỳnh Hữu Long,46,Nam,1979-10-10,"Số 521 Vũ Trọng Phụng, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",3601279611,735190669,Bán hàng,178,81,25.6,A+,Không có,2025-06-16 14:14:00
+81,1188205302,Lê Thuỳ Hạnh,37,Nữ,1988-11-10,"Số 292 Tây Tựu, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",4937690426,918184518,Nhân viên văn phòng,171,94,32.1,AB+,Béo phì,2025-06-25 16:30:00
+82,1154633565,Tạ Ngọc Vy,71,Nữ,1954-02-04,"Số 322 Âu Cơ, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",8333433339,721117908,Biên phiên dịch,151,52,22.8,AB+,Rối loạn mỡ máu,2025-06-19 11:00:00
+83,1050780856,Đinh Hữu Quân,75,Nam,1950-08-05,"Số 371 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",5795527636,756472929,Thợ cơ khí,158,66,26.4,A+,Không có,2025-06-21 16:07:00
+84,1158489061,Hồ Phương Hạnh,67,Nữ,1958-06-03,"Số 955 Phùng, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",2593998245,787716947,Nhà văn,156,60,24.7,A+,Đái tháo đường type 2; Tăng huyết áp,2025-06-13 12:26:00
+85,1207125355,Dương Đức Khoa,18,Nam,2007-02-06,"Số 875 Trần Phú (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",4261117800,881149216,Nhà văn,155,54,22.5,O+,Không có,2025-06-10 16:30:00
+86,1088577848,Tạ Quang Quang,37,Nam,1988-07-01,"Số 494 Lý Thường Kiệt, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",5240082547,907740649,Nhân viên logistics,177,57,18.2,O+,Không có,2025-06-14 16:16:00
+87,1206846312,Đỗ Văn Khánh,19,Nam,2006-05-26,"Số 51 Nguyễn Hữu Thọ, Xã Tả Thanh Oai, Huyện Thanh Trì, Hà Nội",5427031207,556475705,Sinh viên,165,81,29.8,O+,Hội chứng chuyển hóa,2025-06-10 13:02:00
+88,1052371837,Bùi Gia Quang,73,Nam,1952-01-18,"Số 909 Xuân Thủy, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",7502491630,397925132,Thợ điện,164,56,20.8,A+,Loãng xương; Tăng huyết áp,2025-06-10 13:28:00
+89,1063065240,Hồ Tuấn Khang,62,Nam,1963-04-09,"Số 480 Võ Chí Công, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",3744857086,509593518,Diễn viên,165,61,22.4,B+,Đái tháo đường type 2; Viêm xoang mạn,2025-06-18 15:08:00
+90,1193181022,Mai Khánh My,32,Nữ,1993-02-26,"Số 605 Khuất Duy Tiến, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",1371705865,394801413,Vận động viên,160,59,23.0,AB+,Không có,2025-06-14 16:02:00
+91,1146289755,Phan Minh Hạnh,79,Nữ,1946-12-03,"Số 949 Nguyễn Xiển, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",1049082404,535048889,Thiết kế đồ họa,154,79,33.3,AB+,Không có,2025-06-16 16:16:00
+92,1099419693,Đinh Tấn Dũng,26,Nam,1999-05-12,"Số 799 Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",7139060480,789258320,Chủ cửa hàng,162,69,26.3,A+,Không có,2025-06-25 16:30:00
+93,1165168622,Vũ Bích Dung,60,Nữ,1965-05-15,"Số 273 Vân Phúc, Xã Tam Hiệp, Huyện Phúc Thọ, Hà Nội",7655355904,559792703,Diễn viên,159,61,24.1,O+,Thoái hóa khớp,2025-06-24 16:30:00
+94,1177383388,Đặng Ngọc Chi,48,Nữ,1977-06-19,"Số 291 Phùng Hưng (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",1164510463,881579812,Giảng viên,159,69,27.3,O+,Viêm xoang mạn,2025-06-10 10:33:00
+95,1182055543,Đỗ Minh Giang,43,Nữ,1982-03-22,"Số 141 Nguyễn Sơn, Phường Phúc Lợi, Quận Long Biên, Hà Nội",4639264957,923298324,Phi công,158,59,23.6,A+,Dị ứng thời tiết,2025-06-19 11:50:00
+96,1306518812,Phan Thuỳ Hoa,19,Nữ,2006-03-22,"Số 190 Võ Chí Công, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",4933051728,975267722,Học sinh,157,56,22.7,O+,Không có,2025-06-20 14:56:00
+97,1160609656,Tạ Minh Trà,65,Nữ,1960-08-06,"Số 41 Phạm Văn Đồng, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",7447264908,577181298,Công nhân,163,67,25.2,O+,Đái tháo đường type 2; Thoái hóa khớp,2025-06-20 15:39:00
+98,1050518689,Hoàng Đức Lâm,75,Nam,1950-11-21,"Số 53 Kim Đồng, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",2230940777,909733977,Dược sĩ,159,68,26.9,O+,Rối loạn mỡ máu,2025-06-18 12:40:00
+99,1173499982,Dương Phương Dung,52,Nữ,1973-03-24,"Số 300 Hàng Bài, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",9339019817,946954899,Bảo vệ,162,74,28.2,O+,Tăng huyết áp,2025-06-16 16:30:00
+100,1157344144,Nguyễn Ngọc Lan,68,Nữ,1957-11-24,"Số 339 Tây Đằng, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",3727857608,795880395,Phóng viên,170,87,30.1,B+,Hội chứng chuyển hóa; Rối loạn mỡ máu,2025-06-11 16:30:00
+101,1069504617,Trần Khánh Long,56,Nam,1969-12-28,"Số 936 Phạm Văn Đồng, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",3357845218,530768104,Bác sĩ,169,65,22.8,AB+,Viêm xoang mạn,2025-06-18 11:00:00
+102,1165448571,Phan Phương Ngọc,60,Nữ,1965-04-09,"Số 563 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa, Hà Nội",2495870207,316016629,Giảng viên,162,66,25.1,B+,Đái tháo đường type 2,2025-06-22 16:30:00
+103,1161332945,Hồ Thanh Trang,64,Nữ,1961-08-29,"Số 867 Vũ Trọng Phụng, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",2615814876,963938276,Luật sư,157,82,33.3,O+,Rối loạn mỡ máu,2025-06-19 16:20:00
+104,1306817246,Hoàng Khánh Yến,19,Nữ,2006-06-16,"Số 830 Thái Hà, Phường Kim Liên, Quận Đống Đa, Hà Nội",7997335494,851909862,Học sinh,154,67,28.3,B+,Rối loạn mỡ máu,2025-06-12 15:43:00
+105,1160327238,Hoàng Thanh Giang,65,Nữ,1960-10-06,"Số 448 Cao Viên, Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",7796927868,865326909,Nhân viên văn phòng,169,71,24.9,A+,Đái tháo đường type 2,2025-06-22 16:30:00
+106,1183751971,Võ Hải Trà,42,Nữ,1983-10-18,"Số 680 Cổ Bi, Xã Yên Viên, Huyện Gia Lâm, Hà Nội",6807787956,744209494,Thợ điện,164,57,21.2,O+,Không có,2025-06-17 16:30:00
+107,1084128144,Hoàng Thanh Tuấn,41,Nam,1984-09-05,"Số 379 Trung Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",3805129276,837239504,Nhân viên văn phòng,162,56,21.3,B+,Không có,2025-06-11 13:26:00
+108,1063476580,Đặng Thanh Trung,62,Nam,1963-01-07,"Số 401 Xuân Thủy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",4852580010,818175344,Nội trợ,159,54,21.4,O+,Rối loạn mỡ máu,2025-06-15 10:01:00
+109,1066244717,Đỗ Văn Nam,59,Nam,1966-12-23,"Số 979 Nhị Khê, Xã Nhị Khê, Huyện Thường Tín, Hà Nội",8396271286,591741011,Nhân viên IT,165,59,21.7,A+,Loãng xương; Đái tháo đường type 2,2025-06-12 11:17:00
+110,1077256908,Phạm Minh Phúc,48,Nam,1977-05-17,"Số 958 Xuân Phú, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",1158517432,906346157,Ngân hàng,165,49,18.0,O+,Không có,2025-06-15 10:10:00
+111,1191847870,Tạ Ngọc Trà,34,Nữ,1991-02-02,"Số 594 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",1790320204,379291117,Kỹ sư phần mềm,158,57,22.8,A+,Dị ứng thời tiết,2025-06-14 16:30:00
+112,1065582739,Nguyễn Đức Dũng,60,Nam,1965-03-28,"Số 724 Kim Đồng, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",3324876329,392791456,Lái xe,175,87,28.4,O+,Loãng xương,2025-06-23 16:30:00
+113,1072277220,Phạm Phương Bảo,53,Nam,1972-02-27,"Số 948 Tây Sơn, Phường Láng Hạ, Quận Đống Đa, Hà Nội",2379956353,353136363,Phóng viên,163,53,19.9,O+,Không có,2025-06-11 14:52:00
+114,1209735435,Huỳnh Khánh Quân,16,Nam,2009-03-11,"Số 226 Văn Bình, Xã Văn Bình, Huyện Thường Tín, Hà Nội",2687397740,833569392,Học sinh,161,65,25.1,B+,Không có,2025-06-25 15:32:00
+115,1062806325,Nguyễn Thái Tuấn,63,Nam,1962-02-12,"Số 791 Nguyễn Trãi (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",8016580464,989319508,Ngư dân,176,76,24.5,AB+,Tăng huyết áp,2025-06-24 14:39:00
+116,1163817933,Lý Thanh Bích,62,Nữ,1963-05-03,"Số 540 Vân Hòa, Xã Ba Trại, Huyện Ba Vì, Hà Nội",6137116241,324127238,Kỹ sư điện,169,66,23.1,AB+,Mất ngủ mạn tính,2025-06-16 16:30:00
+117,1066955798,Võ Tuấn Phong,59,Nam,1966-07-30,"Số 789 Thanh Cao, Xã Cao Viên, Huyện Thanh Oai, Hà Nội",8292842222,510592745,Pha chế,164,65,24.2,O+,Thoái hóa khớp,2025-06-24 13:45:00
+118,1081410672,Đinh Thanh Khánh,44,Nam,1981-10-01,"Số 819 Lê Quang Đạo, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",1281406937,715093983,Thợ cơ khí,164,69,25.7,B+,Không có,2025-06-17 16:30:00
+119,1082656504,Bùi Đức Khang,43,Nam,1982-03-17,"Số 994 Đông Xuân, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",3347851961,364628792,Giảng viên,171,98,33.5,O+,Đái tháo đường type 2; Tăng huyết áp,2025-06-25 16:30:00
+120,1085462730,Đặng Thanh Kiên,40,Nam,1985-03-05,"Số 488 Sóc Sơn, Xã Mai Đình, Huyện Sóc Sơn, Hà Nội",5290257252,345650448,Ngân hàng,165,91,33.4,A+,Dị ứng thời tiết; Hội chứng chuyển hóa,2025-06-12 16:30:00
+121,1082445189,Huỳnh Hữu Long,43,Nam,1982-06-11,"Số 159 Trương Định, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",9816711207,745279852,Nhân viên logistics,159,42,16.6,B+,Không có,2025-06-20 11:26:00
+122,1177216110,Phạm Hạnh Chi,48,Nữ,1977-04-18,"Số 68 Kim Mã, Phường Liễu Giai, Quận Ba Đình, Hà Nội",4932501249,752893891,Bộ đội,158,60,24.0,O+,Không có,2025-06-17 16:12:00
+123,1074927125,Phạm Anh Khánh,51,Nam,1974-07-07,"Số 508 Hương Sơn, Xã Hương Sơn, Huyện Mỹ Đức, Hà Nội",6716479473,964631752,Công an,162,69,26.3,O+,Rối loạn mỡ máu,2025-06-16 16:24:00
+124,1192912153,Đinh Hạnh Yến,33,Nữ,1992-07-24,"Số 966 Hồ Tùng Mậu, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",9427114773,501017026,Nội trợ,163,70,26.3,A+,Không có,2025-06-12 16:21:00
+125,1058616756,Hoàng Quang Lâm,67,Nam,1958-01-17,"Số 399 Trần Hưng Đạo, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",9977828064,896954500,Nhân viên chăm sóc khách hàng,165,54,19.8,A+,Đái tháo đường type 2,2025-06-11 12:37:00
+126,1067491141,Dương Quang Anh,58,Nam,1967-11-28,"Số 713 Đội Cấn, Phường Kim Mã, Quận Ba Đình, Hà Nội",6917135785,594563718,Nhà văn,175,68,22.2,O+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-17 14:04:00
+127,1064664987,Tạ Khánh Tùng,61,Nam,1964-04-12,"Số 874 Ngọc Liệp, Xã Đông Xuân, Huyện Quốc Oai, Hà Nội",6723246651,564424936,Biên phiên dịch,163,81,30.5,O+,Đái tháo đường type 2; Loãng xương,2025-06-13 16:30:00
+128,1080032420,Trịnh Quang Dũng,45,Nam,1980-11-27,"Số 923 Phùng, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",3319818984,813915596,Nhà văn,173,67,22.4,B+,Không có,2025-06-21 16:30:00
+129,1180907851,Bùi Thị Yến,45,Nữ,1980-05-10,"Số 991 Cao Lỗ, Xã Liên Hà, Huyện Đông Anh, Hà Nội",5864518376,364413432,Công an,164,68,25.3,B+,Không có,2025-06-16 16:30:00
+130,1191765612,Trần Hải Yến,34,Nữ,1991-09-09,"Số 189 Ngách 41 ngõ 52 Xuân Thủy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",2123829657,824295431,Vận động viên,166,67,24.3,O+,Không có,2025-06-22 16:30:00
+131,1160713334,Dương Ngọc Thảo,65,Nữ,1960-08-20,"Số 812 Tân Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",4597107256,566941180,Biên phiên dịch,158,75,30.0,O+,Gút,2025-06-16 16:30:00
+132,1081048964,Võ Tuấn Tuấn,44,Nam,1981-01-24,"Số 136 Phùng Hưng (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",2502745644,948562572,Chủ cửa hàng,158,51,20.4,A+,Không có,2025-06-19 11:31:00
+133,1184761707,Phan Hạnh Hương,41,Nữ,1984-03-24,"Số 855 Xuân Đỉnh, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",4908926137,350416591,Luật sư,166,63,22.9,B+,Dị ứng thời tiết,2025-06-12 16:30:00
+134,1081509759,Lê Tấn Nam,44,Nam,1981-01-03,"Số 183 Ngõ 54 Nguyễn Văn Cừ, Phường Thạch Bàn, Quận Long Biên, Hà Nội",5214764925,358377674,Phi công,162,53,20.2,A+,Không có,2025-06-13 13:53:00
+135,1139761742,Trần Phương Hà,86,Nữ,1939-05-29,"Số 523 Lý Thường Kiệt, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",5549180172,560164597,Nhà văn,178,76,24.0,B+,Tăng huyết áp,2025-06-18 15:31:00
+136,1155995641,Hoàng Hải Linh,70,Nữ,1955-06-05,"Số 447 Trường Yên, Xã Thụy Hương, Huyện Chương Mỹ, Hà Nội",8276012277,807933496,Kinh doanh tự do,169,87,30.5,O+,Rối loạn mỡ máu,2025-06-18 10:49:00
+137,1184407678,Đặng Hải Thảo,41,Nữ,1984-10-10,"Số 911 Hồ Tùng Mậu, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",8602437573,939597246,Phi công,169,63,22.1,AB+,Không có,2025-06-18 16:30:00
+138,1187417223,Trần Thị Ngọc,38,Nữ,1987-04-17,"Số 903 Xuân Thủy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",1156193183,845508428,Nhạc công,147,49,22.7,A+,Không có,2025-06-17 16:30:00
+139,1059524787,Vũ Hải Hải,66,Nam,1959-04-16,"Số 350 Tây Sơn, Phường Phương Liên, Quận Đống Đa, Hà Nội",6328632666,885072081,Luật sư,176,78,25.2,O+,Loãng xương,2025-06-16 11:06:00
+140,1145845504,Hồ Hải Như,80,Nữ,1945-12-15,"Số 795 Ngõ 86 Giải Phóng, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",9843188485,500894346,Điều dưỡng,152,42,18.2,AB+,Mất ngủ mạn tính; Rối loạn mỡ máu,2025-06-10 16:30:00
+141,1070989354,Phan Hải Quang,55,Nam,1970-10-25,"Số 466 Nguyễn Trãi (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",2062737158,898864976,Bán hàng,167,66,23.7,AB+,Loãng xương,2025-06-16 16:30:00
+142,1301728813,Phạm Anh Quỳnh,24,Nữ,2001-12-31,"Số 297 Tây Sơn, Phường Kim Liên, Quận Đống Đa, Hà Nội",5470229604,732701851,Tiếp viên hàng không,163,58,21.8,B+,Không có,2025-06-13 16:30:00
+143,1164199663,Bùi Phương Yến,61,Nữ,1964-06-15,"Số 127 Tràng Tiền, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",1983780182,343397189,Biên phiên dịch,156,55,22.6,O+,Đái tháo đường type 2; Thoái hóa khớp,2025-06-25 12:38:00
+144,1185462095,Đặng Minh Hà,40,Nữ,1985-03-20,"Số 54 Võ Chí Công, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",9614057861,806304891,Nông dân,163,73,27.5,O+,Đái tháo đường type 2,2025-06-22 12:22:00
+145,1184582386,Võ Hạnh Phương,41,Nữ,1984-03-13,"Số 257 An Khánh, Xã An Khánh, Huyện Hoài Đức, Hà Nội",9402891416,328463985,Thợ hàn,168,61,21.6,B+,Không có,2025-06-20 16:30:00
+146,1181795020,Lê Phương Anh,44,Nữ,1981-04-18,"Số 914 Hữu Bằng, Xã Cẩm Yên, Huyện Thạch Thất, Hà Nội",7956201753,803045319,Diễn viên,163,52,19.6,A+,Không có,2025-06-25 16:30:00
+147,1078283999,Đặng Gia Kiên,47,Nam,1978-09-10,"Số 24 Phương Tú, Xã Trung Tú, Huyện Ứng Hòa, Hà Nội",7056641877,780304687,Ngân hàng,154,75,31.6,O+,Đái tháo đường type 2,2025-06-10 13:57:00
+148,1069107609,Vũ Hữu Tùng,56,Nam,1969-11-17,"Số 635 Lý Thường Kiệt, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",1065120704,961108046,Biên phiên dịch,158,62,24.8,O+,Không có,2025-06-25 12:32:00
+149,1071859311,Dương Thái Khang,54,Nam,1971-08-21,"Số 636 Minh Khai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",3496854982,574954508,Nhân viên IT,162,69,26.3,A+,Thoái hóa khớp,2025-06-17 13:36:00
+150,1058959465,Trịnh Gia Minh,67,Nam,1958-10-24,"Số 493 Nguyễn Xiển, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",1501508124,839500334,Nghiên cứu viên,159,57,22.5,O+,Loãng xương; Mất ngủ mạn tính,2025-06-23 13:02:00
+151,1174473552,Ngô Anh Ngân,51,Nữ,1974-04-18,"Số 614 Xuân Thủy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",4842530428,973179128,Kinh doanh tự do,145,42,20.0,O+,Tăng huyết áp; Đái tháo đường type 2,2025-06-13 15:22:00
+152,1183777496,Ngô Khánh Hương,42,Nữ,1983-12-22,"Số 958 Vân Đình, Xã Hoa Sơn, Huyện Ứng Hòa, Hà Nội",2478539078,956776657,Bán hàng,177,75,23.9,O+,Không có,2025-06-11 12:24:00
+153,1089881431,Bùi Phương Kiên,36,Nam,1989-09-14,"Số 866 Phùng Hưng (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",5044566907,926333738,Bộ đội,188,81,22.9,A+,Không có,2025-06-16 13:14:00
+154,1094637780,Dương Tấn Kiên,31,Nam,1994-12-24,"Số 771 Phùng Hưng (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",1902259999,863618637,Biên kịch,165,57,20.9,O+,Không có,2025-06-20 13:52:00
+155,1091970231,Mai Văn Khoa,34,Nam,1991-12-19,"Số 335 Phượng Cách, Xã Đông Xuân, Huyện Quốc Oai, Hà Nội",2286716323,767299493,Thợ hàn,158,49,19.6,A+,Không có,2025-06-22 15:45:00
+156,1044469263,Vũ Hải Khoa,81,Nam,1944-06-26,"Số 281 Hương Sơn, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",8681511856,824380701,Công nhân,171,73,25.0,A+,Rối loạn mỡ máu,2025-06-14 16:30:00
+157,1047274220,Hoàng Thái Quang,78,Nam,1947-08-13,"Số 183 Nguyễn Thái Học, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",9164709006,535331060,Kinh doanh tự do,164,57,21.2,AB+,Tăng huyết áp,2025-06-15 16:30:00
+158,1047661331,Vũ Hữu Kiên,78,Nam,1947-10-05,"Số 835 Ngõ 227 Âu Cơ, Phường Quảng An, Quận Tây Hồ, Hà Nội",8189241956,552571509,Đầu bếp,168,58,20.5,B+,Thoái hóa khớp,2025-06-23 11:08:00
+159,1172257432,Trần Phương Thảo,53,Nữ,1972-01-31,"Số 664 Nguyễn Hữu Thọ, Xã Ngũ Hiệp, Huyện Thanh Trì, Hà Nội",6338033968,727017130,Nhạc công,156,44,18.1,A+,Tăng huyết áp,2025-06-15 16:30:00
+160,1079167423,Đặng Hải Hải,46,Nam,1979-09-17,"Số 82 Đan Phượng, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",3776896270,861498282,Giảng viên,179,62,19.4,O+,Không có,2025-06-17 14:37:00
+161,1079230085,Dương Văn Huy,46,Nam,1979-04-11,"Số 395 Văn Bình, Xã Ninh Sở, Huyện Thường Tín, Hà Nội",5587506633,805024972,Tạp vụ,160,55,21.5,O+,Không có,2025-06-21 09:37:00
+162,1182918362,Phạm Hải Quỳnh,43,Nữ,1982-12-28,"Số 796 Thanh Cao, Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",7402701168,846225223,Điều dưỡng,164,55,20.4,A+,Dị ứng thời tiết,2025-06-23 16:30:00
+163,1065214161,Trần Quang Anh,60,Nam,1965-11-22,"Số 682 Kim Mã, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",7984775965,755356690,Biên phiên dịch,163,63,23.7,AB+,Tăng huyết áp,2025-06-13 12:12:00
+164,1183091843,Hồ Thị Trà,42,Nữ,1983-03-13,"Số 334 Trương Định, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",2567164932,998027148,Công nhân,159,68,26.9,AB+,Không có,2025-06-21 16:30:00
+165,1162434712,Ngô Hải Yến,63,Nữ,1962-07-16,"Số 804 Cổ Linh, Phường Bồ Đề, Quận Long Biên, Hà Nội",5111593195,556904098,Kỹ sư điện,156,61,25.1,O+,Thoái hóa khớp,2025-06-24 14:41:00
+166,1095931608,Hoàng Phương Kiên,30,Nam,1995-11-05,"Số 870 Nguyễn Văn Huyên (kéo dài), Xã Uy Nỗ, Huyện Đông Anh, Hà Nội",9149737460,723302764,Vận động viên,163,58,21.8,AB+,Không có,2025-06-23 12:32:00
+167,1161472927,Hoàng Minh Thảo,64,Nữ,1961-12-30,"Số 696 Cao Lỗ, Xã Uy Nỗ, Huyện Đông Anh, Hà Nội",8201859626,501367492,Nông dân,156,67,27.5,A+,Hội chứng chuyển hóa,2025-06-11 11:06:00
+168,1166192676,Ngô Phương Hạnh,59,Nữ,1966-12-22,"Số 803 Tản Lĩnh, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",4129208751,329321840,Huấn luyện viên,177,87,27.8,O+,Loãng xương; Rối loạn mỡ máu,2025-06-25 12:11:00
+169,1058598831,Phan Minh Quang,67,Nam,1958-09-25,"Số 285 Ngõ 66 Thụy Khuê, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",7714628314,559892625,Thiết kế đồ họa,164,57,21.2,AB+,Rối loạn mỡ máu,2025-06-19 11:34:00
+170,1072401636,Đinh Hải Phong,53,Nam,1972-04-25,"Số 565 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",3588967924,382226940,Nhân viên IT,167,47,16.9,B+,Thoái hóa khớp,2025-06-22 16:30:00
+171,1097784468,Lê Đức Trung,28,Nam,1997-07-01,"Số 59 Hoàng Mai, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",7827788160,930685389,Vận động viên,180,73,22.5,O+,Không có,2025-06-12 16:30:00
+172,1078506762,Đặng Gia Anh,47,Nam,1978-09-21,"Số 756 Cổ Linh, Phường Phúc Lợi, Quận Long Biên, Hà Nội",1797050975,751052650,Diễn viên,166,65,23.6,O+,Không có,2025-06-23 16:30:00
+173,1085437654,Hồ Phương Thắng,40,Nam,1985-12-03,"Số 6 Trần Phú (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",1266502374,367872568,Nghiên cứu viên,174,78,25.8,B+,Không có,2025-06-10 16:23:00
+174,1178305690,Mai Ngọc Linh,47,Nữ,1978-12-17,"Số 288 Trung Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",4718923923,326043260,Kỹ sư phần mềm,176,68,22.0,A+,Mất ngủ mạn tính,2025-06-17 14:39:00
+175,1202708604,Trần Văn Bảo,23,Nam,2002-08-07,"Số 677 Đại Cồ Việt, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",2624755411,382555989,Sinh viên,165,69,25.3,O+,Không có,2025-06-12 12:00:00
+176,1059738202,Lê Thái Thắng,66,Nam,1959-06-04,"Số 537 Tiền Phong, Xã Tiền Phong, Huyện Mê Linh, Hà Nội",5240903678,912786866,Tạp vụ,168,75,26.6,A+,Rối loạn mỡ máu,2025-06-23 16:30:00
+177,1078884434,Hoàng Quang Khánh,47,Nam,1978-08-22,"Số 277 Vĩnh Ngọc, Xã Liên Hà, Huyện Đông Anh, Hà Nội",9105955184,569450053,Biên phiên dịch,158,67,26.8,B+,Không có,2025-06-23 16:30:00
+178,1066354396,Lý Đức Khoa,59,Nam,1966-08-15,"Số 194 Trần Phú (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",5226931216,576182091,Nông dân,170,49,17.0,O+,Rối loạn mỡ máu,2025-06-18 13:51:00
+179,1177290018,Võ Ngọc Linh,48,Nữ,1977-05-18,"Số 58 Hoàng Mai, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",2841862030,566254361,Diễn viên,179,83,25.9,A+,Không có,2025-06-14 12:06:00
+180,1065147541,Đinh Tấn Khang,60,Nam,1965-06-28,"Số 286 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",6576769523,868788788,Thợ mộc,169,96,33.6,B+,Không có,2025-06-12 16:30:00
+181,1307350305,Hoàng Phương Thảo,18,Nữ,2007-02-14,"Số 249 Bạch Mai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",3606501917,920252131,Sinh viên,151,45,19.7,O+,Không có,2025-06-12 14:58:00
+182,1081765704,Dương Thanh Tuấn,44,Nam,1981-06-03,"Số 568 Hoàng Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",7241862369,336289177,Diễn viên,164,67,24.9,O+,Không có,2025-06-17 16:30:00
+183,1192595034,Phan Hải Chi,33,Nữ,1992-02-09,"Số 247 Ngõ 203 Võ Chí Công, Phường Bưởi, Quận Tây Hồ, Hà Nội",6140546835,852156818,Điều dưỡng,149,46,20.7,B+,Dị ứng thời tiết,2025-06-10 16:30:00
+184,1156254596,Phạm Thị Hoa,69,Nữ,1956-08-17,"Số 785 Dương Xá, Xã Yên Viên, Huyện Gia Lâm, Hà Nội",8524214955,312747472,Tạp vụ,172,94,31.8,AB+,Đái tháo đường type 2,2025-06-24 11:54:00
+185,1070802146,Lý Thanh Phúc,55,Nam,1970-05-06,"Số 922 Quốc lộ 3, Xã Tiên Dược, Huyện Sóc Sơn, Hà Nội",2663651559,837147082,Bán hàng,170,81,28.0,AB+,Rối loạn mỡ máu,2025-06-10 12:21:00
+186,1077730306,Lý Hải Thắng,48,Nam,1977-08-09,"Số 538 Lĩnh Nam, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",7542356778,565960893,Biên phiên dịch,167,74,26.5,O+,Dị ứng thời tiết,2025-06-22 10:49:00
+187,1183027275,Trần Bích Trà,42,Nữ,1983-06-12,"Số 193 Cầu Diễn, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",6339055044,917766558,Thợ cơ khí,177,74,23.6,A+,Không có,2025-06-11 16:30:00
+188,1068110961,Phan Gia Tuấn,57,Nam,1968-02-14,"Số 565 Phố Vọng, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",8660538444,763060002,Dược sĩ,156,50,20.5,B+,Tăng huyết áp,2025-06-11 16:30:00
+189,1302626265,Đặng Phương Hương,23,Nữ,2002-10-23,"Số 972 Ngách 76 ngõ 3 Phố Huế, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",1981960275,533438364,Nhạc công,164,90,33.5,A+,Không có,2025-06-15 15:42:00
+190,1185617061,Nguyễn Ngọc Giang,40,Nữ,1985-04-17,"Số 581 Kim Mã, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",8998028413,908088235,Nhân viên logistics,187,103,29.5,O+,Đái tháo đường type 2,2025-06-19 16:30:00
+191,1077158477,Đinh Khánh Trung,48,Nam,1977-04-13,"Số 320 Phố Vọng, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",7945919663,955172084,Bộ đội,164,63,23.4,A+,Không có,2025-06-10 10:04:00
+192,1186105053,Mai Bích Hà,39,Nữ,1986-06-10,"Số 575 Xuân Diệu, Phường Xuân La, Quận Tây Hồ, Hà Nội",7553307704,811729596,Nhân viên nhà hàng,168,83,29.4,O+,Tăng huyết áp,2025-06-13 10:10:00
+193,1071716445,Lý Thái Duy,54,Nam,1971-02-05,"Số 991 Phùng, Xã Đan Phượng, Huyện Đan Phượng, Hà Nội",4002156321,558004010,Huấn luyện viên,166,61,22.1,AB+,Tăng huyết áp,2025-06-17 16:03:00
+194,1091712529,Đỗ Khánh Khang,34,Nam,1991-10-26,"Số 495 Tân Mai, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",9331170303,863715398,Nhân viên chăm sóc khách hàng,170,52,18.0,A+,Không có,2025-06-16 11:51:00
+195,1174146249,Nguyễn Thanh Giang,51,Nữ,1974-04-07,"Số 544 Giải Phóng, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",6632686850,845106634,Phi công,160,64,25.0,O+,Rối loạn mỡ máu,2025-06-12 11:02:00
+196,1046323549,Đỗ Thanh Dũng,79,Nam,1946-09-11,"Số 171 Mễ Trì, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",7502412095,890737100,Nhân viên IT,173,82,27.4,A+,Đái tháo đường type 2; Tăng huyết áp,2025-06-22 10:10:00
+197,1179775847,Phạm Hạnh Giang,46,Nữ,1979-06-21,"Số 532 Giảng Võ, Phường Giảng Võ, Quận Ba Đình, Hà Nội",3570396531,561487824,Phóng viên,162,59,22.5,B+,Không có,2025-06-13 11:40:00
+198,1077591679,Trịnh Anh Kiên,48,Nam,1977-09-24,"Số 167 Giải Phóng, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",8034910740,850042548,Hướng dẫn viên du lịch,160,57,22.3,A+,Không có,2025-06-25 15:59:00
+199,1077430753,Dương Thanh Quân,48,Nam,1977-02-11,"Số 824 Xuân Thủy, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",9344149782,861287585,Giảng viên,171,57,19.5,A+,Không có,2025-06-24 16:30:00
+200,1205940626,Trịnh Hữu Phong,20,Nam,2005-10-06,"Số 580 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",9038287232,740793110,Sinh viên,151,67,29.4,O+,Mất ngủ mạn tính,2025-06-15 11:33:00
+201,1160328837,Phạm Thanh Thảo,65,Nữ,1960-03-13,"Số 834 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, Hà Nội",7094097052,874025883,Bảo vệ,167,84,30.1,O+,Đái tháo đường type 2,2025-06-13 13:12:00
+202,1073767929,Ngô Hữu Bảo,52,Nam,1973-02-04,"Số 31 Văn Bình, Xã Nhị Khê, Huyện Thường Tín, Hà Nội",2775331266,309410175,Giáo viên,156,43,17.7,A+,Thoái hóa khớp,2025-06-10 16:30:00
+203,1307334774,Phan Thị Hoa,18,Nữ,2007-10-12,"Số 915 Nguyễn Sơn, Phường Bồ Đề, Quận Long Biên, Hà Nội",6287339785,798217661,Thợ cơ khí,165,72,26.4,A+,Không có,2025-06-10 12:48:00
+204,1162908197,Phan Phương Trà,63,Nữ,1962-07-24,"Số 338 Vĩnh Ngọc, Xã Vân Nội, Huyện Đông Anh, Hà Nội",2990516991,972401078,Kỹ sư cơ khí,151,66,28.9,O+,Rối loạn mỡ máu; Hội chứng chuyển hóa,2025-06-14 16:30:00
+205,1080960870,Trịnh Tuấn Quang,45,Nam,1980-09-30,"Số 199 Giảng Võ, Phường Liễu Giai, Quận Ba Đình, Hà Nội",1368900301,327240559,Huấn luyện viên,156,51,21.0,A+,Mất ngủ mạn tính,2025-06-12 16:30:00
+206,1068458438,Đặng Hữu Long,57,Nam,1968-12-31,"Số 934 Cầu Diễn, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",4152037710,804496410,Nhân viên IT,152,55,23.8,O+,Tăng huyết áp; Đái tháo đường type 2,2025-06-18 16:30:00
+207,1163549305,Đinh Khánh Bích,62,Nữ,1963-11-08,"Số 267 Đức Giang, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",3044138459,809454490,Tạp vụ,172,76,25.7,O+,Tăng huyết áp,2025-06-21 11:04:00
+208,1090783609,Đặng Hải Hải,35,Nam,1990-07-03,"Số 131 Thái Hà, Phường Láng Hạ, Quận Đống Đa, Hà Nội",4102879508,504405809,Thợ xây,165,53,19.5,O+,Mất ngủ mạn tính,2025-06-14 09:30:00
+209,1186616420,Huỳnh Anh Chi,39,Nữ,1986-12-15,"Số 298 Phan Trọng Tuệ, Xã Vĩnh Quỳnh, Huyện Thanh Trì, Hà Nội",6889536902,811398986,Kỹ sư điện,153,42,17.9,A+,Không có,2025-06-19 16:30:00
+210,1178751376,Lý Minh Linh,47,Nữ,1978-04-29,"Số 584 Kim Bài, Xã Kim Bài, Huyện Thanh Oai, Hà Nội",3944551166,929732702,Nhà văn,173,98,32.7,O+,Dị ứng thời tiết,2025-06-10 16:30:00
+211,1178288665,Trịnh Thuỳ Trà,47,Nữ,1978-02-07,"Số 47 Nguyễn Xiển, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",7472298120,995765728,Kiểm toán,172,66,22.3,B+,Mất ngủ mạn tính,2025-06-17 14:27:00
+212,1194864565,Phạm Anh Mai,31,Nữ,1994-10-24,"Số 170 Kim Đồng, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",5491342138,920908830,Bộ đội,169,71,24.9,A+,Không có,2025-06-16 12:14:00
+213,1042152854,Tạ Thanh Duy,83,Nam,1942-04-24,"Số 37 Nguyễn Hữu Thọ, Xã Vĩnh Quỳnh, Huyện Thanh Trì, Hà Nội",7334727274,531830617,Thợ mộc,151,82,36.0,A+,Thoái hóa khớp,2025-06-23 16:30:00
+214,1205782434,Phạm Khánh Phong,20,Nam,2005-06-28,"Số 430 Tam Hiệp, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",2275156277,963044836,Sinh viên,163,63,23.7,O+,Không có,2025-06-25 11:20:00
+215,1068392831,Tạ Hữu Duy,57,Nam,1968-07-28,"Số 51 Vũ Trọng Phụng, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",9634255638,500081867,Thợ cơ khí,162,68,25.9,O+,Rối loạn mỡ máu,2025-06-19 09:37:00
+216,1074186008,Nguyễn Quang Nam,51,Nam,1974-02-09,"Số 470 Hoàng Mai, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",7136847488,560765817,Nhân viên logistics,175,75,24.5,O+,Tăng huyết áp,2025-06-11 16:30:00
+217,1073312697,Trần Tuấn Lâm,52,Nam,1973-10-31,"Số 579 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, Hà Nội",8875357788,316162028,Bộ đội,172,70,23.7,B+,Thoái hóa khớp,2025-06-16 16:30:00
+218,1069485959,Võ Thái Long,56,Nam,1969-05-31,"Số 959 Trần Phú (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",1562271043,518751097,Kỹ sư điện,152,42,18.2,A+,Dị ứng thời tiết,2025-06-10 11:17:00
+219,1186459648,Đinh Thuỳ Hoa,39,Nữ,1986-10-27,"Số 817 Nguyễn Chí Thanh, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",5973203319,522705102,Bộ đội,171,75,25.6,A+,Viêm xoang mạn,2025-06-18 16:30:00
+220,1163932426,Hồ Thanh Giang,62,Nữ,1963-02-10,"Số 355 Trương Định, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",7520375830,945154809,Thợ cơ khí,173,79,26.4,O+,Không có,2025-06-25 16:30:00
+221,1174278105,Trần Anh Hà,51,Nữ,1974-09-09,"Số 879 Trương Định, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",6295806601,582412704,Nội trợ,155,51,21.2,A+,Dị ứng thời tiết,2025-06-18 14:20:00
+222,1073112125,Hoàng Quang Bảo,52,Nam,1973-02-15,"Số 389 Chùa Bộc, Phường Kim Liên, Quận Đống Đa, Hà Nội",7334324474,375955872,Nhân viên logistics,174,81,26.8,O+,Mất ngủ mạn tính,2025-06-13 12:23:00
+223,1065827279,Huỳnh Tấn Hải,60,Nam,1965-03-01,"Số 343 Tràng Tiền, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",3782079799,867345957,Thiết kế đồ họa,170,78,27.0,A+,Không có,2025-06-24 16:30:00
+224,1190969028,Lê Hạnh Hoa,35,Nữ,1990-05-18,"Số 821 Cổ Linh, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",4244123361,528507251,Bộ đội,160,65,25.4,A+,Không có,2025-06-19 15:06:00
+225,1153681579,Trịnh Khánh Như,72,Nữ,1953-11-02,"Số 937 Minh Khai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",4461562624,767046226,Kiểm toán,170,55,19.0,A+,Rối loạn mỡ máu; Đái tháo đường type 2,2025-06-13 15:04:00
+226,1081252986,Trịnh Khánh Tuấn,44,Nam,1981-01-07,"Số 515 Lê Quang Đạo, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",2268612059,738976074,Giảng viên,146,42,19.7,O+,Không có,2025-06-10 15:57:00
+227,1080084245,Tạ Phương Sơn,45,Nam,1980-05-31,"Số 255 Phạm Văn Đồng, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",8645793897,315502916,Nhân viên văn phòng,163,62,23.3,A+,Không có,2025-06-24 15:29:00
+228,1087161394,Dương Quang Khang,38,Nam,1987-12-01,"Số 706 Vân Đình, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",3440630624,779513305,Nhân viên logistics,169,64,22.4,O+,Mất ngủ mạn tính,2025-06-25 16:23:00
+229,1189780555,Ngô Thị Giang,36,Nữ,1989-07-19,"Số 873 Lý Thường Kiệt, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",2385445770,599295966,Nhân viên IT,164,47,17.5,AB+,Không có,2025-06-18 16:30:00
+230,1161369455,Bùi Thanh Hương,64,Nữ,1961-06-30,"Số 947 An Khánh, Xã Vân Canh, Huyện Hoài Đức, Hà Nội",9572169666,509329981,Nhiếp ảnh,180,90,27.8,A+,Rối loạn mỡ máu; Tăng huyết áp,2025-06-21 15:51:00
+231,1177753273,Trịnh Thanh Linh,48,Nữ,1977-03-24,"Số 816 Hồ Tùng Mậu, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",6237100687,816481980,Thợ cơ khí,168,86,30.5,A+,Đái tháo đường type 2,2025-06-11 16:30:00
+232,1046125652,Đặng Tuấn Phong,79,Nam,1946-10-24,"Số 706 Lê Quang Đạo, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",1228403595,742947742,Nhà văn,155,64,26.6,B+,Không có,2025-06-15 14:29:00
+233,1072925298,Ngô Văn Kiên,53,Nam,1972-09-01,"Số 970 Đại Cồ Việt, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",5913577908,535061581,Thợ mộc,170,73,25.3,O+,Đái tháo đường type 2,2025-06-22 16:30:00
+234,1305423372,Bùi Thị Lan,20,Nữ,2005-05-06,"Số 234 Thụy Khuê, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",1513717173,389397490,Thiết kế đồ họa,161,62,23.9,A+,Mất ngủ mạn tính,2025-06-10 11:24:00
+235,1091046947,Đỗ Quang Kiên,34,Nam,1991-08-22,"Số 575 Nguyễn Chí Thanh, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",8058772216,717582313,Luật sư,168,50,17.7,O+,Không có,2025-06-14 10:21:00
+236,1081252362,Đặng Thái Phong,44,Nam,1981-12-11,"Số 380 Lê Văn Lương, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",8469660606,727403344,Phóng viên,174,61,20.1,B+,Không có,2025-06-19 11:08:00
+237,1061499601,Lê Tuấn Khang,64,Nam,1961-05-08,"Số 424 Thanh Cao, Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",9173598488,702155732,Tạp vụ,149,73,32.9,O+,Thoái hóa khớp; Béo phì,2025-06-15 12:37:00
+238,1074085096,Đinh Hữu Phúc,51,Nam,1974-09-28,"Số 800 Ô Chợ Dừa, Phường Láng Hạ, Quận Đống Đa, Hà Nội",8931647725,329578606,Lái xe,164,66,24.5,A+,Đái tháo đường type 2,2025-06-21 09:47:00
+239,1160234210,Phan Bích Mai,65,Nữ,1960-04-06,"Số 168 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",6027160736,377633691,Nông dân,151,56,24.6,O+,Dị ứng thời tiết,2025-06-17 15:01:00
+240,1194556331,Dương Minh Hà,31,Nữ,1994-11-06,"Số 364 Giải Phóng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",4167045023,590282270,Tiếp viên hàng không,158,59,23.6,O+,Không có,2025-06-11 16:30:00
+241,1166073465,Dương Thị Hạnh,59,Nữ,1966-03-25,"Số 387 Quang Minh, Xã Tiền Phong, Huyện Mê Linh, Hà Nội",2053161177,887290477,Đầu bếp,155,42,17.5,B+,Rối loạn mỡ máu; Thoái hóa khớp,2025-06-19 10:37:00
+242,1058164913,Đặng Khánh Khánh,67,Nam,1958-02-12,"Số 336 Xuân Thủy, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",7032020326,709775396,Thiết kế đồ họa,176,67,21.6,A+,Không có,2025-06-15 16:30:00
+243,1171715841,Tạ Hạnh Hoa,54,Nữ,1971-10-09,"Số 895 Đình Thôn, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",9268323035,992988085,Thiết kế đồ họa,161,55,21.2,A+,Không có,2025-06-10 10:13:00
+244,1160064686,Phan Khánh Phương,65,Nữ,1960-05-22,"Số 983 Cổ Linh, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",4626693351,542619237,Điều dưỡng,172,63,21.3,O+,Không có,2025-06-12 16:30:00
+245,1069154064,Lê Phương Tùng,56,Nam,1969-03-20,"Số 983 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",7601444856,751017397,Nhân viên logistics,174,81,26.8,O+,Loãng xương,2025-06-23 13:37:00
+246,1092860919,Trần Tuấn Duy,33,Nam,1992-11-06,"Số 808 Hồ Tùng Mậu, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",7603920514,807455534,Vận động viên,174,68,22.5,A+,Không có,2025-06-15 15:41:00
+247,1075155983,Phan Quang Lâm,50,Nam,1975-09-13,"Số 498 Lê Quang Đạo, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",6013948848,926913119,Nhân viên logistics,164,58,21.6,B+,Không có,2025-06-15 16:30:00
+248,1199499153,Vũ Bích Trang,26,Nữ,1999-02-23,"Số 664 Cao Viên, Xã Cao Viên, Huyện Thanh Oai, Hà Nội",4097768893,828969645,Bác sĩ,161,65,25.1,B+,Không có,2025-06-16 16:30:00
+249,1078389218,Đặng Minh Bảo,47,Nam,1978-12-26,"Số 472 Hồ Tùng Mậu, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",1878057215,349409762,Bảo vệ,162,61,23.2,AB+,Không có,2025-06-17 11:58:00
+250,1049339220,Võ Đức Quân,76,Nam,1949-03-24,"Số 188 Khuất Duy Tiến, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",8124633515,818409080,Thiết kế đồ họa,161,78,30.1,A+,Rối loạn mỡ máu,2025-06-10 11:51:00
+251,1207129592,Bùi Quang Huy,18,Nam,2007-06-26,"Số 358 Võ Chí Công, Phường Bưởi, Quận Tây Hồ, Hà Nội",8392957867,381535237,Phóng viên,174,86,28.4,O+,Gút,2025-06-22 15:49:00
+252,1056661707,Mai Hải Bảo,69,Nam,1956-07-25,"Số 193 An Mỹ, Xã An Tiến, Huyện Mỹ Đức, Hà Nội",1800463580,888285031,Kiểm toán,147,62,28.7,A+,Rối loạn mỡ máu,2025-06-20 16:30:00
+253,1070022939,Ngô Quang Long,55,Nam,1970-07-25,"Số 837 Vân Đình, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",1723111271,585246484,Thợ cơ khí,145,61,29.0,O+,Rối loạn mỡ máu; Dị ứng thời tiết,2025-06-21 16:30:00
+254,1079328077,Trịnh Tuấn Tuấn,46,Nam,1979-09-12,"Số 757 Xuân Diệu, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",4350902542,773066248,Kỹ sư điện,148,56,25.6,O+,Không có,2025-06-21 16:30:00
+255,1051255021,Trần Minh Phúc,74,Nam,1951-11-13,"Số 76 Hồ Tùng Mậu, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",7737945772,885324264,Đầu bếp,170,46,15.9,B+,Thoái hóa khớp,2025-06-15 16:30:00
+256,1059339395,Tạ Thanh Tuấn,66,Nam,1959-05-06,"Số 308 Ngọc Liệp, Xã Đông Xuân, Huyện Quốc Oai, Hà Nội",4582686270,569249269,Nhà văn,162,76,29.0,B+,Thoái hóa khớp; Viêm xoang mạn,2025-06-23 13:03:00
+257,1066110005,Đỗ Minh Tuấn,59,Nam,1966-02-19,"Số 487 Chùa Bộc, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",3226189628,974312710,Kế toán,163,70,26.3,O+,Không có,2025-06-13 12:18:00
+258,1072151229,Võ Văn Tùng,53,Nam,1972-06-22,"Số 913 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa, Hà Nội",9480752034,776504715,Điều dưỡng,163,57,21.5,A+,Loãng xương,2025-06-16 10:24:00
+259,1194604655,Bùi Hạnh Dung,31,Nữ,1994-07-14,"Số 936 Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",9102131251,593110059,Nhân viên chăm sóc khách hàng,168,58,20.5,O+,Dị ứng thời tiết,2025-06-18 15:32:00
+260,1173633016,Đinh Thị Trang,52,Nữ,1973-01-02,"Số 190 Tràng Tiền, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",3893113253,569496843,Kế toán,166,44,16.0,A+,Đái tháo đường type 2,2025-06-20 16:30:00
+261,1197017509,Đinh Hạnh Trà,28,Nữ,1997-02-03,"Số 860 Nguyễn Xiển, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",8583392056,875677722,Phóng viên,161,66,25.5,B+,Dị ứng thời tiết,2025-06-11 16:30:00
+262,1183672453,Trịnh Thanh Thảo,42,Nữ,1983-01-09,"Số 446 Nhị Khê, Xã Nhị Khê, Huyện Thường Tín, Hà Nội",6115794238,836704254,Kỹ sư phần mềm,151,62,27.2,A+,Tăng huyết áp; Béo phì,2025-06-10 11:53:00
+263,1083597107,Đỗ Minh Quân,42,Nam,1983-03-07,"Số 716 Chùa Bộc, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",4993379705,916295187,Kỹ sư phần mềm,158,67,26.8,A+,Không có,2025-06-14 16:22:00
+264,1191250733,Đỗ Khánh Hạnh,34,Nữ,1991-05-22,"Số 205 Trường Yên, Xã Thụy Hương, Huyện Chương Mỹ, Hà Nội",1388436604,732400615,Tiếp viên hàng không,164,58,21.6,A+,Không có,2025-06-18 16:30:00
+265,1069010587,Đỗ Minh Bảo,56,Nam,1969-06-15,"Số 660 Ngõ 131 Võ Chí Công, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",8112218231,755165176,Nhân viên logistics,173,67,22.4,A+,Tăng huyết áp,2025-06-16 13:05:00
+266,1160370033,Võ Thị Giang,65,Nữ,1960-12-23,"Số 732 Ngõ 151 Phạm Văn Đồng, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",8051958263,580944858,Nội trợ,159,58,22.9,O+,Rối loạn mỡ máu,2025-06-25 12:06:00
+267,1171394570,Đỗ Bích Vy,54,Nữ,1971-12-20,"Số 970 Tố Hữu (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",3778943191,309004047,Thợ xây,168,81,28.7,O+,Tăng huyết áp; Gút,2025-06-12 10:49:00
+268,1068424731,Đặng Quang Anh,57,Nam,1968-03-02,"Số 720 Tràng Tiền, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",7007676209,314473404,Nhân viên văn phòng,152,61,26.4,AB+,Không có,2025-06-11 16:30:00
+269,1133782558,Hồ Hạnh Hoa,92,Nữ,1933-08-22,"Số 834 Hồ Tùng Mậu, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",2942557782,358295829,Nhà văn,164,48,17.8,O+,Dị ứng thời tiết,2025-06-10 13:31:00
+270,1067357155,Lý Đức Lâm,58,Nam,1967-03-26,"Số 917 Phan Trọng Tuệ, Xã Tam Hiệp, Huyện Thanh Trì, Hà Nội",3143643813,300413211,Nhân viên khách sạn,163,62,23.3,O+,Không có,2025-06-11 15:37:00
+271,1055995706,Lý Tấn Khang,70,Nam,1955-12-19,"Số 346 Phạm Hùng, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",8396102908,818274968,Chủ cửa hàng,175,84,27.4,A+,Tăng huyết áp; Viêm xoang mạn,2025-06-14 13:00:00
+272,1171773062,Phạm Thuỳ Hương,54,Nữ,1971-04-12,"Số 143 Ngõ 128 Võ Chí Công, Phường Xuân La, Quận Tây Hồ, Hà Nội",1858167046,961114576,Nhân viên khách sạn,173,53,17.7,A+,Rối loạn mỡ máu,2025-06-20 10:56:00
+273,1180858471,Hoàng Minh Anh,45,Nữ,1980-08-16,"Số 381 Kim Mã, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",9042537337,873126881,Kỹ sư phần mềm,159,60,23.7,O+,Không có,2025-06-13 16:24:00
+274,1162060560,Dương Hải Yến,63,Nữ,1962-07-28,"Số 162 Xuân Đỉnh, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",7906181205,764754895,Diễn viên,162,56,21.3,B+,Dị ứng thời tiết,2025-06-16 09:16:00
+275,1082999275,Bùi Minh Hoàng,43,Nam,1982-12-16,"Số 234 Khuất Duy Tiến, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",5358644963,924358853,Ngân hàng,162,66,25.1,B+,Không có,2025-06-19 15:04:00
+276,1093527536,Đặng Hữu Sơn,32,Nam,1993-11-21,"Số 833 Ngách 64 ngõ 208 Nguyễn Văn Cừ, Phường Thạch Bàn, Quận Long Biên, Hà Nội",9948963406,891766512,Tiếp viên hàng không,164,59,21.9,O+,Không có,2025-06-18 15:38:00
+277,1161001594,Hồ Bích Hoa,64,Nữ,1961-10-18,"Số 24 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",4890219947,313633792,Nhân viên văn phòng,180,86,26.5,B+,Dị ứng thời tiết,2025-06-14 11:40:00
+278,1060843768,Hồ Đức Lâm,65,Nam,1960-01-12,"Số 80 Nguyễn Trãi (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",4355643436,970931706,Công nhân,172,74,25.0,A+,Đái tháo đường type 2; Loãng xương,2025-06-22 16:30:00
+279,1209454722,Vũ Hữu Lâm,16,Nam,2009-04-28,"Số 938 Ngách 33 ngõ 21 Võ Chí Công, Phường Xuân La, Quận Tây Hồ, Hà Nội",3426423642,913190924,Học sinh,160,56,21.9,A+,Không có,2025-06-25 16:30:00
+280,1165823052,Võ Ngọc Hoa,60,Nữ,1965-03-20,"Số 248 Liên Trung, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",4721329016,504787688,Bảo vệ,158,64,25.6,B+,Dị ứng thời tiết; Tăng huyết áp,2025-06-22 15:56:00
+281,1072203195,Võ Gia Anh,53,Nam,1972-09-12,"Số 221 Xuân Thủy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",3463203747,877537260,Nhân viên nhà hàng,163,69,26.0,O+,Không có,2025-06-21 16:30:00
+282,1178553482,Hồ Thị Trang,47,Nữ,1978-02-04,"Số 414 Thụy Khuê, Phường Quảng An, Quận Tây Hồ, Hà Nội",5508917768,389812657,Kỹ sư cơ khí,169,86,30.1,B+,Viêm xoang mạn,2025-06-22 12:49:00
+283,1064689430,Phạm Hữu Kiên,61,Nam,1964-03-18,"Số 471 Xuân Phú, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",5988558298,793306745,Diễn viên,157,55,22.3,AB+,Rối loạn mỡ máu,2025-06-12 14:00:00
+284,1173885666,Dương Minh Thảo,52,Nữ,1973-02-20,"Số 158 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",5377693663,739252959,Nội trợ,159,50,19.8,O+,Dị ứng thời tiết; Tăng huyết áp,2025-06-17 10:00:00
+285,1067202455,Trịnh Văn Long,58,Nam,1967-08-30,"Số 809 Đức Giang, Phường Phúc Lợi, Quận Long Biên, Hà Nội",5981942179,728179340,Huấn luyện viên,162,64,24.4,O+,Không có,2025-06-17 16:07:00
+286,1052220109,Đinh Gia Lâm,73,Nam,1952-08-24,"Số 494 Trần Hưng Đạo, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",4705263510,346277657,Kiểm toán,162,53,20.2,O+,Tăng huyết áp,2025-06-15 16:30:00
+287,1306024617,Huỳnh Minh Chi,19,Nữ,2006-04-05,"Số 790 Lê Văn Lương, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",6017833258,786899936,Học sinh,170,77,26.6,B+,Không có,2025-06-16 10:54:00
+288,1094506917,Bùi Thanh Bảo,31,Nam,1994-05-26,"Số 837 Âu Cơ, Phường Bưởi, Quận Tây Hồ, Hà Nội",9303736060,348860849,Tiếp viên hàng không,170,62,21.5,A+,Không có,2025-06-10 16:30:00
+289,1139012424,Tạ Phương Yến,86,Nữ,1939-09-03,"Số 71 Tây Sơn, Phường Láng Hạ, Quận Đống Đa, Hà Nội",4142175188,881794151,Thiết kế đồ họa,158,45,18.0,O+,Tăng huyết áp,2025-06-14 11:24:00
+290,1049566186,Lý Tấn Quân,76,Nam,1949-01-16,"Số 658 Kim Mã, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",6055605712,398819277,Thợ xây,173,69,23.1,A+,Thoái hóa khớp,2025-06-15 16:14:00
+291,1171246245,Nguyễn Hạnh Ngân,54,Nữ,1971-12-07,"Số 190 Ô Chợ Dừa, Phường Láng Hạ, Quận Đống Đa, Hà Nội",6114551293,913044881,Kỹ sư điện,154,57,24.0,B+,Viêm xoang mạn,2025-06-19 12:38:00
+292,1152814298,Hoàng Ngọc Trà,73,Nữ,1952-07-26,"Số 981 Quang Minh, Xã Tráng Việt, Huyện Mê Linh, Hà Nội",1849378306,596384526,Nhân viên khách sạn,159,72,28.5,AB+,Rối loạn mỡ máu,2025-06-25 16:30:00
+293,1163292913,Phạm Khánh Anh,62,Nữ,1963-05-10,"Số 668 Phố Huế, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",4722155668,773236533,Thợ điện,168,65,23.0,A+,Không có,2025-06-23 15:54:00
+294,1075260781,Huỳnh Thái Minh,50,Nam,1975-05-24,"Số 449 Nguyễn Hữu Thọ, Xã Tam Hiệp, Huyện Thanh Trì, Hà Nội",7388214584,348460191,Thợ xây,149,48,21.6,O+,Rối loạn mỡ máu; Dị ứng thời tiết,2025-06-14 16:30:00
+295,1152507321,Hồ Thuỳ Như,73,Nữ,1952-10-17,"Số 484 Ngõ 87 Đại Cồ Việt, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",9573680119,536037681,Diễn viên,156,53,21.8,O+,Bệnh mạch vành,2025-06-10 16:30:00
+296,1185096149,Tạ Hải Linh,40,Nữ,1985-05-12,"Số 46 Hoàng Mai, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",8365118939,706557820,Phi công,167,68,24.4,B+,Không có,2025-06-18 15:31:00
+297,1188333247,Dương Ngọc My,37,Nữ,1988-04-01,"Số 65 Nhị Khê, Xã Ninh Sở, Huyện Thường Tín, Hà Nội",1250826112,512616324,Đầu bếp,165,63,23.1,B+,Không có,2025-06-10 14:45:00
+298,1187729893,Nguyễn Bích Như,38,Nữ,1987-06-18,"Số 303 Trần Cung, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",2203818769,508283230,Phóng viên,161,62,23.9,A+,Không có,2025-06-21 16:30:00
+299,1179582206,Dương Hải Hạnh,46,Nữ,1979-05-14,"Số 83 Nguyễn Xiển, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",6000000152,911371785,Bảo vệ,171,68,23.3,O+,Không có,2025-06-15 16:05:00
+300,1190444218,Huỳnh Hạnh Bích,35,Nữ,1990-09-16,"Số 637 Liên Hiệp, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",1867009004,565515848,Nông dân,152,61,26.4,O+,Không có,2025-06-21 16:30:00
+301,1205054296,Trịnh Anh Tuấn,20,Nam,2005-12-05,"Số 633 Nguyễn Thái Học, Phường Liễu Giai, Quận Ba Đình, Hà Nội",3210401648,388044287,Sinh viên,166,71,25.8,A+,Không có,2025-06-18 16:30:00
+302,1156420362,Ngô Hạnh Yến,69,Nữ,1956-07-27,"Số 400 Lê Văn Lương, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",3635582430,376464489,Tạp vụ,150,58,25.8,AB+,Rối loạn mỡ máu,2025-06-23 10:43:00
+303,1170050404,Phạm Minh Trà,55,Nữ,1970-11-09,"Số 228 Quốc lộ 3, Xã Mai Đình, Huyện Sóc Sơn, Hà Nội",8871809339,337326530,Nông dân,163,51,19.2,B+,Đái tháo đường type 2,2025-06-23 16:30:00
+304,1184002300,Ngô Anh Vy,41,Nữ,1984-09-25,"Số 653 Tân Mai, Phường Mai Động, Quận Hoàng Mai, Hà Nội",2609365952,314911894,Giảng viên,176,89,28.7,O+,Không có,2025-06-22 16:30:00
+305,1058886050,Hoàng Tấn Anh,67,Nam,1958-03-08,"Số 962 Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",6669106271,731234550,Phóng viên,171,82,28.0,B+,Đái tháo đường type 2; Hội chứng chuyển hóa,2025-06-10 16:30:00
+306,1074348087,Phan Gia Duy,51,Nam,1974-03-01,"Số 384 Phố Huế, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",8090859914,792074926,Biên phiên dịch,164,48,17.8,B+,Đái tháo đường type 2,2025-06-19 13:38:00
+307,1171718428,Nguyễn Phương Mai,54,Nữ,1971-12-13,"Số 584 Minh Khai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",3342669806,908726176,Nhân viên logistics,173,63,21.0,AB+,Không có,2025-06-21 16:30:00
+308,1054056129,Dương Thanh Nam,71,Nam,1954-05-26,"Số 96 La Phù, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",7130876123,959514346,Nhạc công,164,52,19.3,A+,Tăng huyết áp,2025-06-16 15:59:00
+309,1186730086,Phan Khánh Ngân,39,Nữ,1986-03-26,"Số 844 Phan Trọng Tuệ, Xã Tả Thanh Oai, Huyện Thanh Trì, Hà Nội",7809414915,376283976,Thợ hàn,171,76,26.0,A+,Không có,2025-06-18 09:35:00
+310,1068292508,Nguyễn Tấn Hoàng,57,Nam,1968-07-29,"Số 691 Tràng Tiền, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",4125523561,881703211,Nhân viên logistics,161,64,24.7,A-,Đái tháo đường type 2,2025-06-21 09:55:00
+311,1056648016,Tạ Hữu Khánh,69,Nam,1956-03-13,"Số 927 Hồ Tùng Mậu, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",2021798213,786298579,Diễn viên,175,95,31.0,A+,Tăng huyết áp,2025-06-22 16:30:00
+312,1188856053,Trần Minh Vy,37,Nữ,1988-03-31,"Số 242 Quang Minh, Xã Đại Thịnh, Huyện Mê Linh, Hà Nội",6068212235,721650587,Bộ đội,162,67,25.5,AB+,Không có,2025-06-25 16:30:00
+313,1062022050,Đỗ Hải Khang,63,Nam,1962-10-07,"Số 625 Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",6788707152,586767382,Bác sĩ,174,101,33.4,O+,Đái tháo đường type 2,2025-06-18 12:47:00
+314,1094987682,Trần Khánh Duy,31,Nam,1994-09-11,"Số 545 Phạm Văn Đồng, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",4504056695,890012482,Vận động viên,181,77,23.5,B+,Dị ứng thời tiết,2025-06-23 16:30:00
+315,1044624152,Đinh Gia Lâm,81,Nam,1944-06-23,"Số 228 Âu Cơ, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",2865507846,950957443,Thợ xây,160,81,31.6,O+,Rối loạn mỡ máu,2025-06-13 16:30:00
+316,1153536415,Trịnh Bích Thảo,72,Nữ,1953-02-14,"Số 488 Phạm Văn Đồng, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",8500942141,352769819,Pha chế,182,77,23.2,A+,Thoái hóa khớp,2025-06-23 16:30:00
+317,1175059867,Đặng Phương Yến,50,Nữ,1975-08-02,"Số 348 Ngô Gia Tự, Phường Gia Thụy, Quận Long Biên, Hà Nội",5282491165,320002453,Kỹ sư phần mềm,147,56,25.9,A+,Viêm xoang mạn; Tăng huyết áp,2025-06-14 10:10:00
+318,1064368214,Hoàng Thái Lâm,61,Nam,1964-09-24,"Số 960 Đình Thôn, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",7202582543,383281231,Bảo vệ,159,62,24.5,O+,Thoái hóa khớp,2025-06-15 10:21:00
+319,1189836472,Lê Hải Trang,36,Nữ,1989-02-16,"Số 182 Đan Phượng, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",6458472629,352918768,Nhân viên nhà hàng,173,65,21.7,O+,Dị ứng thời tiết,2025-06-24 11:58:00
+320,1030522299,Tạ Anh Khánh,95,Nam,1930-01-15,"Số 243 Xuân Phú, Xã Vân Phúc, Huyện Phúc Thọ, Hà Nội",9358446177,832643095,Dược sĩ,162,57,21.7,O+,Tăng huyết áp,2025-06-18 11:38:00
+321,1195970292,Phạm Bích Vy,30,Nữ,1995-11-06,"Số 725 Tam Hiệp, Xã Vân Phúc, Huyện Phúc Thọ, Hà Nội",3201256083,500487978,Vận động viên,158,57,22.8,A+,Không có,2025-06-20 09:36:00
+322,1064044361,Hoàng Thanh Trung,61,Nam,1964-04-13,"Số 172 Phùng, Xã Đan Phượng, Huyện Đan Phượng, Hà Nội",5374830930,967139719,Pha chế,169,65,22.8,AB+,Đái tháo đường type 2,2025-06-15 11:29:00
+323,1080767201,Trịnh Phương Bảo,45,Nam,1980-12-24,"Số 458 Vũ Trọng Phụng, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",4930493665,580274812,Bác sĩ,154,45,19.0,B+,Không có,2025-06-12 16:30:00
+324,1054355610,Lý Hữu Khánh,71,Nam,1954-10-30,"Số 283 Vũ Trọng Phụng, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",7423041202,806159273,Thợ mộc,177,72,23.0,A+,Dị ứng thời tiết,2025-06-16 10:14:00
+325,1053203403,Dương Khánh Phong,72,Nam,1953-05-14,"Số 638 Hồ Tùng Mậu, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",6462347124,860108018,Nhân viên chăm sóc khách hàng,163,64,24.1,O+,Đái tháo đường type 2; Dị ứng thời tiết,2025-06-10 10:13:00
+326,1156290150,Lý Bích Ngân,69,Nữ,1956-02-24,"Số 82 Phù Lưu Tế, Xã An Tiến, Huyện Mỹ Đức, Hà Nội",8436213009,825885766,Nhạc công,169,53,18.6,A+,Đái tháo đường type 2; Thoái hóa khớp,2025-06-18 16:30:00
+327,1047215918,Phạm Quang Quân,78,Nam,1947-08-12,"Số 642 Ngõ 151 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",2400493881,949053152,Nhiếp ảnh,175,68,22.2,O+,Dị ứng thời tiết,2025-06-20 11:52:00
+328,1164379716,Võ Hạnh Chi,61,Nữ,1964-02-03,"Số 497 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",6623899499,397014262,Nhà văn,167,72,25.8,O+,Không có,2025-06-14 16:30:00
+329,1178041813,Lê Thanh Anh,47,Nữ,1978-03-23,"Số 749 Tráng Việt, Xã Đại Thịnh, Huyện Mê Linh, Hà Nội",2864482217,788397857,Biên kịch,158,59,23.6,AB+,Không có,2025-06-11 16:30:00
+330,1052128794,Trần Quang Bảo,73,Nam,1952-12-08,"Số 603 Quang Trung (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",7156078327,788356517,Nông dân,168,66,23.4,A+,Rối loạn mỡ máu,2025-06-15 12:16:00
+331,1190478421,Đinh Bích Yến,35,Nữ,1990-01-14,"Số 417 Ngách 29 ngõ 248 Cầu Diễn, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",9688390624,872879916,Nhân viên nhà hàng,145,62,29.5,O+,Mất ngủ mạn tính,2025-06-15 16:30:00
+332,1075613376,Ngô Tuấn Lâm,50,Nam,1975-04-15,"Số 23 Liên Trung, Xã Hồng Hà, Huyện Đan Phượng, Hà Nội",8241916503,740966177,Giáo viên,155,45,18.7,B+,Không có,2025-06-14 16:30:00
+333,1052417468,Trịnh Thanh Phúc,73,Nam,1952-02-19,"Số 633 Châu Can, Xã Phú Túc, Huyện Phú Xuyên, Hà Nội",5869415594,701192920,Phóng viên,160,67,26.2,B+,Không có,2025-06-21 16:30:00
+334,1170653621,Trần Thị Phương,55,Nữ,1970-04-17,"Số 672 Lĩnh Nam, Phường Mai Động, Quận Hoàng Mai, Hà Nội",5204664896,876056420,Bảo vệ,167,67,24.0,B+,Rối loạn mỡ máu; Đái tháo đường type 2,2025-06-23 16:30:00
+335,1089453389,Dương Tuấn Lâm,36,Nam,1989-08-19,"Số 297 Ngô Gia Tự, Phường Gia Thụy, Quận Long Biên, Hà Nội",4006221224,576774625,Bán hàng,171,64,21.9,A+,Không có,2025-06-11 16:30:00
+336,1093801798,Hồ Thái Anh,32,Nam,1993-01-04,"Số 954 Bình Phú, Xã Thạch Xá, Huyện Thạch Thất, Hà Nội",5261212038,737536596,Dược sĩ,160,76,29.7,B+,Không có,2025-06-24 16:16:00
+337,1057064454,Bùi Khánh Phúc,68,Nam,1957-01-25,"Số 630 Tản Lĩnh, Xã Ba Trại, Huyện Ba Vì, Hà Nội",8633427203,986217508,Chủ cửa hàng,161,61,23.5,O+,Thoái hóa khớp; Tăng huyết áp,2025-06-25 16:30:00
+338,1174935340,Lê Minh Ngọc,51,Nữ,1974-05-17,"Số 177 Tân Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",1838517993,881053912,Tạp vụ,180,82,25.3,A+,Rối loạn mỡ máu,2025-06-17 13:09:00
+339,1163904579,Lê Khánh Hạnh,62,Nữ,1963-12-20,"Số 766 Trung Tú, Xã Phương Tú, Huyện Ứng Hòa, Hà Nội",3383972833,912187062,Thợ xây,172,76,25.7,AB+,Không có,2025-06-19 12:29:00
+340,1173018676,Nguyễn Phương Dung,52,Nữ,1973-01-02,"Số 838 Nguyễn Xiển, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",1384531980,846823546,Phóng viên,162,62,23.6,B+,Đái tháo đường type 2,2025-06-13 16:30:00
+341,1170671500,Bùi Thuỳ My,55,Nữ,1970-10-29,"Số 93 Ngách 13 ngõ 115 Đại Cồ Việt, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",5970890583,868348268,Huấn luyện viên,169,69,24.2,B+,Loãng xương; Viêm xoang mạn,2025-06-11 12:09:00
+342,1059059625,Lê Đức Thắng,66,Nam,1959-07-06,"Số 903 Nguyễn Xiển, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",9260418095,517558517,Tạp vụ,163,67,25.2,A+,Loãng xương,2025-06-11 16:30:00
+343,1099882419,Mai Minh Dũng,26,Nam,1999-02-19,"Số 461 Tố Hữu (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",5218545705,882092257,Nhạc công,171,74,25.3,B+,Không có,2025-06-24 16:30:00
+344,1093407232,Trần Hữu Hải,32,Nam,1993-07-29,"Số 533 Cầu Diễn, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",8312616850,810580119,Tiếp viên hàng không,164,65,24.2,O-,Dị ứng thời tiết,2025-06-11 10:50:00
+345,1084610537,Đỗ Thanh Anh,41,Nam,1984-04-05,"Số 5 Vân Đình, Xã Phương Tú, Huyện Ứng Hòa, Hà Nội",9543298769,993652944,Kế toán,169,71,24.9,AB+,Không có,2025-06-12 10:56:00
+346,1092348131,Huỳnh Hữu Tuấn,33,Nam,1992-08-30,"Số 914 Tố Hữu (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",4526806486,367398344,Tiếp viên hàng không,172,66,22.3,AB+,Không có,2025-06-17 11:41:00
+347,1183406579,Trịnh Thị Hạnh,42,Nữ,1983-08-16,"Số 960 Ngách 4 ngõ 162 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",2311178619,325476022,Dược sĩ,163,85,32.0,A+,Hội chứng chuyển hóa,2025-06-22 16:30:00
+348,1189201227,Phạm Anh Lan,36,Nữ,1989-12-16,"Số 884 Chùa Bộc, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",5795074071,832798059,Bộ đội,166,63,22.9,A+,Không có,2025-06-13 13:36:00
+349,1167452036,Vũ Hải Ngân,58,Nữ,1967-01-02,"Số 902 Ô Chợ Dừa, Phường Trung Liệt, Quận Đống Đa, Hà Nội",6952056100,879900696,Đầu bếp,167,54,19.4,AB+,Viêm xoang mạn,2025-06-12 16:27:00
+350,1184394495,Nguyễn Bích Hương,41,Nữ,1984-12-05,"Số 649 Kim Mã, Phường Kim Mã, Quận Ba Đình, Hà Nội",6426241784,590292334,Giáo viên,155,75,31.2,O+,Tăng huyết áp,2025-06-22 15:18:00
+351,1065430211,Đỗ Khánh Trung,60,Nam,1965-09-19,"Số 570 Thạch Xá, Xã Bình Phú, Huyện Thạch Thất, Hà Nội",2299642603,562027558,Huấn luyện viên,172,70,23.7,O+,Viêm xoang mạn,2025-06-16 16:30:00
+352,1164189705,Tạ Phương Dung,61,Nữ,1964-09-25,"Số 748 Vũ Trọng Phụng, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",3168800537,993186928,Nông dân,175,83,27.1,B+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-22 11:44:00
+353,1064839482,Phan Phương Khánh,61,Nam,1964-03-31,"Số 947 Ngách 47 ngõ 250 Phạm Văn Đồng, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",4020203042,522775213,Nghiên cứu viên,150,47,20.9,O+,Tăng huyết áp,2025-06-16 13:09:00
+354,1154029161,Nguyễn Hạnh Linh,71,Nữ,1954-02-06,"Số 863 Vân Đình, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",7229131670,905685667,Diễn viên,168,78,27.6,AB+,Béo phì,2025-06-19 16:09:00
+355,1089550494,Vũ Minh Thắng,36,Nam,1989-07-21,"Số 353 Duy Tân, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",4226261142,736258542,Bộ đội,174,72,23.8,O+,Không có,2025-06-16 16:08:00
+356,1185196234,Hoàng Hạnh Trang,40,Nữ,1985-11-13,"Số 998 Phùng, Xã Hồng Hà, Huyện Đan Phượng, Hà Nội",9333430311,787605457,Ngư dân,153,42,17.9,B+,Không có,2025-06-18 16:24:00
+357,1183535365,Đặng Ngọc Dung,42,Nữ,1983-05-18,"Số 182 Nguyễn Trãi, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",6948152692,759664721,Pha chế,176,55,17.8,B+,Không có,2025-06-19 16:30:00
+358,1074893326,Lý Gia Huy,51,Nam,1974-11-30,"Số 985 Phan Trọng Tuệ, Xã Tả Thanh Oai, Huyện Thanh Trì, Hà Nội",8852211587,384523542,Thợ điện,153,50,21.4,A+,Rối loạn mỡ máu,2025-06-10 16:30:00
+359,1167729665,Hoàng Thanh Hạnh,58,Nữ,1967-08-25,"Số 65 Lê Văn Lương, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",1027221425,831609439,Thợ xây,158,70,28.0,B+,Rối loạn mỡ máu,2025-06-21 14:56:00
+360,1146092973,Lý Bích My,79,Nữ,1946-04-01,"Số 631 Tây Tựu, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",5573532366,385076108,Diễn viên,146,47,22.0,AB+,Đái tháo đường type 2,2025-06-14 12:58:00
+361,1069583882,Lý Khánh Nam,56,Nam,1969-02-21,"Số 135 Minh Khai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",9019442589,522560629,Nhân viên IT,173,66,22.1,AB+,Đái tháo đường type 2,2025-06-18 16:30:00
+362,1070741307,Vũ Khánh Sơn,55,Nam,1970-07-23,"Số 179 Nguyễn Thái Học, Phường Kim Mã, Quận Ba Đình, Hà Nội",4975615470,754912151,Nhân viên văn phòng,154,42,17.7,A+,Thoái hóa khớp,2025-06-14 11:46:00
+363,1048201971,Ngô Thái Phúc,77,Nam,1948-08-10,"Số 581 Nguyễn Văn Cừ, Phường Phúc Lợi, Quận Long Biên, Hà Nội",8312677319,527607598,Biên phiên dịch,149,76,34.2,A+,Tăng huyết áp,2025-06-24 13:31:00
+364,1159202191,Võ Thị My,66,Nữ,1959-03-05,"Số 52 Nguyễn Sơn, Phường Gia Thụy, Quận Long Biên, Hà Nội",5867649797,716365604,Chủ cửa hàng,169,77,27.0,B+,Đái tháo đường type 2,2025-06-14 14:50:00
+365,1073195296,Hồ Hữu Khoa,52,Nam,1973-02-10,"Số 542 Cổ Linh, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",2594898959,854663454,Chủ cửa hàng,167,64,22.9,B+,Không có,2025-06-22 12:14:00
+366,1091169993,Đặng Văn Hoàng,34,Nam,1991-11-10,"Số 778 Duy Tân, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",1958629739,989413210,Bộ đội,163,56,21.1,AB+,Không có,2025-06-14 10:59:00
+367,1084485346,Bùi Quang Trung,41,Nam,1984-06-16,"Số 444 Lai Xá, Xã An Khánh, Huyện Hoài Đức, Hà Nội",4900251213,856589635,Nhân viên văn phòng,171,62,21.2,A+,Không có,2025-06-19 16:26:00
+368,1198663113,Hoàng Thị Linh,27,Nữ,1998-06-17,"Số 200 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",2043796868,308529469,Công nhân,167,83,29.8,AB+,Không có,2025-06-13 10:42:00
+369,1180430435,Đặng Minh Như,45,Nữ,1980-08-26,"Số 347 Khuất Duy Tiến, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",9293020256,913303033,Giảng viên,159,47,18.6,O+,Không có,2025-06-25 12:25:00
+370,1072530245,Vũ Văn Long,53,Nam,1972-06-26,"Số 278 Tây Sơn, Phường Kim Liên, Quận Đống Đa, Hà Nội",8190172224,350764871,Nhân viên khách sạn,156,63,25.9,B+,Không có,2025-06-10 12:41:00
+371,1185240658,Hoàng Anh Phương,40,Nữ,1985-11-04,"Số 42 Liên Hiệp, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",9448237337,912121101,Ngân hàng,165,69,25.3,A+,Không có,2025-06-21 12:31:00
+372,1049039251,Hoàng Thái Sơn,76,Nam,1949-12-22,"Số 767 Trương Định, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",1542216265,796330833,Nhân viên khách sạn,163,60,22.6,AB+,Suy tim,2025-06-10 16:30:00
+373,1069685195,Trịnh Phương Quân,56,Nam,1969-11-11,"Số 425 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội",6225920616,781292059,Nông dân,167,68,24.4,B+,Đái tháo đường type 2,2025-06-20 13:15:00
+374,1181295596,Trần Minh Như,44,Nữ,1981-01-22,"Số 78 Hoàng Mai, Phường Mai Động, Quận Hoàng Mai, Hà Nội",6133138004,983211221,Kỹ sư điện,167,66,23.7,AB+,Dị ứng thời tiết,2025-06-16 14:51:00
+375,1062442006,Đỗ Khánh Khang,63,Nam,1962-07-19,"Số 983 Ngô Gia Tự, Phường Thạch Bàn, Quận Long Biên, Hà Nội",5196234219,562213204,Nhạc công,153,69,29.5,B+,Hội chứng chuyển hóa,2025-06-18 15:59:00
+376,1074812831,Trần Văn Quang,51,Nam,1974-10-22,"Số 959 Ô Chợ Dừa, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",7310505243,938058269,Thợ xây,161,70,27.0,O+,Rối loạn mỡ máu,2025-06-14 15:52:00
+377,1184337618,Tạ Hạnh Hà,41,Nữ,1984-12-10,"Số 1 Ngọc Hòa, Xã Ngọc Hòa, Huyện Chương Mỹ, Hà Nội",4392188352,891875067,Nhân viên văn phòng,158,70,28.0,A+,Tăng huyết áp; Dị ứng thời tiết,2025-06-23 16:30:00
+378,1042761781,Huỳnh Phương Kiên,83,Nam,1942-11-07,"Số 18 Phú Lãm (liên huyện), Xã Kim Bài, Huyện Thanh Oai, Hà Nội",6686295912,773498992,Diễn viên,157,63,25.6,O+,Thoái hóa khớp,2025-06-13 14:05:00
+379,1206907472,Nguyễn Anh Anh,19,Nam,2006-10-24,"Số 567 Thạch Xá, Xã Thạch Xá, Huyện Thạch Thất, Hà Nội",5859946418,598416734,Học sinh,181,62,18.9,B+,Viêm xoang mạn,2025-06-10 10:59:00
+380,1181498044,Trần Ngọc Như,44,Nữ,1981-07-14,"Số 143 Võ Nguyên Giáp (địa phận huyện), Xã Vân Nội, Huyện Đông Anh, Hà Nội",5890082484,781308898,Công an,161,66,25.5,O+,Không có,2025-06-14 15:24:00
+381,1051275000,Nguyễn Tuấn Sơn,74,Nam,1951-01-08,"Số 300 Hoàng Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",9467908701,972600136,Kiểm toán,176,58,18.7,O+,Không có,2025-06-18 16:30:00
+382,1065406221,Huỳnh Hải Khoa,60,Nam,1965-03-26,"Số 128 Khuất Duy Tiến, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",8047476484,759396521,Thợ điện,175,55,18.0,B+,Đái tháo đường type 2; Tăng huyết áp,2025-06-15 16:30:00
+383,1165622117,Trịnh Anh Hạnh,60,Nữ,1965-05-08,"Số 329 Vũ Trọng Phụng, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",5252516185,859171050,Thợ cơ khí,163,70,26.3,A+,Tăng huyết áp; Dị ứng thời tiết,2025-06-22 16:19:00
+384,1081352478,Đặng Quang Tùng,44,Nam,1981-07-07,"Số 209 Phố Vọng, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",4318361133,992608788,Nhân viên IT,152,42,18.2,B+,Không có,2025-06-12 09:40:00
+385,1155353780,Ngô Thanh Dung,70,Nữ,1955-12-05,"Số 753 Nguyễn Trãi (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",7914336299,946645099,Chủ cửa hàng,172,77,26.0,A+,Loãng xương,2025-06-21 10:28:00
+386,1178352118,Bùi Khánh Giang,47,Nữ,1978-09-30,"Số 630 Âu Cơ, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",6759582819,322179789,Kỹ sư điện,151,59,25.9,A+,Dị ứng thời tiết,2025-06-21 16:30:00
+387,1186170598,Ngô Phương Hà,39,Nữ,1986-08-20,"Số 85 Bạch Mai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",6681193978,345900992,Giáo viên,158,54,21.6,B+,Không có,2025-06-18 16:30:00
+388,1172053260,Đinh Thanh Mai,53,Nữ,1972-08-25,"Số 138 Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",1908581810,750243736,Bán hàng,157,59,23.9,O+,Rối loạn mỡ máu,2025-06-19 15:11:00
+389,1179900585,Vũ Khánh Vy,46,Nữ,1979-05-04,"Số 582 Nguyễn Trãi, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",4690283772,802896660,Huấn luyện viên,169,80,28.0,O+,Đái tháo đường type 2,2025-06-22 16:30:00
+390,1068510388,Dương Đức Hoàng,57,Nam,1968-01-22,"Số 894 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",2893953096,906764909,Giảng viên,167,90,32.3,O+,Đái tháo đường type 2; Thoái hóa khớp,2025-06-21 16:30:00
+391,1187135872,Phạm Minh Ly,38,Nữ,1987-06-29,"Số 795 Giảng Võ, Phường Giảng Võ, Quận Ba Đình, Hà Nội",9818738775,933364770,Thợ điện,154,63,26.6,B+,Không có,2025-06-12 09:57:00
+392,1140057720,Phan Ngọc Ly,85,Nữ,1940-11-08,"Số 381 Đại Xuyên, Xã Đại Thắng, Huyện Phú Xuyên, Hà Nội",8941224870,987264963,Nhân viên IT,161,82,31.6,O+,Hội chứng chuyển hóa; Tăng huyết áp,2025-06-11 09:31:00
+393,1168034686,Huỳnh Thị Hoa,57,Nữ,1968-01-27,"Số 798 Âu Cơ, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",7621953689,305779500,Thợ hàn,158,50,20.0,O+,Mất ngủ mạn tính,2025-06-24 10:42:00
+394,1060087167,Phạm Minh Khoa,65,Nam,1960-10-16,"Số 561 Dương Xá, Xã Yên Viên, Huyện Gia Lâm, Hà Nội",8443602344,525216025,Nhà văn,156,61,25.1,O+,Viêm xoang mạn,2025-06-16 12:31:00
+395,1082032655,Nguyễn Thanh Khánh,43,Nam,1982-11-12,"Số 277 Liên Trung, Xã Đan Phượng, Huyện Đan Phượng, Hà Nội",7021191589,326864986,Giảng viên,161,78,30.1,O+,Không có,2025-06-14 14:48:00
+396,1178884474,Võ Hạnh Phương,47,Nữ,1978-01-05,"Số 867 Lý Thường Kiệt, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",7983692353,784864708,Nghiên cứu viên,152,56,24.2,O+,Không có,2025-06-24 16:30:00
+397,1305503300,Đinh Thuỳ Phương,20,Nữ,2005-07-03,"Số 5 Tây Tựu, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",2141600916,923273798,Sinh viên,164,80,29.7,AB+,Rối loạn mỡ máu,2025-06-10 15:55:00
+398,1066674630,Phạm Phương Minh,59,Nam,1966-10-08,"Số 976 Trần Hưng Đạo, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",2985458294,503401535,Phi công,163,61,23.0,B+,Không có,2025-06-10 11:50:00
+399,1074082402,Nguyễn Đức Sơn,51,Nam,1974-02-18,"Số 145 Vũ Trọng Phụng, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",5527353642,557004129,Luật sư,160,49,19.1,O+,Tăng huyết áp,2025-06-13 12:04:00
+400,1193255904,Dương Minh Anh,32,Nữ,1993-02-05,"Số 56 Cầu Diễn, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",2012329615,320485076,Nhiếp ảnh,154,50,21.1,A+,Không có,2025-06-22 12:28:00
+401,1194422763,Võ Hải Lan,31,Nữ,1994-01-24,"Số 988 Mễ Trì, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",9617682251,572670866,Vận động viên,164,66,24.5,B+,Không có,2025-06-12 16:30:00
+402,1064494771,Bùi Anh Trung,61,Nam,1964-09-18,"Số 495 Kim Bài, Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",6434046682,321564952,Nhân viên khách sạn,175,52,17.0,O+,Rối loạn mỡ máu,2025-06-18 16:30:00
+403,1076197388,Đỗ Thanh Trung,49,Nam,1976-03-04,"Số 808 Cầu Diễn, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",9496806640,711021254,Nội trợ,145,52,24.7,O+,Không có,2025-06-17 10:24:00
+404,1094986037,Phạm Minh Tuấn,31,Nam,1994-06-09,"Số 564 Cao Lỗ, Xã Nam Hồng, Huyện Đông Anh, Hà Nội",5003471317,397860162,Tiếp viên hàng không,166,60,21.8,B+,Không có,2025-06-16 16:30:00
+405,1161113753,Mai Thị Vy,64,Nữ,1961-01-05,"Số 141 Vĩnh Ngọc, Xã Vân Nội, Huyện Đông Anh, Hà Nội",2616088197,523996477,Nhân viên chăm sóc khách hàng,159,58,22.9,B+,Tăng huyết áp,2025-06-16 11:04:00
+406,1078480855,Ngô Đức Khoa,47,Nam,1978-04-04,"Số 994 Lai Xá, Xã La Phù, Huyện Hoài Đức, Hà Nội",7857467067,716913952,Bộ đội,164,70,26.0,O+,Dị ứng thời tiết,2025-06-22 10:03:00
+407,1204335084,Tạ Hải Phong,21,Nam,2004-01-05,"Số 516 Kim Mã, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",7910530215,367586463,Sinh viên,169,46,16.1,O+,Không có,2025-06-12 16:30:00
+408,1185476427,Phạm Ngọc Hạnh,40,Nữ,1985-03-02,"Số 789 Đình Thôn, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",3395978155,726097236,Kinh doanh tự do,166,69,25.0,O+,Không có,2025-06-15 16:30:00
+409,1071031754,Lý Thanh Khoa,54,Nam,1971-09-04,"Số 393 Tô Ngọc Vân, Phường Xuân La, Quận Tây Hồ, Hà Nội",9627288407,864207632,Diễn viên,168,79,28.0,A+,Đái tháo đường type 2; Tăng huyết áp,2025-06-11 16:30:00
+410,1170790604,Đặng Thị Ngọc,55,Nữ,1970-09-16,"Số 808 Tây Tựu, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",4961597640,735670789,Công an,158,59,23.6,B+,Loãng xương,2025-06-15 11:00:00
+411,1062732022,Phạm Thái Huy,63,Nam,1962-03-08,"Số 434 Lĩnh Nam, Phường Mai Động, Quận Hoàng Mai, Hà Nội",6144869830,721690392,Thợ xây,164,47,17.5,O+,Rối loạn mỡ máu,2025-06-20 10:49:00
+412,1179647106,Lý Thị Ngân,46,Nữ,1979-12-14,"Số 702 Đội Cấn, Phường Giảng Võ, Quận Ba Đình, Hà Nội",3672446931,829476380,Biên phiên dịch,145,52,24.7,A+,Viêm xoang mạn,2025-06-18 16:30:00
+413,1065932727,Bùi Khánh Trung,60,Nam,1965-04-23,"Số 837 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội",7527284539,849950708,Nội trợ,157,66,26.8,B+,Không có,2025-06-14 16:30:00
+414,1305208019,Trần Hạnh Ly,20,Nữ,2005-01-12,"Số 556 Nguyễn Thái Học, Phường Giảng Võ, Quận Ba Đình, Hà Nội",6333202351,325550193,Sinh viên,156,62,25.5,AB+,Không có,2025-06-24 16:29:00
+415,1170324362,Hoàng Hạnh Ly,55,Nữ,1970-05-06,"Số 93 Xuân Diệu, Phường Quảng An, Quận Tây Hồ, Hà Nội",7599920123,863177495,Pha chế,159,56,22.2,O+,Không có,2025-06-21 16:30:00
+416,1075131753,Ngô Hữu Khánh,50,Nam,1975-08-17,"Số 719 Thụy Khuê, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",1099284524,332115355,Dược sĩ,158,62,24.8,O+,Loãng xương,2025-06-14 11:14:00
+417,1097877972,Tạ Gia Lâm,28,Nam,1997-01-26,"Số 839 Trần Duy Hưng, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",2920487706,869333299,Vận động viên,164,55,20.4,AB+,Không có,2025-06-13 12:43:00
+418,1056208467,Ngô Đức Phúc,69,Nam,1956-07-26,"Số 163 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",3562472863,942012234,Nhân viên chăm sóc khách hàng,167,95,34.1,O+,Đái tháo đường type 2; Thoái hóa khớp,2025-06-12 16:30:00
+419,1085702660,Bùi Thanh Bảo,40,Nam,1985-12-22,"Số 20 Ngõ 195 Xuân Diệu, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",4538922247,319360060,Công nhân,162,61,23.2,AB+,Không có,2025-06-23 10:33:00
+420,1055009537,Phan Hải Long,70,Nam,1955-07-01,"Số 806 Nguyễn Thái Học, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",7423165441,572776857,Ngư dân,159,51,20.2,AB+,Không có,2025-06-14 16:30:00
+421,1306887017,Bùi Hạnh Ly,19,Nữ,2006-02-21,"Số 80 Văn Bình, Xã Tô Hiệu, Huyện Thường Tín, Hà Nội",6653869479,325485362,Học sinh,161,73,28.2,O+,Đái tháo đường type 2,2025-06-23 12:21:00
+422,1070574216,Tạ Hữu Nam,55,Nam,1970-11-17,"Số 689 Kim Đồng, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",2437884437,366187564,Kế toán,162,58,22.1,B+,Thoái hóa khớp,2025-06-11 16:30:00
+423,1070990027,Tạ Tấn Anh,55,Nam,1970-09-22,"Số 298 Đan Phượng, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",1503374698,530677306,Tạp vụ,170,60,20.8,A+,Không có,2025-06-13 12:29:00
+424,1168788653,Bùi Hải Hương,57,Nữ,1968-09-19,"Số 714 Võ Chí Công, Phường Xuân La, Quận Tây Hồ, Hà Nội",1550492217,348618670,Nhiếp ảnh,155,48,20.0,O+,Không có,2025-06-19 16:30:00
+425,1170182653,Huỳnh Minh Quỳnh,55,Nữ,1970-09-09,"Số 299 Trương Định, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",2354901459,967069219,Diễn viên,148,70,32.0,O+,Đái tháo đường type 2,2025-06-25 10:09:00
+426,1087178167,Trần Hữu Sơn,38,Nam,1987-12-22,"Số 667 Cao Viên, Xã Cao Viên, Huyện Thanh Oai, Hà Nội",1370170926,707030880,Bán hàng,163,76,28.6,A+,Rối loạn mỡ máu,2025-06-23 12:23:00
+427,1182824485,Lý Hải Ly,43,Nữ,1982-08-01,"Số 91 Phạm Văn Đồng, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",2961276620,908203917,Giáo viên,145,46,21.9,O+,Không có,2025-06-21 16:30:00
+428,1203962458,Phan Tấn Tùng,22,Nam,2003-06-16,"Số 20 Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội",1284976039,870243652,Sinh viên,145,52,24.7,B+,Không có,2025-06-24 16:30:00
+429,1052488215,Hoàng Gia Thắng,73,Nam,1952-12-25,"Số 40 Hồ Tùng Mậu, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",7491259497,520429862,Chủ cửa hàng,155,44,18.3,O+,Rối loạn mỡ máu,2025-06-23 16:30:00
+430,1176299833,Huỳnh Anh Thảo,49,Nữ,1976-11-03,"Số 13 Đại Cồ Việt, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",9493153983,912260001,Công nhân,163,73,27.5,O+,Không có,2025-06-11 12:52:00
+431,1148410389,Dương Hải Ngân,77,Nữ,1948-04-21,"Số 853 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",5059208235,509766919,Nhân viên khách sạn,173,78,26.1,AB+,Suy tim,2025-06-16 12:22:00
+432,1185568201,Dương Khánh Ngân,40,Nữ,1985-01-18,"Số 492 Trần Duy Hưng, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",5347412531,579561007,Kỹ sư phần mềm,158,64,25.6,A+,Không có,2025-06-16 15:55:00
+433,1069034244,Lý Phương Phúc,56,Nam,1969-08-24,"Số 426 Vân Từ, Xã Đại Thắng, Huyện Phú Xuyên, Hà Nội",1765191708,717328951,Ngân hàng,164,83,30.9,O+,Tăng huyết áp,2025-06-19 14:35:00
+434,1173496539,Vũ Thị My,52,Nữ,1973-05-14,"Số 319 Giải Phóng, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",4982218039,862038588,Ngư dân,164,67,24.9,O+,Thoái hóa khớp,2025-06-19 14:41:00
+435,1176933356,Mai Thị Thảo,49,Nữ,1976-12-29,"Số 500 Phùng Hưng (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",3019918431,332661158,Nhân viên khách sạn,157,71,28.8,O+,Hội chứng chuyển hóa,2025-06-22 13:28:00
+436,1084604722,Đặng Quang Hải,41,Nam,1984-12-01,"Số 744 Nguyễn Thái Học, Phường Giảng Võ, Quận Ba Đình, Hà Nội",4171461995,594676626,Điều dưỡng,153,62,26.5,O+,Không có,2025-06-20 12:03:00
+437,1180184025,Trần Minh Linh,45,Nữ,1980-07-15,"Số 43 Phố Vọng, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",1281640989,303909120,Tạp vụ,160,59,23.0,B+,Không có,2025-06-12 09:53:00
+438,1080926009,Đặng Thanh Trung,45,Nam,1980-02-27,"Số 975 Lê Văn Lương, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",5453811808,389655834,Bán hàng,157,67,27.2,B+,Không có,2025-06-15 16:30:00
+439,1160624860,Hồ Thuỳ Ngọc,65,Nữ,1960-02-22,"Số 517 Hàng Bài, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",2731671560,787905224,Nội trợ,174,60,19.8,O+,Đái tháo đường type 2,2025-06-18 09:55:00
+440,1177315790,Bùi Minh Quỳnh,48,Nữ,1977-07-07,"Số 220 Nguyễn Văn Cừ, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",6974876805,802377184,Thợ hàn,166,55,20.0,O+,Không có,2025-06-22 13:55:00
+441,1160402825,Lý Thanh Linh,65,Nữ,1960-05-28,"Số 637 Văn Bình, Xã Tô Hiệu, Huyện Thường Tín, Hà Nội",3023209140,369332844,Biên phiên dịch,173,67,22.4,O+,Thoái hóa khớp; Viêm xoang mạn,2025-06-16 12:06:00
+442,1169913831,Hoàng Thanh Trang,56,Nữ,1969-11-08,"Số 479 Bạch Mai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",1664707038,703605952,Giáo viên,175,95,31.0,A+,Đái tháo đường type 2,2025-06-22 16:27:00
+443,1058267625,Ngô Khánh Nam,67,Nam,1958-09-17,"Số 969 Hàng Bài, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",6979318399,898491498,Thợ mộc,168,60,21.3,A+,Đái tháo đường type 2,2025-06-11 14:07:00
+444,1164394612,Tạ Anh Linh,61,Nữ,1964-03-08,"Số 258 Quang Trung (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",7223984742,556787188,Thợ cơ khí,168,68,24.1,A+,Viêm xoang mạn,2025-06-21 11:40:00
+445,1078416806,Tạ Hải Nam,47,Nam,1978-10-07,"Số 401 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",5963830972,561080926,Luật sư,153,42,17.9,O+,Không có,2025-06-19 10:05:00
+446,1099457865,Nguyễn Văn Bảo,26,Nam,1999-07-28,"Số 396 Vũ Trọng Phụng, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",9240516654,712244418,Sinh viên,168,69,24.4,A+,Không có,2025-06-18 16:11:00
+447,1077608357,Đặng Đức Long,48,Nam,1977-10-01,"Số 525 Ngõ 178 Giảng Võ, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",9983094134,909619797,Bác sĩ,161,64,24.7,B+,Không có,2025-06-25 10:14:00
+448,1172573940,Đặng Ngọc Yến,53,Nữ,1972-10-20,"Số 893 Vĩnh Ngọc, Xã Nam Hồng, Huyện Đông Anh, Hà Nội",6892584907,542031977,Ngân hàng,153,64,27.3,A+,Rối loạn mỡ máu,2025-06-23 16:11:00
+449,1065841962,Huỳnh Thái Thắng,60,Nam,1965-12-23,"Số 859 Ngõ 114 Cầu Diễn, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",7629315181,888242655,Nhân viên chăm sóc khách hàng,166,78,28.3,A+,Rối loạn mỡ máu; Hội chứng chuyển hóa,2025-06-22 16:21:00
+450,1182371798,Đặng Phương Yến,43,Nữ,1982-03-15,"Số 654 Duy Tân, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",8954176755,598188907,Nông dân,173,70,23.4,B+,Không có,2025-06-23 16:30:00
+451,1056876380,Huỳnh Hữu Duy,69,Nam,1956-10-08,"Số 806 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, Hà Nội",9129886182,370669010,Hướng dẫn viên du lịch,169,59,20.7,A+,Dị ứng thời tiết,2025-06-23 13:09:00
+452,1062703506,Hồ Phương Tuấn,63,Nam,1962-11-08,"Số 14 Bình Phú, Xã Hữu Bằng, Huyện Thạch Thất, Hà Nội",3315550570,721879938,Bác sĩ,166,69,25.0,O+,Rối loạn mỡ máu,2025-06-19 11:46:00
+453,1071715689,Vũ Thanh Phong,54,Nam,1971-10-02,"Số 824 Hoa Sơn, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",9446794036,840163295,Thợ hàn,163,72,27.1,A+,Đái tháo đường type 2,2025-06-20 11:06:00
+454,1187292731,Hồ Hải Mai,38,Nữ,1987-12-28,"Số 658 Minh Khai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",7518548396,807344674,Công an,164,64,23.8,O+,Không có,2025-06-18 16:30:00
+455,1086491617,Tạ Hữu Duy,39,Nam,1986-09-07,"Số 855 Xuân Thuỷ (địa phương), Xã Phù Lỗ, Huyện Sóc Sơn, Hà Nội",5760948377,702928643,Nhân viên logistics,172,51,17.2,AB+,Không có,2025-06-18 10:25:00
+456,1078996218,Dương Hữu Anh,47,Nam,1978-01-16,"Số 143 Vân Canh, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",3022234998,313768367,Bác sĩ,168,74,26.2,O+,Không có,2025-06-22 16:30:00
+457,1079144092,Hoàng Hải Sơn,46,Nam,1979-07-26,"Số 834 Trần Cung, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",7319956955,922776414,Luật sư,167,64,22.9,A+,Không có,2025-06-21 16:30:00
+458,1170486722,Đặng Anh Ly,55,Nữ,1970-12-16,"Số 388 Quang Trung (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",5932511497,987953120,Huấn luyện viên,170,58,20.1,O+,Mất ngủ mạn tính; Tăng huyết áp,2025-06-17 15:43:00
+459,1050915114,Lê Anh Tuấn,75,Nam,1950-04-16,"Số 100 Nguyễn Chí Thanh, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",7425706802,893315423,Luật sư,160,66,25.8,O+,Tăng huyết áp; Loãng xương,2025-06-17 11:54:00
+460,1091114206,Hoàng Văn Huy,34,Nam,1991-05-28,"Số 881 Minh Khai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",3222400539,522056201,Nhân viên văn phòng,169,85,29.8,AB+,Không có,2025-06-15 10:28:00
+461,1177133252,Bùi Anh Hoa,48,Nữ,1977-10-22,"Số 222 Trần Cung, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",8602498663,720953677,Giáo viên,155,60,25.0,A+,Không có,2025-06-23 16:30:00
+462,1048591476,Đặng Thái Quang,77,Nam,1948-07-08,"Số 225 Âu Cơ, Phường Xuân La, Quận Tây Hồ, Hà Nội",5665353896,598532436,Đầu bếp,152,47,20.3,A+,Loãng xương,2025-06-16 11:33:00
+463,1076383543,Phạm Tấn Khang,49,Nam,1976-08-02,"Số 552 Thụy Khuê, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",9161538116,937103073,Kinh doanh tự do,157,51,20.7,A+,Không có,2025-06-19 16:30:00
+464,1201678082,Đinh Khánh Phong,24,Nam,2001-11-11,"Số 802 Vân Canh, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",5292645633,917299403,Điều dưỡng,168,70,24.8,O+,Không có,2025-06-24 16:30:00
+465,1195833539,Ngô Bích Quỳnh,30,Nữ,1995-12-16,"Số 617 Xuân Diệu, Phường Bưởi, Quận Tây Hồ, Hà Nội",4334437673,781409841,Đầu bếp,175,94,30.7,B+,Hội chứng chuyển hóa; Dị ứng thời tiết,2025-06-22 16:30:00
+466,1181604991,Phạm Minh Hạnh,44,Nữ,1981-02-23,"Số 34 Trần Hưng Đạo, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",5213485484,503531607,Ngân hàng,173,64,21.4,A+,Viêm xoang mạn,2025-06-14 16:30:00
+467,1067702881,Lê Khánh Tùng,58,Nam,1967-06-05,"Số 219 Vân Hòa, Xã Ba Trại, Huyện Ba Vì, Hà Nội",7463913810,849161942,Hướng dẫn viên du lịch,157,80,32.5,O+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-12 16:30:00
+468,1074455252,Đinh Anh Tùng,51,Nam,1974-10-08,"Số 722 Tây Tựu, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",7694899300,719567563,Nhân viên văn phòng,165,57,20.9,O+,Rối loạn mỡ máu,2025-06-19 11:12:00
+469,1078001441,Phạm Văn Anh,47,Nam,1978-09-01,"Số 992 Đức Giang, Phường Bồ Đề, Quận Long Biên, Hà Nội",5172820762,581152232,Bác sĩ,179,101,31.5,A+,Tăng huyết áp,2025-06-25 16:30:00
+470,1179999400,Phạm Thuỳ Linh,46,Nữ,1979-07-03,"Số 356 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",3289206415,880978302,Thợ mộc,170,69,23.9,AB+,Dị ứng thời tiết,2025-06-21 16:30:00
+471,1050867428,Hồ Thái Phúc,75,Nam,1950-08-29,"Số 658 Giảng Võ, Phường Liễu Giai, Quận Ba Đình, Hà Nội",2213974369,905585575,Thợ hàn,172,66,22.3,A+,Rối loạn mỡ máu; Đái tháo đường type 2,2025-06-25 15:16:00
+472,1155610656,Đỗ Ngọc Trang,70,Nữ,1955-01-08,"Số 425 Phố Vọng, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",5980253084,576992964,Thiết kế đồ họa,169,45,15.8,O+,Loãng xương,2025-06-22 13:58:00
+473,1157241553,Nguyễn Minh Hương,68,Nữ,1957-08-21,"Số 855 Nguyễn Văn Cừ, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",6703332959,752315828,Dược sĩ,160,54,21.1,O+,Tăng huyết áp,2025-06-18 16:27:00
+474,1082172174,Huỳnh Hữu Quang,43,Nam,1982-11-04,"Số 701 Phạm Ngọc Thạch, Phường Trung Liệt, Quận Đống Đa, Hà Nội",8063250313,928048502,Kỹ sư phần mềm,162,68,25.9,O+,Không có,2025-06-17 11:08:00
+475,1190797190,Huỳnh Anh Như,35,Nữ,1990-04-26,"Số 733 Ngõ 190 Kim Đồng, Phường Mai Động, Quận Hoàng Mai, Hà Nội",5079923045,523167781,Nhân viên văn phòng,165,71,26.1,O+,Không có,2025-06-12 13:25:00
+476,1042665052,Võ Anh Bảo,83,Nam,1942-08-08,"Số 417 Ngõ 34 Phùng Hưng (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",7787067635,522371859,Thợ mộc,155,56,23.3,O+,Tăng huyết áp,2025-06-15 14:28:00
+477,1066037539,Trịnh Thanh Duy,59,Nam,1966-01-21,"Số 515 Vân Canh, Xã An Khánh, Huyện Hoài Đức, Hà Nội",8841783765,915382011,Nhân viên logistics,173,68,22.7,B+,Đái tháo đường type 2,2025-06-18 11:38:00
+478,1080735127,Ngô Minh Hải,45,Nam,1980-08-08,"Số 421 Hồ Tùng Mậu, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",3249451046,550692965,Tạp vụ,148,43,19.6,O+,Không có,2025-06-15 16:30:00
+479,1191729350,Bùi Minh Giang,34,Nữ,1991-08-02,"Số 381 Văn Bình, Xã Văn Bình, Huyện Thường Tín, Hà Nội",5778045797,551840703,Bác sĩ,154,51,21.5,O+,Viêm xoang mạn,2025-06-11 12:08:00
+480,1058167670,Lê Đức Khánh,67,Nam,1958-06-12,"Số 28 Nguyễn Văn Huyên (kéo dài), Xã Uy Nỗ, Huyện Đông Anh, Hà Nội",3648333679,808289671,Thợ mộc,148,56,25.6,B+,Rối loạn mỡ máu,2025-06-23 14:40:00
+481,1186208564,Hồ Thị Yến,39,Nữ,1986-11-03,"Số 993 Phan Trọng Tuệ, Xã Tả Thanh Oai, Huyện Thanh Trì, Hà Nội",6461758080,588904410,Nhân viên logistics,162,61,23.2,O+,Không có,2025-06-15 10:22:00
+482,1072755803,Phạm Thái Tuấn,53,Nam,1972-06-07,"Số 563 Ngõ 228 Trần Hưng Đạo, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",7988371611,786686119,Nội trợ,175,59,19.3,A+,Tăng huyết áp,2025-06-25 16:30:00
+483,1070345819,Vũ Minh Duy,55,Nam,1970-07-11,"Số 608 Quang Minh, Xã Mê Linh, Huyện Mê Linh, Hà Nội",3662177580,358466879,Chủ cửa hàng,165,61,22.4,B+,Tăng huyết áp,2025-06-18 15:40:00
+484,1307150252,Nguyễn Phương Quỳnh,18,Nữ,2007-06-12,"Số 947 Quang Trung (Hà Đông), Phường Mộ Lao, Quận Hà Đông, Hà Nội",9277771184,552786309,Lái xe,162,71,27.1,O+,Đái tháo đường type 2,2025-06-16 10:20:00
+485,1081473057,Ngô Tuấn Lâm,44,Nam,1981-12-12,"Số 625 Đức Giang, Phường Thạch Bàn, Quận Long Biên, Hà Nội",5099683344,309522426,Giáo viên,166,56,20.3,A+,Dị ứng thời tiết,2025-06-23 16:30:00
+486,1178439070,Phạm Thuỳ Ngân,47,Nữ,1978-02-08,"Số 39 Ngách 20 ngõ 182 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",1080265893,775978335,Nhân viên chăm sóc khách hàng,166,67,24.3,O+,Không có,2025-06-16 13:52:00
+487,1084914638,Dương Tấn Quang,41,Nam,1984-08-29,"Số 150 Thanh Cao, Xã Kim Bài, Huyện Thanh Oai, Hà Nội",9549272400,320860146,Ngân hàng,156,61,25.1,B+,Không có,2025-06-20 09:39:00
+488,1173563693,Vũ Thuỳ Hạnh,52,Nữ,1973-05-01,"Số 455 Quang Trung (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",9028354158,929093043,Nhiếp ảnh,157,50,20.3,A+,Loãng xương,2025-06-16 10:28:00
+489,1094226815,Hồ Thanh Phúc,31,Nam,1994-02-12,"Số 970 Ngõ 157 Trần Phú (Hà Đông), Phường Mộ Lao, Quận Hà Đông, Hà Nội",8984218914,569376501,Vận động viên,176,65,21.0,O+,Không có,2025-06-20 14:28:00
+490,1068162762,Phan Thái Duy,57,Nam,1968-01-13,"Số 407 Ngô Gia Tự, Phường Phúc Lợi, Quận Long Biên, Hà Nội",9907499359,912559777,Kỹ sư cơ khí,154,42,17.7,O+,Tăng huyết áp,2025-06-12 14:19:00
+491,1185050141,Hoàng Khánh Ngọc,40,Nữ,1985-09-30,"Số 889 Trần Hưng Đạo, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",2486005009,544928787,Ngân hàng,165,66,24.2,O+,Viêm xoang mạn,2025-06-12 16:30:00
+492,1090250186,Huỳnh Đức Minh,35,Nam,1990-02-22,"Số 872 Tô Ngọc Vân, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",1620073024,566249753,Bộ đội,164,66,24.5,A+,Không có,2025-06-23 16:30:00
+493,1156406873,Dương Phương Hạnh,69,Nữ,1956-09-10,"Số 679 Song Phượng, Xã Hồng Hà, Huyện Đan Phượng, Hà Nội",9348358626,836648532,Nông dân,156,50,20.5,O+,Không có,2025-06-25 11:23:00
+494,1061050450,Trần Thái Long,64,Nam,1961-10-02,"Số 288 Tô Ngọc Vân, Phường Xuân La, Quận Tây Hồ, Hà Nội",8372954503,901625851,Bán hàng,153,81,34.6,O+,Rối loạn mỡ máu,2025-06-19 16:30:00
+495,1168433795,Huỳnh Minh Ngọc,57,Nữ,1968-11-01,"Số 190 Trung Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",7251085738,585545146,Nhân viên logistics,166,57,20.7,AB+,Mất ngủ mạn tính,2025-06-19 14:55:00
+496,1174706272,Hoàng Thuỳ Giang,51,Nữ,1974-12-19,"Số 326 Đan Phượng, Xã Liên Trung, Huyện Đan Phượng, Hà Nội",7412608481,976209906,Nhân viên logistics,160,55,21.5,A+,Không có,2025-06-25 16:30:00
+497,1160123438,Hoàng Anh Phương,65,Nữ,1960-12-12,"Số 836 Ngõ 174 Tân Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",4134275576,829911549,Bảo vệ,160,74,28.9,O+,Loãng xương; Hội chứng chuyển hóa,2025-06-12 14:19:00
+498,1079531029,Lý Minh Khánh,46,Nam,1979-11-11,"Số 400 Vân Phúc, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",4281629108,839221983,Giảng viên,161,66,25.5,O+,Không có,2025-06-21 16:30:00
+499,1142304450,Trịnh Thị Lan,83,Nữ,1942-07-11,"Số 763 Phùng, Xã Liên Trung, Huyện Đan Phượng, Hà Nội",6867603040,934675418,Luật sư,163,57,21.5,B+,Tăng huyết áp,2025-06-20 09:31:00
+500,1188210513,Phạm Bích Hạnh,37,Nữ,1988-08-16,"Số 674 Khuất Duy Tiến, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",4168163603,991736907,Thiết kế đồ họa,163,59,22.2,B+,Viêm xoang mạn,2025-06-18 16:30:00
+501,1084107071,Huỳnh Gia Tuấn,41,Nam,1984-05-11,"Số 7 Phố Huế, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",2944545697,596556192,Ngân hàng,178,66,20.8,A+,Mất ngủ mạn tính,2025-06-13 16:30:00
+502,1068266783,Võ Phương Phong,57,Nam,1968-02-24,"Số 843 Văn Bình, Xã Văn Bình, Huyện Thường Tín, Hà Nội",5614466276,530411761,Luật sư,175,74,24.2,A+,Không có,2025-06-10 14:21:00
+503,1179636470,Nguyễn Bích Như,46,Nữ,1979-09-30,"Số 565 Ngõ 139 Bạch Mai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",4631592291,570659341,Bán hàng,163,57,21.5,O+,Không có,2025-06-24 11:52:00
+504,1060578984,Hoàng Hữu Hải,65,Nam,1960-09-02,"Số 128 Trần Cung, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",6818981061,835631631,Pha chế,158,57,22.8,O+,Thoái hóa khớp; Tăng huyết áp,2025-06-19 14:53:00
+505,1152899906,Hồ Bích Giang,73,Nữ,1952-04-18,"Số 713 Cổ Linh, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",7131798549,304903729,Chủ cửa hàng,157,47,19.1,O+,Không có,2025-06-17 11:57:00
+506,1168743922,Lê Hải Trà,57,Nữ,1968-03-19,"Số 864 Phương Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",3123601863,994541384,Kinh doanh tự do,161,67,25.8,O+,Không có,2025-06-24 15:30:00
+507,1095590964,Huỳnh Phương Huy,30,Nam,1995-09-24,"Số 472 Đại Cồ Việt, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",7681133973,870721734,Vận động viên,163,63,23.7,AB+,Dị ứng thời tiết,2025-06-22 16:22:00
+508,1068323654,Đặng Đức Kiên,57,Nam,1968-07-29,"Số 685 Tố Hữu (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",1947651186,356409941,Kỹ sư phần mềm,171,58,19.8,O+,Rối loạn mỡ máu,2025-06-20 16:30:00
+509,1170110356,Võ Minh My,55,Nữ,1970-07-17,"Số 391 Nguyễn Chí Thanh, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",6338619411,939093424,Nhân viên chăm sóc khách hàng,172,76,25.7,A+,Tăng huyết áp; Đái tháo đường type 2,2025-06-14 15:10:00
+510,1080348893,Đặng Phương Bảo,45,Nam,1980-04-07,"Số 520 Lê Văn Lương, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",9269285507,735095288,Tạp vụ,159,44,17.4,B+,Không có,2025-06-17 13:57:00
+511,1164995428,Dương Thanh Quỳnh,61,Nữ,1964-01-20,"Số 552 Ngõ 180 Kim Đồng, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",7901497110,584715675,Kiểm toán,174,90,29.7,O+,Hội chứng chuyển hóa; Rối loạn mỡ máu,2025-06-14 16:30:00
+512,1061359698,Võ Tuấn Phong,64,Nam,1961-05-26,"Số 47 Tố Hữu (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",7178925714,325038576,Kinh doanh tự do,170,70,24.2,B+,Tăng huyết áp; Dị ứng thời tiết,2025-06-21 14:35:00
+513,1188635853,Đỗ Thuỳ Phương,37,Nữ,1988-01-27,"Số 665 Hoàng Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",8758670365,820363444,Thợ hàn,164,75,27.9,O+,Không có,2025-06-22 12:20:00
+514,1095123357,Hồ Thái Tuấn,30,Nam,1995-10-03,"Số 908 Nguyễn Chí Thanh, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",4678508989,874759443,Vận động viên,170,65,22.5,AB+,Không có,2025-06-12 16:30:00
+515,1162687404,Hồ Bích Mai,63,Nữ,1962-08-27,"Số 91 Mễ Trì, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",1990009406,765823445,Kỹ sư phần mềm,159,57,22.5,O+,Rối loạn mỡ máu,2025-06-15 14:44:00
+516,1165470911,Mai Khánh Quỳnh,60,Nữ,1965-01-19,"Số 754 Ngách 41 ngõ 27 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",4746614477,818687047,Nhân viên nhà hàng,170,69,23.9,B+,Tăng huyết áp,2025-06-15 09:46:00
+517,1187256599,Huỳnh Khánh My,38,Nữ,1987-07-10,"Số 191 Giải Phóng, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",4986221405,331866047,Huấn luyện viên,158,61,24.4,O+,Không có,2025-06-11 15:57:00
+518,1067441023,Võ Quang Huy,58,Nam,1967-11-07,"Số 209 Ngõ 173 Đại Cồ Việt, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",6853465815,598852178,Hướng dẫn viên du lịch,165,71,26.1,A+,Rối loạn mỡ máu,2025-06-16 16:30:00
+519,1169167592,Tạ Thị Trà,56,Nữ,1969-09-23,"Số 57 Cổ Bi, Xã Ninh Hiệp, Huyện Gia Lâm, Hà Nội",4429242195,973091218,Nhân viên chăm sóc khách hàng,166,65,23.6,O+,Đái tháo đường type 2; Dị ứng thời tiết,2025-06-11 14:39:00
+520,1081555301,Tạ Hữu Kiên,44,Nam,1981-02-12,"Số 730 Nguyễn Thái Học, Phường Kim Mã, Quận Ba Đình, Hà Nội",6984557663,754182991,Giảng viên,175,61,19.9,O+,Không có,2025-06-25 11:12:00
+521,1169421682,Trịnh Khánh Như,56,Nữ,1969-03-23,"Số 978 Cầu Diễn, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",2005932572,587032200,Nhân viên IT,161,80,30.9,AB+,Loãng xương,2025-06-17 16:30:00
+522,1166058028,Nguyễn Minh Ngọc,59,Nữ,1966-04-06,"Số 868 Lê Quang Đạo, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",6090418985,864301655,Thợ điện,157,65,26.4,A+,Thoái hóa khớp,2025-06-18 12:47:00
+523,1165386047,Đỗ Thuỳ Trà,60,Nữ,1965-02-20,"Số 748 Tây Tựu, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",4829441914,890534728,Ngân hàng,166,88,31.9,O+,Béo phì; Rối loạn mỡ máu,2025-06-16 11:26:00
+524,1064865629,Mai Gia Khánh,61,Nam,1964-11-16,"Số 252 Hoàng Hoa Thám, Phường Liễu Giai, Quận Ba Đình, Hà Nội",6684676780,964583744,Nhạc công,161,44,17.0,A+,Mất ngủ mạn tính; Đái tháo đường type 2,2025-06-25 13:29:00
+525,1072874114,Võ Tấn Nam,53,Nam,1972-05-20,"Số 343 Thụy Khuê, Phường Quảng An, Quận Tây Hồ, Hà Nội",2564196789,830093582,Bác sĩ,174,71,23.5,O+,Dị ứng thời tiết,2025-06-19 16:30:00
+526,1303927668,Nguyễn Bích Lan,22,Nữ,2003-06-06,"Số 932 Kim Mã, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",4735866715,744605392,Ngư dân,160,70,27.3,B+,Rối loạn mỡ máu,2025-06-10 15:21:00
+527,1161911928,Đỗ Hải Giang,64,Nữ,1961-11-16,"Số 223 Hoàng Hoa Thám, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",9212626439,767844607,Ngân hàng,157,56,22.7,A+,Thoái hóa khớp,2025-06-25 14:21:00
+528,1076198177,Huỳnh Tuấn Long,49,Nam,1976-10-18,"Số 689 Hoàng Mai, Phường Mai Động, Quận Hoàng Mai, Hà Nội",4859747765,859070554,Kiểm toán,158,42,16.8,B+,Không có,2025-06-20 12:05:00
+529,1186715692,Phạm Anh Lan,39,Nữ,1986-08-30,"Số 369 Phạm Hùng, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",2154773494,514872255,Công an,174,71,23.5,A+,Không có,2025-06-10 10:34:00
+530,1081168557,Tạ Văn Kiên,44,Nam,1981-06-08,"Số 768 Nguyễn Xiển, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",8581660284,336233470,Kỹ sư cơ khí,164,68,25.3,O+,Không có,2025-06-20 16:30:00
+531,1081973418,Ngô Văn Huy,44,Nam,1981-09-10,"Số 473 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội",8590017067,949078692,Nhà văn,173,58,19.4,AB+,Không có,2025-06-18 16:30:00
+532,1176896763,Trần Thanh Chi,49,Nữ,1976-05-01,"Số 466 Tây Tựu, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",4351390143,397427493,Nội trợ,168,61,21.6,A+,Không có,2025-06-15 09:41:00
+533,1158826082,Mai Minh Thảo,67,Nữ,1958-07-06,"Số 962 Tràng Tiền, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",3142526119,889259465,Thợ cơ khí,175,88,28.7,A+,Bệnh mạch vành; Đái tháo đường type 2,2025-06-22 16:30:00
+534,1199367380,Dương Phương Mai,26,Nữ,1999-02-13,"Số 800 Kim Đồng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",7220148333,740112728,Tạp vụ,165,76,27.9,O+,Gút,2025-06-22 13:03:00
+535,1089090676,Dương Thanh Hải,36,Nam,1989-09-05,"Số 706 Đông Xuân, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",8204888680,718693032,Nghiên cứu viên,169,76,26.6,O+,Không có,2025-06-13 14:09:00
+536,1088605390,Đỗ Hải Kiên,37,Nam,1988-02-12,"Số 118 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội",9158913682,967074215,Nội trợ,170,72,24.9,AB+,Không có,2025-06-21 16:30:00
+537,1060802933,Hồ Thái Minh,65,Nam,1960-05-21,"Số 907 Dương Xá, Xã Trâu Quỳ, Huyện Gia Lâm, Hà Nội",6469351021,701283319,Nội trợ,156,62,25.5,O+,Đái tháo đường type 2; Thoái hóa khớp,2025-06-21 10:02:00
+538,1195717717,Lê Ngọc Ly,30,Nữ,1995-11-05,"Số 932 Lai Xá, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",2648389533,868418767,Phi công,160,61,23.8,A+,Không có,2025-06-17 12:08:00
+539,1150730332,Bùi Phương Ly,75,Nữ,1950-11-24,"Số 919 Nguyễn Thái Học, Phường Kim Mã, Quận Ba Đình, Hà Nội",4181560542,807995947,Công nhân,160,60,23.4,O+,Không có,2025-06-11 16:28:00
+540,1070722693,Đặng Thanh Sơn,55,Nam,1970-10-17,"Số 542 Ngọc Liệp, Xã Sài Sơn, Huyện Quốc Oai, Hà Nội",7992613826,970977779,Kiểm toán,160,60,23.4,O+,Không có,2025-06-25 16:07:00
+541,1161206824,Vũ Hạnh Ly,64,Nữ,1961-03-30,"Số 389 Nguyễn Văn Cừ, Phường Thạch Bàn, Quận Long Biên, Hà Nội",5306952357,965294128,Biên phiên dịch,171,84,28.7,O+,Đái tháo đường type 2,2025-06-14 16:30:00
+542,1139805376,Lý Phương Như,86,Nữ,1939-03-15,"Số 29 Giảng Võ, Phường Giảng Võ, Quận Ba Đình, Hà Nội",3131701958,863992879,Ngư dân,168,95,33.7,A+,Hội chứng chuyển hóa,2025-06-22 14:08:00
+543,1181495629,Phan Ngọc Hạnh,44,Nữ,1981-03-22,"Số 571 Ngách 23 ngõ 21 Phạm Hùng, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",8451202201,854541648,Phóng viên,180,72,22.2,A+,Không có,2025-06-12 13:25:00
+544,1174420360,Mai Thanh Hoa,51,Nữ,1974-05-10,"Số 924 Cầu Diễn, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",7014579232,871485819,Giáo viên,163,61,23.0,A+,Dị ứng thời tiết,2025-06-23 15:55:00
+545,1094209251,Hoàng Minh Tuấn,31,Nam,1994-09-05,"Số 862 Hoàng Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",8958291585,711639714,Tiếp viên hàng không,162,55,21.0,A+,Không có,2025-06-19 16:30:00
+546,1186626259,Vũ Hải Thảo,39,Nữ,1986-10-26,"Số 726 Cẩm Lĩnh, Xã Cẩm Lĩnh, Huyện Ba Vì, Hà Nội",5343549787,596571564,Kế toán,171,90,30.8,O+,Không có,2025-06-24 16:30:00
+547,1171600094,Bùi Ngọc Như,54,Nữ,1971-10-25,"Số 392 Trần Phú (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",3036930914,315273117,Ngư dân,162,63,24.0,O+,Rối loạn mỡ máu,2025-06-13 15:24:00
+548,1080018429,Đinh Anh Duy,45,Nam,1980-01-07,"Số 249 Liên Hiệp, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",8715390226,547365003,Giáo viên,156,63,25.9,O+,Không có,2025-06-18 12:44:00
+549,1188442787,Trịnh Thanh Phương,37,Nữ,1988-11-26,"Số 148 Quang Trung (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",6493934396,904539252,Phi công,165,64,23.5,A+,Viêm xoang mạn,2025-06-15 15:17:00
+550,1079307345,Bùi Khánh Hải,46,Nam,1979-04-24,"Số 956 Duy Tân, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",8203350516,323251071,Kế toán,149,57,25.7,O+,Không có,2025-06-25 11:00:00
+551,1180411992,Lê Khánh Dung,45,Nữ,1980-07-20,"Số 865 Tố Hữu (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",4494197157,757166328,Ngân hàng,162,75,28.6,A+,Dị ứng thời tiết,2025-06-19 16:30:00
+552,1050059868,Nguyễn Anh Bảo,75,Nam,1950-03-20,"Số 764 Cao Lỗ, Xã Nam Hồng, Huyện Đông Anh, Hà Nội",2461039278,988189304,Bảo vệ,177,87,27.8,B+,Dị ứng thời tiết,2025-06-11 16:30:00
+553,1168905096,Nguyễn Thanh Hoa,57,Nữ,1968-08-03,"Số 732 Nguyễn Thái Học, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",8237356407,930830697,Tạp vụ,151,52,22.8,AB+,Không có,2025-06-13 10:11:00
+554,1182983671,Dương Thanh Ngọc,43,Nữ,1982-05-26,"Số 71 Liên Hiệp, Xã Tam Hiệp, Huyện Phúc Thọ, Hà Nội",2645605956,543180739,Nhân viên logistics,181,76,23.2,AB+,Không có,2025-06-10 14:52:00
+555,1068678719,Hoàng Quang Kiên,57,Nam,1968-02-20,"Số 59 Lê Văn Lương, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",1549080998,597673887,Chủ cửa hàng,168,68,24.1,O+,Rối loạn mỡ máu,2025-06-14 16:30:00
+556,1044741799,Hồ Hữu Hoàng,81,Nam,1944-01-10,"Số 621 Văn Bình, Xã Tô Hiệu, Huyện Thường Tín, Hà Nội",3756002230,534056771,Công nhân,159,65,25.7,O+,Thoái hóa khớp,2025-06-12 15:16:00
+557,1081280516,Mai Anh Phong,44,Nam,1981-11-19,"Số 790 Ngõ 143 Duy Tân, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",7152769584,742022482,Biên phiên dịch,153,50,21.4,O+,Không có,2025-06-10 12:27:00
+558,1096311802,Nguyễn Tấn Dũng,29,Nam,1996-01-22,"Số 26 Trần Hưng Đạo, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",2992569247,888341034,Tiếp viên hàng không,164,52,19.3,O+,Dị ứng thời tiết,2025-06-11 16:30:00
+559,1171179044,Lý Thuỳ Mai,54,Nữ,1971-06-11,"Số 677 Bình Phú, Xã Hữu Bằng, Huyện Thạch Thất, Hà Nội",1314564572,575794074,Phóng viên,153,42,17.9,O+,Đái tháo đường type 2; Rối loạn mỡ máu,2025-06-18 16:30:00
+560,1155264106,Hồ Thanh Như,70,Nữ,1955-02-15,"Số 248 Ngách 43 ngõ 137 Kim Mã, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",7125360640,347486794,Luật sư,182,86,26.0,B+,Đái tháo đường type 2,2025-06-17 15:00:00
+561,1165770177,Mai Thuỳ Hà,60,Nữ,1965-01-28,"Số 954 Hữu Bằng, Xã Thạch Xá, Huyện Thạch Thất, Hà Nội",1049021444,355967433,Hướng dẫn viên du lịch,161,46,17.7,O+,Không có,2025-06-15 12:47:00
+562,1091391703,Ngô Thanh Sơn,34,Nam,1991-03-24,"Số 357 Nguyễn Văn Cừ, Phường Phúc Lợi, Quận Long Biên, Hà Nội",8731739462,787238586,Biên phiên dịch,161,56,21.6,B+,Không có,2025-06-19 16:30:00
+563,1071796706,Hoàng Hữu Lâm,54,Nam,1971-03-05,"Số 125 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",9935464639,997014557,Nhân viên chăm sóc khách hàng,170,62,21.5,O+,Thoái hóa khớp,2025-06-10 12:07:00
+564,1157110156,Mai Thuỳ Hoa,68,Nữ,1957-01-25,"Số 971 Ngách 18 ngõ 190 Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",9469908672,531044817,Bảo vệ,159,73,28.9,A+,Tăng huyết áp,2025-06-10 10:12:00
+565,1068631864,Phạm Phương Duy,57,Nam,1968-01-11,"Số 447 Nguyễn Sơn, Phường Phúc Lợi, Quận Long Biên, Hà Nội",2676403239,393252826,Nhân viên logistics,160,62,24.2,B+,Thoái hóa khớp; Loãng xương,2025-06-13 16:30:00
+566,1074444843,Trần Tấn Nam,51,Nam,1974-08-01,"Số 25 Phạm Văn Đồng, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",8155590627,979025912,Nhân viên IT,164,72,26.8,O+,Không có,2025-06-23 16:30:00
+567,1171802955,Đỗ Anh Dung,54,Nữ,1971-02-07,"Số 578 Thanh Cao, Xã Kim Bài, Huyện Thanh Oai, Hà Nội",5111736703,962567611,Bảo vệ,161,50,19.3,O+,Không có,2025-06-16 12:03:00
+568,1061482873,Vũ Phương Thắng,64,Nam,1961-11-18,"Số 362 Phù Lưu Tế, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",3072019708,728741627,Điều dưỡng,166,55,20.0,A+,Tăng huyết áp,2025-06-15 16:21:00
+569,1185948422,Hoàng Bích Ngân,40,Nữ,1985-02-28,"Số 40 Duy Tân, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",5243753916,928091663,Nhân viên logistics,154,69,29.1,O+,Đái tháo đường type 2,2025-06-18 16:30:00
+570,1163580151,Hoàng Hạnh Hà,62,Nữ,1963-05-29,"Số 122 Nguyễn Trãi, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",7131525523,528058837,Nhân viên chăm sóc khách hàng,160,69,27.0,A+,Rối loạn mỡ máu,2025-06-10 16:30:00
+571,1053255862,Lý Quang Phúc,72,Nam,1953-06-18,"Số 602 Bạch Mai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",9809718614,529355459,Thợ điện,168,62,22.0,B+,Tăng huyết áp; Đái tháo đường type 2,2025-06-25 13:25:00
+572,1165511608,Phan Bích Như,60,Nữ,1965-05-09,"Số 727 Ngõ 132 Nguyễn Văn Cừ, Phường Thạch Bàn, Quận Long Biên, Hà Nội",7128989930,846113997,Chủ cửa hàng,173,101,33.7,A+,Đái tháo đường type 2,2025-06-11 09:59:00
+573,1173184397,Bùi Khánh Quỳnh,52,Nữ,1973-09-20,"Số 627 Phù Lưu Tế, Xã An Tiến, Huyện Mỹ Đức, Hà Nội",8444107692,826543475,Kế toán,170,82,28.4,AB+,Rối loạn mỡ máu,2025-06-13 16:16:00
+574,1082985907,Tạ Hữu Sơn,43,Nam,1982-04-18,"Số 489 Đại Cồ Việt, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",4071776135,307883692,Nhà văn,178,62,19.6,O+,Không có,2025-06-20 16:30:00
+575,1157653273,Phan Ngọc Hoa,68,Nữ,1957-12-16,"Số 252 Phạm Hùng, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",6093555570,500617413,Thợ cơ khí,166,69,25.0,O+,Đái tháo đường type 2,2025-06-21 11:44:00
+576,1131507612,Tạ Anh Linh,94,Nữ,1931-08-03,"Số 688 Tân Mai, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",6026356077,889433276,Huấn luyện viên,161,61,23.5,B+,Đái tháo đường type 2,2025-06-11 14:17:00
+577,1183902220,Lý Thị Trà,42,Nữ,1983-08-06,"Số 69 Xuân Thuỷ (địa phương), Xã Mai Đình, Huyện Sóc Sơn, Hà Nội",1393449076,972162183,Nhân viên văn phòng,170,87,30.1,A+,Mất ngủ mạn tính,2025-06-16 16:30:00
+578,1165307122,Đặng Ngọc Trang,60,Nữ,1965-06-22,"Số 799 Hoàng Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",9872820632,580126980,Hướng dẫn viên du lịch,179,69,21.5,B+,Không có,2025-06-14 11:21:00
+579,1171724525,Đặng Thị Trang,54,Nữ,1971-05-16,"Số 4 Phương Tú, Xã Phương Tú, Huyện Ứng Hòa, Hà Nội",8770612988,972842680,Bán hàng,170,67,23.2,B+,Tăng huyết áp,2025-06-14 11:19:00
+580,1178566880,Lý Khánh Bích,47,Nữ,1978-01-18,"Số 196 Hòa Bình, Xã Văn Bình, Huyện Thường Tín, Hà Nội",9535416019,919848087,Bác sĩ,168,82,29.1,O+,Đái tháo đường type 2,2025-06-19 13:17:00
+581,1072043368,Đỗ Hữu Dũng,53,Nam,1972-05-26,"Số 36 Phan Trọng Tuệ, Xã Tam Hiệp, Huyện Thanh Trì, Hà Nội",1178502050,554972392,Nhân viên khách sạn,162,56,21.3,O+,Đái tháo đường type 2; Rối loạn mỡ máu,2025-06-23 14:33:00
+582,1174396597,Bùi Thuỳ Như,51,Nữ,1974-06-20,"Số 292 Trần Phú (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",6133793766,997681608,Nhân viên chăm sóc khách hàng,172,71,24.0,O+,Không có,2025-06-16 15:21:00
+583,1082586240,Dương Gia Khoa,43,Nam,1982-04-19,"Số 265 Đại Cồ Việt, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",2111085184,868985932,Huấn luyện viên,166,77,27.9,O+,Hội chứng chuyển hóa,2025-06-17 13:13:00
+584,1178642597,Tạ Thuỳ My,47,Nữ,1978-03-17,"Số 625 Hàng Bài, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",9474604293,817847214,Kỹ sư điện,153,76,32.5,A+,Béo phì,2025-06-11 16:22:00
+585,1190769889,Mai Hạnh Trang,35,Nữ,1990-08-05,"Số 777 Tràng Tiền, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",3936059627,719346389,Thiết kế đồ họa,161,64,24.7,O+,Dị ứng thời tiết,2025-06-14 16:30:00
+586,1074622307,Ngô Văn Khánh,51,Nam,1974-10-11,"Số 724 Trần Duy Hưng, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",4727186244,856311213,Phóng viên,163,69,26.0,A+,Thoái hóa khớp,2025-06-25 16:30:00
+587,1305615459,Lê Phương Anh,20,Nữ,2005-07-22,"Số 170 Tây Tựu, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",2288669059,769984288,Dược sĩ,153,55,23.5,B+,Không có,2025-06-22 16:30:00
+588,1176298871,Hoàng Thanh Trà,49,Nữ,1976-12-11,"Số 493 Phạm Ngọc Thạch, Phường Kim Liên, Quận Đống Đa, Hà Nội",3728760320,977834710,Thợ mộc,165,67,24.6,O+,Viêm xoang mạn,2025-06-22 16:30:00
+589,1201573562,Mai Tuấn Lâm,24,Nam,2001-11-22,"Số 599 Giảng Võ, Phường Giảng Võ, Quận Ba Đình, Hà Nội",3285704240,555546893,Bộ đội,174,65,21.5,AB+,Không có,2025-06-22 16:30:00
+590,1182815964,Đặng Phương Giang,43,Nữ,1982-10-13,"Số 950 Phượng Cách, Xã Đông Xuân, Huyện Quốc Oai, Hà Nội",4229124895,787700623,Kế toán,165,66,24.2,A+,Không có,2025-06-11 11:47:00
+591,1052628335,Phạm Tuấn Long,73,Nam,1952-02-16,"Số 212 Đại Cồ Việt, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",3772871565,969579457,Hướng dẫn viên du lịch,166,81,29.4,O+,Hội chứng chuyển hóa; Rối loạn mỡ máu,2025-06-24 16:30:00
+592,1184917148,Hồ Ngọc Chi,41,Nữ,1984-03-09,"Số 966 Duy Tân, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",3165119214,774452030,Bán hàng,165,53,19.5,B+,Dị ứng thời tiết,2025-06-20 16:30:00
+593,1068124402,Tạ Văn Quang,57,Nam,1968-03-29,"Số 736 Hòa Bình, Xã Ninh Sở, Huyện Thường Tín, Hà Nội",6990047941,532546018,Tạp vụ,163,62,23.3,B+,Loãng xương; Tăng huyết áp,2025-06-17 16:30:00
+594,1172276861,Trịnh Thuỳ My,53,Nữ,1972-12-20,"Số 725 Ngách 40 ngõ 75 Tràng Tiền, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",1298908881,966452319,Kỹ sư điện,169,50,17.5,O+,Rối loạn mỡ máu,2025-06-19 16:30:00
+595,1183317236,Đinh Thuỳ Phương,42,Nữ,1983-10-15,"Số 118 Vân Hòa, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",6013320344,956071487,Nghiên cứu viên,163,51,19.2,B+,Không có,2025-06-23 13:37:00
+596,1169378110,Ngô Thanh Anh,56,Nữ,1969-01-14,"Số 14 Âu Cơ, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",7693233700,815800971,Ngân hàng,163,48,18.1,O+,Thoái hóa khớp; Đái tháo đường type 2,2025-06-25 14:09:00
+597,1091587448,Đinh Thái Khoa,34,Nam,1991-07-27,"Số 146 Vũ Trọng Phụng, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",6854551391,960348236,Bảo vệ,145,42,20.0,A+,Không có,2025-06-15 16:30:00
+598,1069584664,Trần Tấn Minh,56,Nam,1969-08-13,"Số 109 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",7014584081,344157281,Phi công,165,64,23.5,B+,Rối loạn mỡ máu,2025-06-23 13:37:00
+599,1181611892,Ngô Phương Linh,44,Nữ,1981-04-12,"Số 389 Lĩnh Nam, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",5034454595,860030119,Giáo viên,163,67,25.2,AB+,Dị ứng thời tiết,2025-06-16 16:30:00
+600,1089742173,Đinh Gia Nam,36,Nam,1989-10-28,"Số 31 Dương Xá, Xã Trâu Quỳ, Huyện Gia Lâm, Hà Nội",1811364034,948437700,Ngân hàng,164,71,26.4,B+,Không có,2025-06-17 14:51:00
+601,1077295449,Hoàng Thái Quân,48,Nam,1977-06-06,"Số 173 Kim Mã, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",8344794592,551638326,Biên phiên dịch,172,65,22.0,O+,Không có,2025-06-20 09:40:00
+602,1182078129,Tạ Hạnh Dung,43,Nữ,1982-08-16,"Số 716 An Mỹ, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",6528337287,767981302,Phi công,168,65,23.0,O+,Không có,2025-06-25 15:14:00
+603,1060894107,Lê Hữu Trung,65,Nam,1960-12-11,"Số 877 Nguyễn Thái Học, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",3473885237,848770078,Kế toán,159,50,19.8,A+,Tăng huyết áp,2025-06-12 12:22:00
+604,1067990966,Hồ Thái Dũng,58,Nam,1967-09-05,"Số 420 Duy Tân, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",1037090703,880886693,Bảo vệ,166,62,22.5,O+,Thoái hóa khớp,2025-06-13 15:15:00
+605,1160296507,Hồ Hải Ly,65,Nữ,1960-12-16,"Số 92 Quang Minh, Xã Đại Thịnh, Huyện Mê Linh, Hà Nội",8947795003,752202626,Diễn viên,158,53,21.2,A+,Rối loạn mỡ máu,2025-06-22 11:50:00
+606,1080573309,Đỗ Đức Duy,45,Nam,1980-03-28,"Số 153 Đức Giang, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",6837990053,869332763,Kỹ sư phần mềm,172,66,22.3,O+,Không có,2025-06-14 09:54:00
+607,1074259310,Đặng Văn Long,51,Nam,1974-04-01,"Số 761 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",2883845612,778047371,Chủ cửa hàng,164,63,23.4,A+,Không có,2025-06-13 16:30:00
+608,1162544215,Phan Ngọc Yến,63,Nữ,1962-07-09,"Số 844 Duy Tân, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",6934288390,597997833,Bán hàng,166,71,25.8,O+,Thoái hóa khớp,2025-06-20 11:22:00
+609,1085666860,Đinh Thanh Phúc,40,Nam,1985-01-06,"Số 439 Tây Tựu, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",2038524276,521559637,Kỹ sư cơ khí,150,64,28.4,O+,Không có,2025-06-18 10:23:00
+610,1178389554,Phan Thị Chi,47,Nữ,1978-01-04,"Số 154 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",4663256732,534874939,Bộ đội,163,67,25.2,AB+,Không có,2025-06-13 11:17:00
+611,1045789378,Trịnh Gia Hải,80,Nam,1945-06-05,"Số 100 Phù Lưu Tế, Xã Hương Sơn, Huyện Mỹ Đức, Hà Nội",1457346694,773387805,Nhà văn,165,63,23.1,O+,Loãng xương; Tăng huyết áp,2025-06-15 15:28:00
+612,1077847719,Trịnh Hải Sơn,48,Nam,1977-08-15,"Số 521 Ngách 8 ngõ 41 Trương Định, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",4089964692,734354869,Kinh doanh tự do,163,54,20.3,O+,Không có,2025-06-12 13:34:00
+613,1069747691,Ngô Phương Quân,56,Nam,1969-05-13,"Số 360 Nguyễn Sơn, Phường Bồ Đề, Quận Long Biên, Hà Nội",1041589333,728660138,Kỹ sư cơ khí,163,81,30.5,O+,Gút,2025-06-24 15:51:00
+614,1171194999,Đinh Bích Quỳnh,54,Nữ,1971-07-17,"Số 422 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",2708049293,585071961,Nông dân,148,75,34.2,O+,Tăng huyết áp,2025-06-10 10:07:00
+615,1083940037,Đặng Anh Anh,42,Nam,1983-01-22,"Số 398 Tràng Tiền, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",1306951657,321186018,Kỹ sư phần mềm,180,66,20.4,O+,Dị ứng thời tiết,2025-06-16 15:24:00
+616,1159231459,Ngô Phương Chi,66,Nữ,1959-08-08,"Số 991 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",3036081641,904460819,Đầu bếp,168,74,26.2,A+,Thoái hóa khớp; Đái tháo đường type 2,2025-06-21 09:53:00
+617,1202950609,Trịnh Anh Minh,23,Nam,2002-05-24,"Số 701 Xuân Đỉnh, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",8429414290,795776253,Vận động viên,164,62,23.1,A+,Không có,2025-06-15 16:30:00
+618,1081016472,Hoàng Khánh Kiên,44,Nam,1981-04-10,"Số 397 Ngõ 195 Đình Thôn, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",9660349824,889670165,Nội trợ,173,72,24.1,O+,Không có,2025-06-18 16:04:00
+619,1154256008,Hồ Thị Ngân,71,Nữ,1954-06-24,"Số 792 Trần Duy Hưng, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",6313184560,799342322,Biên kịch,182,85,25.7,B+,Viêm xoang mạn,2025-06-25 11:37:00
+620,1078408783,Phạm Hữu Thắng,47,Nam,1978-02-08,"Số 953 Bạch Mai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",9181009624,565789635,Giảng viên,162,75,28.6,O+,Không có,2025-06-16 10:43:00
+621,1195488823,Phạm Thuỳ Trang,30,Nữ,1995-12-26,"Số 994 Cầu Diễn, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",1345538828,820476766,Vận động viên,158,55,22.0,B+,Không có,2025-06-21 14:23:00
+622,1180859315,Vũ Thị Yến,45,Nữ,1980-07-18,"Số 839 Nguyễn Văn Cừ, Phường Gia Thụy, Quận Long Biên, Hà Nội",6299645744,531997115,Thiết kế đồ họa,159,69,27.3,O+,Hội chứng chuyển hóa,2025-06-25 10:55:00
+623,1162449975,Mai Minh Chi,63,Nữ,1962-04-26,"Số 971 Tây Sơn, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",3794376382,849033122,Huấn luyện viên,169,76,26.6,O+,Đái tháo đường type 2,2025-06-12 14:23:00
+624,1078747774,Nguyễn Thanh Tuấn,47,Nam,1978-10-12,"Số 387 Kim Bài, Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",2282193868,578472643,Nhiếp ảnh,169,82,28.7,A+,Dị ứng thời tiết,2025-06-22 16:30:00
+625,1061485312,Phạm Anh Kiên,64,Nam,1961-01-17,"Số 317 Nghĩa Hương, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",3421063781,804836481,Thợ hàn,167,61,21.9,O+,Thoái hóa khớp,2025-06-17 16:27:00
+626,1066363659,Hồ Minh Long,59,Nam,1966-02-23,"Số 370 Ngọc Liệp, Xã Đông Xuân, Huyện Quốc Oai, Hà Nội",5174919538,388426723,Chủ cửa hàng,157,58,23.5,O+,Loãng xương,2025-06-24 16:30:00
+627,1194139154,Huỳnh Thuỳ Ly,31,Nữ,1994-02-08,"Số 600 Phố Huế, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",7164790499,357380679,Ngân hàng,150,52,23.1,AB+,Không có,2025-06-18 16:30:00
+628,1178237264,Đặng Anh Phương,47,Nữ,1978-01-24,"Số 481 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",4277011549,377326096,Tạp vụ,164,63,23.4,A+,Không có,2025-06-18 15:35:00
+629,1169943364,Dương Anh Phương,56,Nữ,1969-09-03,"Số 404 Hoa Sơn, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",7694947155,547450240,Thiết kế đồ họa,168,62,22.0,B+,Tăng huyết áp,2025-06-16 15:39:00
+630,1173375480,Ngô Khánh Lan,52,Nữ,1973-01-14,"Số 192 Tràng Tiền, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",5804073730,715063240,Nhân viên IT,175,73,23.8,O+,Không có,2025-06-23 16:30:00
+631,1172660332,Trần Khánh Mai,53,Nữ,1972-05-16,"Số 838 Cao Lỗ, Xã Nam Hồng, Huyện Đông Anh, Hà Nội",3760781951,848497797,Bác sĩ,164,62,23.1,O+,Đái tháo đường type 2,2025-06-14 16:30:00
+632,1080547893,Mai Thái Quân,45,Nam,1980-12-01,"Số 444 Võ Nguyên Giáp (địa phận huyện), Xã Nam Hồng, Huyện Đông Anh, Hà Nội",9129236139,323774599,Nông dân,156,50,20.5,A+,Không có,2025-06-23 11:48:00
+633,1156651064,Đặng Phương Lan,69,Nữ,1956-11-17,"Số 825 Hoàng Mai, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",8365404492,828090317,Nhân viên khách sạn,158,60,24.0,A+,Suy tim,2025-06-13 16:30:00
+634,1059207560,Trần Đức Tùng,66,Nam,1959-04-13,"Số 971 Thụy Khuê, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",1923565403,379915402,Đầu bếp,161,71,27.4,A+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-14 16:27:00
+635,1093500423,Phạm Khánh Lâm,32,Nam,1993-10-13,"Số 34 Đội Cấn, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",8385779739,924553815,Kỹ sư điện,162,63,24.0,B+,Không có,2025-06-13 09:19:00
+636,1069590308,Phạm Thanh Quân,56,Nam,1969-06-22,"Số 16 Phù Lưu Tế, Xã Hương Sơn, Huyện Mỹ Đức, Hà Nội",6089244640,550769555,Pha chế,150,64,28.4,A+,Loãng xương,2025-06-17 12:45:00
+637,1182227754,Phạm Ngọc Lan,43,Nữ,1982-12-31,"Số 527 Hoàng Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",8979007045,794849674,Bán hàng,166,66,24.0,AB+,Không có,2025-06-13 16:30:00
+638,1209125593,Bùi Hữu Khánh,16,Nam,2009-09-08,"Số 934 Phú Lãm (liên huyện), Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",8653145134,370054558,Học sinh,181,64,19.5,O+,Không có,2025-06-21 16:30:00
+639,1067950491,Đỗ Thanh Hải,58,Nam,1967-10-14,"Số 573 Tây Sơn, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",8933686093,360898885,Kinh doanh tự do,155,65,27.1,A+,Tăng huyết áp,2025-06-11 16:30:00
+640,1081532026,Võ Minh Bảo,44,Nam,1981-02-25,"Số 190 Châu Can, Xã Minh Tân, Huyện Phú Xuyên, Hà Nội",2889384478,367663420,Bán hàng,168,73,25.9,A+,Không có,2025-06-15 16:30:00
+641,1187264404,Trịnh Hải Ngân,38,Nữ,1987-05-23,"Số 531 Phùng Hưng (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",5992468714,769399531,Dược sĩ,164,56,20.8,B+,Không có,2025-06-14 16:02:00
+642,1056681182,Huỳnh Văn Minh,69,Nam,1956-07-18,"Số 479 Hồ Tùng Mậu, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",7138674857,930455965,Thợ hàn,149,55,24.8,A+,Loãng xương,2025-06-23 16:30:00
+643,1064764494,Dương Tuấn Long,61,Nam,1964-07-21,"Số 904 Ngõ 75 Lĩnh Nam, Phường Mai Động, Quận Hoàng Mai, Hà Nội",7747152035,391985056,Biên kịch,156,54,22.2,O+,Thoái hóa khớp,2025-06-21 16:30:00
+644,1069632790,Trịnh Hữu Khang,56,Nam,1969-08-05,"Số 844 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, Hà Nội",2845749659,905270259,Nhiếp ảnh,171,58,19.8,A+,Không có,2025-06-25 12:38:00
+645,1082077513,Đinh Thái Phong,43,Nam,1982-06-09,"Số 348 Chúc Sơn, Xã Trường Yên, Huyện Chương Mỹ, Hà Nội",5732043192,843126665,Thợ mộc,173,68,22.7,O+,Không có,2025-06-20 13:48:00
+646,1081247555,Lý Phương Quân,44,Nam,1981-08-03,"Số 116 Nguyễn Xiển, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",7905711218,367932353,Nội trợ,169,62,21.7,A+,Không có,2025-06-21 14:41:00
+647,1187657079,Ngô Hải Ly,38,Nữ,1987-02-11,"Số 423 Lê Văn Lương, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",1204115488,351093346,Bộ đội,158,60,24.0,B+,Dị ứng thời tiết,2025-06-12 15:17:00
+648,1200437009,Phạm Khánh Tuấn,25,Nam,2000-07-07,"Số 11 Phương Tú, Xã Trung Tú, Huyện Ứng Hòa, Hà Nội",2259283397,378568176,Sinh viên,170,68,23.5,A+,Không có,2025-06-21 12:29:00
+649,1084010559,Ngô Quang Duy,41,Nam,1984-05-02,"Số 512 Âu Cơ, Phường Bưởi, Quận Tây Hồ, Hà Nội",7545259357,376509462,Kỹ sư cơ khí,153,63,26.9,B+,Không có,2025-06-10 14:03:00
+650,1167611868,Đặng Khánh Anh,58,Nữ,1967-11-20,"Số 835 Ngõ 224 Nguyễn Chí Thanh, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",8628058777,801497268,Thợ cơ khí,164,53,19.7,O+,Không có,2025-06-25 13:23:00
+651,1054220513,Trần Văn Hải,71,Nam,1954-10-31,"Số 366 Lê Quang Đạo, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",7735818217,848747793,Kinh doanh tự do,165,64,23.5,O+,Đái tháo đường type 2,2025-06-10 13:56:00
+652,1176569997,Đặng Minh Yến,49,Nữ,1976-04-30,"Số 592 Đức Giang, Phường Bồ Đề, Quận Long Biên, Hà Nội",7993353031,587830568,Đầu bếp,165,69,25.3,O+,Không có,2025-06-17 11:56:00
+653,1171781128,Đinh Ngọc Hoa,54,Nữ,1971-05-10,"Số 141 Lý Thường Kiệt, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",7503947505,777791743,Kiểm toán,145,50,23.8,O+,Đái tháo đường type 2,2025-06-22 16:30:00
+654,1091157509,Đinh Phương Quang,34,Nam,1991-02-09,"Số 462 Cổ Linh, Phường Gia Thụy, Quận Long Biên, Hà Nội",4391686708,955069439,Thợ hàn,162,48,18.3,A+,Không có,2025-06-22 11:21:00
+655,1191935492,Trịnh Hải Hà,34,Nữ,1991-05-14,"Số 220 Vân Từ, Xã Phú Túc, Huyện Phú Xuyên, Hà Nội",6384811157,334756016,Nhân viên văn phòng,173,67,22.4,O+,Viêm xoang mạn,2025-06-24 11:16:00
+656,1175922394,Trần Khánh Ngân,50,Nữ,1975-07-19,"Số 854 Tản Lĩnh, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",7039810795,363521412,Tạp vụ,167,62,22.2,O+,Đái tháo đường type 2; Tăng huyết áp,2025-06-19 15:19:00
+657,1080564185,Mai Tuấn Tùng,45,Nam,1980-11-06,"Số 820 Liên Hiệp, Xã Long Xuyên, Huyện Phúc Thọ, Hà Nội",9179157829,352492219,Kỹ sư cơ khí,161,68,26.2,B+,Không có,2025-06-19 13:43:00
+658,1045939142,Trần Đức Bảo,80,Nam,1945-10-23,"Số 635 Phù Lưu Tế, Xã Phù Lưu Tế, Huyện Mỹ Đức, Hà Nội",9886659481,927291367,Thợ mộc,158,58,23.2,B+,Không có,2025-06-14 16:30:00
+659,1185130852,Đặng Thị Trà,40,Nữ,1985-02-18,"Số 129 Tố Hữu (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",8132025342,586707760,Kỹ sư cơ khí,170,84,29.1,O+,Rối loạn mỡ máu,2025-06-25 15:32:00
+660,1146772107,Nguyễn Hải Phương,79,Nữ,1946-10-04,"Số 732 Thanh Cao, Xã Kim Bài, Huyện Thanh Oai, Hà Nội",3542654168,939276398,Lái xe,157,63,25.6,O+,Không có,2025-06-20 16:30:00
+661,1172868070,Hồ Khánh Linh,53,Nữ,1972-08-23,"Số 73 Đông Xuân, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",4534705070,875088494,Kỹ sư cơ khí,156,44,18.1,A+,Không có,2025-06-23 09:58:00
+662,1196213805,Hồ Khánh Ngân,29,Nữ,1996-07-31,"Số 345 Bạch Mai, Phường Quỳnh Mai, Quận Hai Bà Trưng, Hà Nội",2541963511,396745136,Nội trợ,164,48,17.8,O+,Không có,2025-06-21 14:07:00
+663,1187223426,Mai Thuỳ Trang,38,Nữ,1987-09-12,"Số 65 Quang Minh, Xã Mê Linh, Huyện Mê Linh, Hà Nội",5752112759,837311493,Công nhân,162,42,16.0,O+,Mất ngủ mạn tính,2025-06-14 14:36:00
+664,1158036485,Nguyễn Phương Dung,67,Nữ,1958-09-18,"Số 459 Xuân Đỉnh, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",7878732149,997032043,Thiết kế đồ họa,145,51,24.3,A+,Suy tim,2025-06-23 15:26:00
+665,1089004601,Đinh Quang Khánh,36,Nam,1989-02-03,"Số 49 Thái Hà, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",6672176189,998787767,Tiếp viên hàng không,168,64,22.7,B+,Không có,2025-06-25 13:26:00
+666,1188818939,Phạm Khánh Ly,37,Nữ,1988-11-06,"Số 327 Trần Cung, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",8341880796,703157585,Công an,172,62,21.0,A+,Không có,2025-06-20 15:22:00
+667,1046063856,Đặng Đức Bảo,79,Nam,1946-05-09,"Số 704 Liên Trung, Xã Hồng Hà, Huyện Đan Phượng, Hà Nội",4544078967,888892210,Thiết kế đồ họa,162,67,25.5,B+,Tăng huyết áp,2025-06-21 16:30:00
+668,1055041048,Hoàng Khánh Phong,70,Nam,1955-10-03,"Số 308 Tản Lĩnh, Xã Cẩm Lĩnh, Huyện Ba Vì, Hà Nội",9671101877,333257044,Đầu bếp,158,42,16.8,O+,Dị ứng thời tiết,2025-06-10 13:30:00
+669,1066030438,Ngô Hải Trung,59,Nam,1966-12-14,"Số 165 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",2301864323,345651812,Kỹ sư phần mềm,171,54,18.5,A+,Không có,2025-06-12 12:41:00
+670,1159362512,Hoàng Thị Như,66,Nữ,1959-06-19,"Số 12 Phố Vọng, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",1052214426,835384256,Kiểm toán,169,45,15.8,O+,Dị ứng thời tiết,2025-06-18 10:41:00
+671,1084261845,Hồ Văn Phúc,41,Nam,1984-05-18,"Số 110 Võ Chí Công, Phường Quảng An, Quận Tây Hồ, Hà Nội",1232358593,780352880,Pha chế,160,59,23.0,O+,Không có,2025-06-24 16:09:00
+672,1181252477,Trần Hạnh Thảo,44,Nữ,1981-05-31,"Số 290 Võ Nguyên Giáp (địa phận huyện), Xã Nam Hồng, Huyện Đông Anh, Hà Nội",7988264862,855377938,Ngư dân,157,75,30.4,O+,Không có,2025-06-22 11:27:00
+673,1071601609,Hồ Thanh Huy,54,Nam,1971-11-05,"Số 724 Bạch Mai, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",4250394398,944278952,Nhà văn,158,59,23.6,A+,Thoái hóa khớp; Tăng huyết áp,2025-06-23 16:30:00
+674,1061812731,Nguyễn Đức Long,64,Nam,1961-08-22,"Số 615 Vân Canh, Xã La Phù, Huyện Hoài Đức, Hà Nội",7176404046,751128638,Ngân hàng,164,65,24.2,O+,Tăng huyết áp,2025-06-19 16:30:00
+675,1079207459,Phan Minh Long,46,Nam,1979-11-05,"Số 326 Minh Khai, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",4278396921,710026077,Công nhân,158,53,21.2,B+,Không có,2025-06-18 11:50:00
+676,1084653715,Tạ Gia Dũng,41,Nam,1984-10-18,"Số 570 Nguyễn Thái Học, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",8933773129,834148502,Nhân viên logistics,156,64,26.3,A+,Không có,2025-06-14 16:17:00
+677,1165712189,Vũ Bích Dung,60,Nữ,1965-10-15,"Số 833 Võ Chí Công, Phường Xuân La, Quận Tây Hồ, Hà Nội",6175790323,388806094,Bán hàng,161,51,19.7,AB+,Thoái hóa khớp,2025-06-12 11:10:00
+678,1046497236,Phạm Anh Huy,79,Nam,1946-01-23,"Số 295 Cao Viên, Xã Cao Viên, Huyện Thanh Oai, Hà Nội",4845046217,843493941,Huấn luyện viên,154,67,28.3,A+,Tăng huyết áp,2025-06-11 16:30:00
+679,1160857491,Lý Khánh Linh,65,Nữ,1960-07-03,"Số 669 Tây Tựu, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",8701249316,759824378,Diễn viên,162,62,23.6,O+,Không có,2025-06-10 16:30:00
+680,1097569269,Hồ Tấn Hải,28,Nam,1997-08-17,"Số 190 Kim Bài, Xã Bích Hòa, Huyện Thanh Oai, Hà Nội",1857895915,524256600,Kiểm toán,166,72,26.1,A+,Không có,2025-06-25 16:30:00
+681,1186303413,Trịnh Hải Phương,39,Nữ,1986-01-24,"Số 880 Nguyễn Trãi (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",8060074614,537004917,Kinh doanh tự do,162,63,24.0,AB+,Không có,2025-06-12 12:57:00
+682,1061774054,Bùi Hữu Nam,64,Nam,1961-07-03,"Số 175 Khuất Duy Tiến, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",2988726349,512233998,Tạp vụ,164,49,18.2,B+,Đái tháo đường type 2,2025-06-16 16:30:00
+683,1077771541,Đinh Hữu Huy,48,Nam,1977-08-03,"Số 412 Tố Hữu (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",8765766647,808520852,Thợ cơ khí,165,74,27.2,A+,Hội chứng chuyển hóa; Rối loạn mỡ máu,2025-06-13 16:30:00
+684,1179298872,Hồ Thị Thảo,46,Nữ,1979-09-28,"Số 912 Võ Chí Công, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",9640067246,839032143,Dược sĩ,181,53,16.2,O+,Dị ứng thời tiết,2025-06-10 15:15:00
+685,1178184065,Bùi Anh Hoa,47,Nữ,1978-02-25,"Số 584 Nguyễn Trãi, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",8457835179,938713556,Biên phiên dịch,163,61,23.0,AB+,Không có,2025-06-10 16:30:00
+686,1088586417,Dương Đức Nam,37,Nam,1988-10-21,"Số 882 Âu Cơ, Phường Xuân La, Quận Tây Hồ, Hà Nội",3936842685,379736799,Bảo vệ,167,71,25.5,B+,Không có,2025-06-12 16:30:00
+687,1169387212,Đặng Minh My,56,Nữ,1969-01-05,"Số 188 Lý Thường Kiệt, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",4393508243,562538140,Công nhân,166,61,22.1,O+,Rối loạn mỡ máu,2025-06-20 11:14:00
+688,1094024843,Mai Văn Trung,31,Nam,1994-03-23,"Số 656 Hữu Bằng, Xã Bình Phú, Huyện Thạch Thất, Hà Nội",5404310907,818235327,Nhân viên IT,158,61,24.4,A+,Không có,2025-06-15 15:10:00
+689,1067126661,Trần Hải Khánh,58,Nam,1967-08-28,"Số 985 Kim Mã, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",4390627989,782477339,Chủ cửa hàng,164,70,26.0,O+,Tăng huyết áp,2025-06-19 10:27:00
+690,1178593955,Ngô Hải Trà,47,Nữ,1978-08-15,"Số 690 Ngách 25 ngõ 71 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",5364443296,914220072,Ngư dân,164,70,26.0,O+,Không có,2025-06-20 13:03:00
+691,1071093385,Đỗ Anh Khang,54,Nam,1971-02-24,"Số 882 Đình Thôn, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",7586172847,334463324,Phi công,162,62,23.6,B+,Tăng huyết áp,2025-06-18 12:40:00
+692,1147185176,Vũ Bích Trang,78,Nữ,1947-06-10,"Số 762 Ô Chợ Dừa, Phường Kim Liên, Quận Đống Đa, Hà Nội",9421092225,345579537,Diễn viên,162,68,25.9,A+,Không có,2025-06-17 12:08:00
+693,1054093524,Ngô Đức Phúc,71,Nam,1954-03-04,"Số 267 Nguyễn Sơn, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",1878347679,307824466,Ngư dân,167,75,26.9,AB+,Tăng huyết áp,2025-06-25 13:09:00
+694,1056855925,Hoàng Tuấn Tuấn,69,Nam,1956-01-09,"Số 753 Cẩm Lĩnh, Xã Cẩm Lĩnh, Huyện Ba Vì, Hà Nội",7892704723,544666105,Nhiếp ảnh,147,49,22.7,O+,Không có,2025-06-22 13:55:00
+695,1162879244,Dương Thuỳ Linh,63,Nữ,1962-12-23,"Số 684 Nguyễn Thái Học, Phường Giảng Võ, Quận Ba Đình, Hà Nội",4183801693,776912377,Nhạc công,175,77,25.1,A+,Không có,2025-06-15 13:02:00
+696,1182239152,Tạ Ngọc Dung,43,Nữ,1982-01-04,"Số 172 Thái Hà, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",7720129590,517756900,Nhân viên chăm sóc khách hàng,157,67,27.2,B+,Viêm xoang mạn,2025-06-12 16:30:00
+697,1173834387,Phạm Thanh Yến,52,Nữ,1973-06-08,"Số 60 Hữu Bằng, Xã Bình Phú, Huyện Thạch Thất, Hà Nội",8282040093,908349123,Nhân viên logistics,163,70,26.3,O+,Không có,2025-06-10 16:30:00
+698,1307183252,Phạm Minh Trang,18,Nữ,2007-12-24,"Số 578 Lĩnh Nam, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",3670116781,367862902,Nông dân,180,66,20.4,O+,Không có,2025-06-24 16:30:00
+699,1166040531,Mai Hạnh Bích,59,Nữ,1966-11-25,"Số 328 Kim Đồng, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",1378467970,383076440,Thợ xây,150,50,22.2,O+,Rối loạn mỡ máu; Tăng huyết áp,2025-06-22 14:40:00
+700,1084973282,Lê Hải Long,41,Nam,1984-08-20,"Số 262 Phố Vọng, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",1502406511,847117064,Phi công,162,61,23.2,A+,Không có,2025-06-24 11:48:00
+701,1169481388,Lý Thanh Thảo,56,Nữ,1969-06-07,"Số 924 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",1170921764,717702238,Biên phiên dịch,156,54,22.2,O+,Đái tháo đường type 2; Tăng huyết áp,2025-06-14 14:09:00
+702,1085489873,Đỗ Phương Hải,40,Nam,1985-09-30,"Số 914 Giảng Võ, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",1939866398,764844273,Bộ đội,164,73,27.1,A+,Hội chứng chuyển hóa,2025-06-14 09:44:00
+703,1193867622,Phạm Minh Thảo,32,Nữ,1993-10-11,"Số 200 Kim Mã, Phường Giảng Võ, Quận Ba Đình, Hà Nội",2563452636,588623357,Nội trợ,176,75,24.2,O+,Không có,2025-06-23 16:30:00
+704,1083442111,Huỳnh Khánh Dũng,42,Nam,1983-04-15,"Số 647 Tố Hữu (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",7381512911,847924642,Nhà văn,153,54,23.1,A+,Không có,2025-06-23 15:06:00
+705,1156923057,Đặng Minh Mai,69,Nữ,1956-09-02,"Số 926 Tây Đằng, Xã Vân Hòa, Huyện Ba Vì, Hà Nội",5301460669,810696374,Dược sĩ,162,81,30.9,A+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-15 16:30:00
+706,1091506147,Phan Hữu Thắng,34,Nam,1991-07-17,"Số 46 Giải Phóng, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",3898683212,386149842,Huấn luyện viên,163,50,18.8,O+,Dị ứng thời tiết,2025-06-19 10:05:00
+707,1164424607,Huỳnh Phương My,61,Nữ,1964-05-22,"Số 949 Phương Tú, Xã Phương Tú, Huyện Ứng Hòa, Hà Nội",8637982930,757797983,Diễn viên,171,68,23.3,O+,Thoái hóa khớp,2025-06-20 14:33:00
+708,1092043903,Dương Phương Anh,33,Nam,1992-06-11,"Số 876 Đại Cồ Việt, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",7075121018,726226441,Tiếp viên hàng không,165,65,23.9,A+,Viêm xoang mạn,2025-06-14 13:21:00
+709,1051737485,Đinh Hải Duy,74,Nam,1951-06-15,"Số 53 Lê Quang Đạo, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",8929496523,967499902,Thợ điện,155,66,27.5,O+,Đái tháo đường type 2; Tăng huyết áp,2025-06-13 15:18:00
+710,1152851397,Dương Ngọc Anh,73,Nữ,1952-04-23,"Số 278 Ngõ 203 Khuất Duy Tiến, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",7118978737,582659338,Thợ điện,149,58,26.1,O+,Dị ứng thời tiết,2025-06-13 11:54:00
+711,1177330854,Trịnh Bích Dung,48,Nữ,1977-05-06,"Số 228 Ngách 9 ngõ 41 Tây Tựu, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",4676777736,776455459,Giáo viên,163,67,25.2,B+,Không có,2025-06-20 16:30:00
+712,1177110269,Phan Bích Lan,48,Nữ,1977-07-03,"Số 669 Trâu Quỳ, Xã Trâu Quỳ, Huyện Gia Lâm, Hà Nội",2485507026,706260674,Nghiên cứu viên,158,60,24.0,B+,Không có,2025-06-14 16:30:00
+713,1186648342,Đinh Anh Vy,39,Nữ,1986-02-24,"Số 941 Tây Sơn, Phường Kim Liên, Quận Đống Đa, Hà Nội",9937712582,948891994,Nhạc công,155,64,26.6,B+,Không có,2025-06-25 14:40:00
+714,1087456446,Huỳnh Quang Khánh,38,Nam,1987-10-26,"Số 898 Thanh Lâm, Xã Tráng Việt, Huyện Mê Linh, Hà Nội",9554701897,895014670,Pha chế,169,73,25.6,B+,Không có,2025-06-15 14:01:00
+715,1309073460,Hoàng Hải Trà,16,Nữ,2009-09-05,"Số 90 Tân Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",8542832867,951506688,Học sinh,158,71,28.4,O+,Hội chứng chuyển hóa,2025-06-16 16:30:00
+716,1076689409,Đỗ Hữu Lâm,49,Nam,1976-08-03,"Số 424 Tràng Tiền, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",7322451825,896192126,Nhân viên khách sạn,167,75,26.9,B+,Không có,2025-06-17 16:30:00
+717,1173043692,Hoàng Thanh Mai,52,Nữ,1973-11-18,"Số 416 Quang Trung (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",4191986370,955360622,Thợ hàn,159,75,29.7,O+,Gút,2025-06-12 16:30:00
+718,1043032730,Hoàng Thanh Khang,82,Nam,1943-12-30,"Số 235 Ngọc Liệp, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",9820380695,962185311,Kiểm toán,171,74,25.3,O+,Suy tim,2025-06-18 16:30:00
+719,1182663694,Đặng Anh Anh,43,Nữ,1982-08-06,"Số 198 Nguyễn Chí Thanh, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",5037535313,545275671,Giảng viên,157,64,26.0,A+,Mất ngủ mạn tính,2025-06-21 16:30:00
+720,1163838820,Đinh Thuỳ Linh,62,Nữ,1963-11-03,"Số 410 Ngô Gia Tự, Phường Gia Thụy, Quận Long Biên, Hà Nội",3822619549,329484943,Huấn luyện viên,175,84,27.4,A+,Thoái hóa khớp,2025-06-14 15:31:00
+721,1092388655,Phan Đức Long,33,Nam,1992-02-09,"Số 578 Tố Hữu (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",4601941270,861853608,Thợ cơ khí,172,59,19.9,A+,Không có,2025-06-20 16:30:00
+722,1175203734,Đinh Hải My,50,Nữ,1975-08-15,"Số 3 Trần Duy Hưng, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",4967705467,593164909,Kỹ sư phần mềm,166,88,31.9,AB+,Rối loạn mỡ máu,2025-06-15 16:11:00
+723,1206058868,Dương Đức Quân,19,Nam,2006-12-05,"Số 279 Tiền Phong, Xã Đại Thịnh, Huyện Mê Linh, Hà Nội",6804014615,970001900,Học sinh,168,68,24.1,A+,Không có,2025-06-22 16:30:00
+724,1156183213,Lê Khánh Yến,69,Nữ,1956-09-11,"Số 43 Vũ Trọng Phụng, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",5294125979,990323887,Thợ xây,161,83,32.0,A+,Không có,2025-06-15 13:47:00
+725,1207340399,Phạm Anh Long,18,Nam,2007-02-06,"Số 418 Phùng Hưng (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",8026638207,354818513,Học sinh,167,74,26.5,O+,Dị ứng thời tiết,2025-06-16 13:40:00
+726,1057302875,Dương Văn Sơn,68,Nam,1957-01-18,"Số 449 Phạm Hùng, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",5972655713,849674514,Kiểm toán,159,57,22.5,O+,Viêm xoang mạn,2025-06-21 15:32:00
+727,1186825269,Vũ Bích Hạnh,39,Nữ,1986-09-23,"Số 886 Nguyễn Xiển, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",8050680983,931934650,Chủ cửa hàng,167,75,26.9,O+,Không có,2025-06-14 16:30:00
+728,1306333892,Lê Anh Ngân,19,Nữ,2006-07-12,"Số 740 Cầu Diễn, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",9032427161,962869747,Học sinh,177,78,24.9,O+,Dị ứng thời tiết,2025-06-11 16:30:00
+729,1186872681,Hoàng Phương My,39,Nữ,1986-08-29,"Số 1 Vân Canh, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",4941854554,389258831,Công an,160,68,26.6,O+,Viêm xoang mạn,2025-06-10 10:48:00
+730,1157571689,Tạ Minh Hạnh,68,Nữ,1957-07-14,"Số 322 Xuân Thủy, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",1882309258,828946736,Chủ cửa hàng,161,64,24.7,O+,Rối loạn mỡ máu,2025-06-20 16:30:00
+731,1092474911,Dương Gia Sơn,33,Nam,1992-09-20,"Số 442 Ô Chợ Dừa, Phường Kim Liên, Quận Đống Đa, Hà Nội",5140857962,595110848,Nhiếp ảnh,161,71,27.4,A+,Đái tháo đường type 2; Viêm xoang mạn,2025-06-18 11:10:00
+732,1194469017,Đặng Thuỳ Anh,31,Nữ,1994-01-04,"Số 427 Hồ Tùng Mậu, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",8321650242,589354407,Vận động viên,168,68,24.1,O+,Viêm xoang mạn,2025-06-22 12:03:00
+733,1179050667,Đặng Thanh Quỳnh,46,Nữ,1979-05-05,"Số 779 Giải Phóng, Phường Mai Động, Quận Hoàng Mai, Hà Nội",3492202881,720895217,Pha chế,169,73,25.6,B+,Không có,2025-06-18 16:30:00
+734,1062913943,Hoàng Khánh Minh,63,Nam,1962-05-23,"Số 575 Ngách 30 ngõ 234 Tân Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",7543999428,780330864,Biên kịch,159,42,16.6,B+,Không có,2025-06-15 16:30:00
+735,1053182377,Đinh Phương Minh,72,Nam,1953-06-11,"Số 582 Lý Thường Kiệt, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",1034568848,857374496,Bảo vệ,160,55,21.5,O+,Rối loạn mỡ máu; Tăng huyết áp,2025-06-12 12:54:00
+736,1088412081,Hoàng Khánh Phúc,37,Nam,1988-08-28,"Số 695 Hương Sơn, Xã An Tiến, Huyện Mỹ Đức, Hà Nội",4935160269,777526684,Bộ đội,164,64,23.8,AB+,Không có,2025-06-20 14:23:00
+737,1072429839,Trần Anh Duy,53,Nam,1972-07-16,"Số 551 Ngọc Hòa, Xã Phú Nghĩa, Huyện Chương Mỹ, Hà Nội",4401149974,854737704,Nhạc công,153,62,26.5,B+,Loãng xương,2025-06-18 14:16:00
+738,1204977396,Đinh Hữu Bảo,21,Nam,2004-06-21,"Số 532 Đường Tả Thanh Oai, Xã Tả Thanh Oai, Huyện Thanh Trì, Hà Nội",8569430721,987716991,Sinh viên,160,60,23.4,O+,Viêm xoang mạn,2025-06-15 11:33:00
+739,1202786712,Huỳnh Hải Hải,23,Nam,2002-06-19,"Số 777 Duy Tân, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",5991960841,785537304,Sinh viên,153,55,23.5,O+,Không có,2025-06-21 16:30:00
+740,1066400040,Trần Thái Tùng,59,Nam,1966-05-19,"Số 498 Nguyễn Sơn, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",9854273449,899251973,Phóng viên,171,61,20.9,B+,Tăng huyết áp,2025-06-10 16:30:00
+741,1189837105,Tạ Anh Lan,36,Nữ,1989-08-25,"Số 732 Cầu Giấy, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",1402560041,516677527,Thợ cơ khí,162,56,21.3,B-,Không có,2025-06-25 16:30:00
+742,1077763506,Tạ Thanh Huy,48,Nam,1977-02-22,"Số 499 Phượng Cách, Xã Sài Sơn, Huyện Quốc Oai, Hà Nội",3270254316,591584647,Bác sĩ,165,59,21.7,O+,Không có,2025-06-14 13:48:00
+743,1188369061,Võ Bích Dung,37,Nữ,1988-01-23,"Số 886 Cầu Giấy, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",7766540532,721694353,Tạp vụ,159,64,25.3,B+,Không có,2025-06-22 16:30:00
+744,1308380573,Đỗ Anh Hoa,17,Nữ,2008-02-04,"Số 419 Phố Huế, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",6705295086,974412359,Học sinh,169,76,26.6,A+,Không có,2025-06-21 16:14:00
+745,1163255151,Đinh Anh Lan,62,Nữ,1963-11-28,"Số 69 Nhị Khê, Xã Văn Bình, Huyện Thường Tín, Hà Nội",5458019762,334616461,Hướng dẫn viên du lịch,163,67,25.2,O+,Không có,2025-06-18 15:31:00
+746,1307470810,Tạ Hạnh Chi,18,Nữ,2007-12-12,"Số 793 Trung Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",5812681793,308058899,Học sinh,164,68,25.3,B+,Không có,2025-06-12 15:00:00
+747,1189081056,Lê Thuỳ Thảo,36,Nữ,1989-06-24,"Số 719 Ngách 10 ngõ 36 Kim Đồng, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",5676428125,983620749,Nghiên cứu viên,164,49,18.2,A+,Mất ngủ mạn tính,2025-06-16 14:32:00
+748,1167578130,Bùi Hải Hà,58,Nữ,1967-07-20,"Số 408 Nguyễn Thái Học, Phường Liễu Giai, Quận Ba Đình, Hà Nội",6322307248,864126139,Hướng dẫn viên du lịch,158,76,30.4,O+,Thoái hóa khớp; Tăng huyết áp,2025-06-17 12:59:00
+749,1168859881,Hồ Hải Phương,57,Nữ,1968-09-20,"Số 425 Yên Trung, Xã Bình Phú, Huyện Thạch Thất, Hà Nội",3368312753,718399557,Ngân hàng,170,93,32.2,B+,Rối loạn mỡ máu,2025-06-24 09:43:00
+750,1182801771,Bùi Hạnh Trang,43,Nữ,1982-03-10,"Số 229 Thụy Hương, Xã Trường Yên, Huyện Chương Mỹ, Hà Nội",5391032318,867906674,Ngư dân,167,53,19.0,A+,Không có,2025-06-20 16:30:00
+751,1064187779,Trịnh Đức Khánh,61,Nam,1964-01-10,"Số 271 Đình Thôn, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",8745750218,952114846,Nhân viên văn phòng,178,71,22.4,AB+,Tăng huyết áp; Đái tháo đường type 2,2025-06-17 11:51:00
+752,1083598358,Đỗ Gia Khánh,42,Nam,1983-08-25,"Số 661 Chùa Bộc, Phường Láng Hạ, Quận Đống Đa, Hà Nội",7794677818,986361395,Phóng viên,163,85,32.0,A+,Béo phì,2025-06-21 16:28:00
+753,1158499779,Nguyễn Thuỳ Trà,67,Nữ,1958-06-30,"Số 262 Đức Giang, Phường Thạch Bàn, Quận Long Biên, Hà Nội",3515759514,909671080,Huấn luyện viên,156,75,30.8,O+,Hội chứng chuyển hóa,2025-06-12 16:30:00
+754,1194652948,Lê Ngọc Yến,31,Nữ,1994-07-21,"Số 223 Trung Tú, Xã Hoa Sơn, Huyện Ứng Hòa, Hà Nội",6367577773,726587503,Nghiên cứu viên,181,89,27.2,A+,Không có,2025-06-11 15:59:00
+755,1143907466,Bùi Bích Ngọc,82,Nữ,1943-10-23,"Số 400 Xuân Thủy, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",4253695255,976735078,Hướng dẫn viên du lịch,150,57,25.3,B+,Mất ngủ mạn tính,2025-06-20 16:30:00
+756,1172261499,Bùi Hạnh Linh,53,Nữ,1972-02-06,"Số 595 Nguyễn Văn Huyên (kéo dài), Xã Nam Hồng, Huyện Đông Anh, Hà Nội",6663006362,305164078,Dược sĩ,155,45,18.7,A+,Không có,2025-06-25 16:30:00
+757,1184353739,Lý Thanh Vy,41,Nữ,1984-02-16,"Số 714 Lê Văn Lương, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",1712996991,748270029,Phi công,168,65,23.0,O+,Viêm xoang mạn,2025-06-19 14:19:00
+758,1190602136,Lê Phương Ly,35,Nữ,1990-05-15,"Số 177 Ngõ 152 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",2765589223,752858706,Công an,176,75,24.2,O+,Không có,2025-06-12 14:24:00
+759,1082359647,Trần Thái Kiên,43,Nam,1982-07-11,"Số 155 Đại Xuyên, Xã Đại Thắng, Huyện Phú Xuyên, Hà Nội",2850880875,845058105,Bác sĩ,170,89,30.8,A+,Không có,2025-06-15 11:58:00
+760,1188364653,Võ Khánh Hoa,37,Nữ,1988-07-11,"Số 160 Đông Xuân, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",2502374387,545052194,Nhân viên nhà hàng,163,88,33.1,O+,Hội chứng chuyển hóa,2025-06-13 16:30:00
+761,1052609859,Hồ Gia Tùng,73,Nam,1952-07-28,"Số 452 Xuân Đỉnh, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",9955713198,744961639,Kiểm toán,166,72,26.1,O+,Không có,2025-06-12 12:15:00
+762,1069987557,Nguyễn Tuấn Phong,56,Nam,1969-10-08,"Số 360 Mễ Trì, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",6405919344,546271239,Kiểm toán,174,75,24.8,O+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-12 15:55:00
+763,1192597598,Mai Thanh Hạnh,33,Nữ,1992-04-09,"Số 501 Liên Hiệp, Xã Vân Phúc, Huyện Phúc Thọ, Hà Nội",8376309773,983666097,Vận động viên,173,68,22.7,A+,Không có,2025-06-18 12:38:00
+764,1186445072,Hoàng Minh Ngọc,39,Nữ,1986-12-18,"Số 152 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa, Hà Nội",1594156711,875398724,Thợ cơ khí,156,42,17.3,B+,Không có,2025-06-21 16:03:00
+765,1063805365,Hồ Hữu Long,62,Nam,1963-12-20,"Số 873 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội",3815683870,578537982,Hướng dẫn viên du lịch,153,42,17.9,O+,Tăng huyết áp,2025-06-17 12:51:00
+766,1150483681,Ngô Thanh Vy,75,Nữ,1950-10-14,"Số 381 Liên Trung, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",4541057725,340258988,Điều dưỡng,170,68,23.5,O+,Loãng xương,2025-06-10 14:41:00
+767,1172660816,Đặng Thanh Giang,53,Nữ,1972-02-29,"Số 671 Kim Mã, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",6840892270,899064949,Nhà văn,145,58,27.6,O+,Rối loạn mỡ máu; Gút,2025-06-14 10:39:00
+768,1080363836,Trần Anh Khang,45,Nam,1980-12-13,"Số 227 Hàng Bài, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",5496639000,753980488,Nhân viên khách sạn,166,44,16.0,B+,Không có,2025-06-23 15:14:00
+769,1155688130,Trần Thuỳ Như,70,Nữ,1955-07-23,"Số 259 Đức Giang, Phường Gia Thụy, Quận Long Biên, Hà Nội",8312536127,898762295,Thợ cơ khí,157,48,19.5,AB+,Bệnh mạch vành; Tăng huyết áp,2025-06-24 12:25:00
+770,1175447165,Mai Hải Hoa,50,Nữ,1975-02-12,"Số 614 Nghĩa Hương, Xã Nghĩa Hương, Huyện Quốc Oai, Hà Nội",5191378049,976209383,Thợ hàn,159,71,28.1,A+,Tăng huyết áp; Hội chứng chuyển hóa,2025-06-22 12:45:00
+771,1176741464,Đỗ Anh Ngân,49,Nữ,1976-01-02,"Số 395 Minh Khai, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",3138415510,954252750,Nhạc công,174,76,25.1,O+,Không có,2025-06-24 16:30:00
+772,1185937813,Lý Thanh Trà,40,Nữ,1985-12-03,"Số 440 Nguyễn Sơn, Phường Phúc Lợi, Quận Long Biên, Hà Nội",9194687749,594499313,Nhân viên văn phòng,163,79,29.7,O+,Hội chứng chuyển hóa,2025-06-15 12:41:00
+773,1168316131,Tạ Bích Lan,57,Nữ,1968-01-17,"Số 205 Nguyễn Trãi, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",7648023628,319388953,Điều dưỡng,160,75,29.3,O+,Không có,2025-06-17 12:49:00
+774,1147862365,Tạ Hải Phương,78,Nữ,1947-01-07,"Số 135 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",3613506210,940157997,Đầu bếp,164,53,19.7,AB+,Suy tim,2025-06-12 11:28:00
+775,1063407373,Nguyễn Minh Khánh,62,Nam,1963-02-28,"Số 27 Liên Hiệp, Xã Vân Phúc, Huyện Phúc Thọ, Hà Nội",7070247485,898889213,Nhân viên chăm sóc khách hàng,150,70,31.1,O+,Viêm xoang mạn,2025-06-20 12:01:00
+776,1077972540,Lê Anh Phúc,48,Nam,1977-03-11,"Số 412 Liên Trung, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",9007924636,898375550,Kinh doanh tự do,163,56,21.1,O+,Không có,2025-06-22 12:08:00
+777,1183990317,Phan Bích Hà,42,Nữ,1983-01-17,"Số 826 Phượng Cách, Xã Nghĩa Hương, Huyện Quốc Oai, Hà Nội",1101460193,552062260,Thiết kế đồ họa,169,66,23.1,A+,Viêm xoang mạn,2025-06-17 15:21:00
+778,1169405199,Vũ Hải Ngọc,56,Nữ,1969-08-27,"Số 162 Vân Từ, Xã Nam Phong, Huyện Phú Xuyên, Hà Nội",2763524130,528671066,Nhạc công,155,65,27.1,O+,Đái tháo đường type 2; Rối loạn mỡ máu,2025-06-13 11:24:00
+779,1055158789,Phạm Hữu Dũng,70,Nam,1955-07-21,"Số 265 Giải Phóng, Phường Mai Động, Quận Hoàng Mai, Hà Nội",5546731371,841906695,Hướng dẫn viên du lịch,162,78,29.7,O+,Bệnh mạch vành; Tăng huyết áp,2025-06-14 11:21:00
+780,1171061301,Huỳnh Thị Linh,54,Nữ,1971-08-25,"Số 988 Thụy Khuê, Phường Xuân La, Quận Tây Hồ, Hà Nội",5001915426,378241164,Thiết kế đồ họa,170,50,17.3,O+,Tăng huyết áp,2025-06-17 09:54:00
+781,1064223064,Trịnh Khánh Quang,61,Nam,1964-09-27,"Số 101 Vũ Trọng Phụng, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",7652174645,531649506,Đầu bếp,161,66,25.5,O+,Tăng huyết áp,2025-06-10 13:50:00
+782,1168107890,Mai Bích Anh,57,Nữ,1968-05-03,"Số 281 Trần Duy Hưng, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",5747334359,836970168,Kỹ sư cơ khí,165,72,26.4,B+,Không có,2025-06-11 16:30:00
+783,1178596897,Trịnh Anh Vy,47,Nữ,1978-09-23,"Số 944 Phạm Văn Đồng, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",3668063992,716119540,Bảo vệ,168,81,28.7,B+,Gút,2025-06-13 09:48:00
+784,1191908806,Hoàng Phương Hoa,34,Nữ,1991-11-27,"Số 798 Văn Bình, Xã Văn Bình, Huyện Thường Tín, Hà Nội",2256772503,956162714,Nhân viên logistics,157,51,20.7,O+,Không có,2025-06-15 14:57:00
+785,1086420793,Hoàng Tuấn Bảo,39,Nam,1986-11-08,"Số 881 Tô Ngọc Vân, Phường Quảng An, Quận Tây Hồ, Hà Nội",4095587799,564273795,Nhân viên nhà hàng,160,72,28.1,A+,Béo phì; Rối loạn mỡ máu,2025-06-14 15:55:00
+786,1180135111,Huỳnh Hạnh Như,45,Nữ,1980-03-17,"Số 998 Xuân Đỉnh, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",3322232087,585709439,Kỹ sư cơ khí,164,63,23.4,B+,Không có,2025-06-19 11:31:00
+787,1205921316,Lý Hữu Quang,20,Nam,2005-09-03,"Số 110 Lý Thường Kiệt, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",5988380374,838113370,Phóng viên,155,42,17.5,A+,Không có,2025-06-12 09:53:00
+788,1085811808,Võ Minh Phúc,40,Nam,1985-05-16,"Số 783 Vũ Trọng Phụng, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",4715641533,370666706,Thợ hàn,157,73,29.6,O+,Đái tháo đường type 2; Mất ngủ mạn tính,2025-06-18 16:30:00
+789,1207553093,Lê Thái Anh,18,Nam,2007-10-30,"Số 793 Cẩm Lĩnh, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",7189200458,507216247,Biên phiên dịch,160,66,25.8,AB+,Viêm xoang mạn,2025-06-13 16:30:00
+790,1063367912,Vũ Tuấn Lâm,62,Nam,1963-06-21,"Số 999 Ngách 54 ngõ 155 Nguyễn Thái Học, Phường Liễu Giai, Quận Ba Đình, Hà Nội",5456578174,720540515,Nhiếp ảnh,175,78,25.5,AB+,Đái tháo đường type 2,2025-06-20 10:38:00
+791,1064013414,Đặng Tấn Quang,61,Nam,1964-01-19,"Số 317 Ngõ 228 Kim Mã, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",5645497683,787525604,Nhà văn,149,46,20.7,AB+,Tăng huyết áp,2025-06-25 13:21:00
+792,1196807951,Tạ Hải Hà,29,Nữ,1996-04-08,"Số 377 Xuân Diệu, Phường Bưởi, Quận Tây Hồ, Hà Nội",6071741647,863103231,Thợ mộc,168,71,25.2,A+,Không có,2025-06-12 16:30:00
+793,1065418328,Đinh Thái Khang,60,Nam,1965-05-09,"Số 735 Xuân Diệu, Phường Quảng An, Quận Tây Hồ, Hà Nội",5894009465,946392488,Bán hàng,156,51,21.0,A+,Tăng huyết áp,2025-06-13 16:30:00
+794,1166534251,Lý Minh Trang,59,Nữ,1966-01-24,"Số 443 Nguyễn Văn Cừ, Phường Bồ Đề, Quận Long Biên, Hà Nội",2935264259,931769708,Diễn viên,158,49,19.6,B+,Không có,2025-06-16 16:08:00
+795,1177670447,Hồ Thị My,48,Nữ,1977-10-30,"Số 88 Tân Mai, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",9575256374,784555766,Thợ cơ khí,158,51,20.4,O+,Viêm xoang mạn,2025-06-20 16:30:00
+796,1188827695,Nguyễn Bích Thảo,37,Nữ,1988-03-07,"Số 948 Ngõ 163 Võ Chí Công, Phường Xuân La, Quận Tây Hồ, Hà Nội",7448294350,379616537,Dược sĩ,167,84,30.1,A+,Dị ứng thời tiết,2025-06-17 16:13:00
+797,1170725925,Trần Thanh Phương,55,Nữ,1970-01-12,"Số 522 Hoàng Hoa Thám, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",9133490237,732692494,Thợ xây,165,71,26.1,O+,Tăng huyết áp,2025-06-18 15:50:00
+798,1164951120,Đặng Ngọc Lan,61,Nữ,1964-07-01,"Số 588 An Mỹ, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",8542884637,834850302,Pha chế,157,78,31.6,B+,Đái tháo đường type 2; Tăng huyết áp,2025-06-23 16:30:00
+799,1081055326,Ngô Anh Lâm,44,Nam,1981-07-03,"Số 473 Cẩm Lĩnh, Xã Cẩm Lĩnh, Huyện Ba Vì, Hà Nội",2286728774,886910407,Huấn luyện viên,169,74,25.9,O+,Dị ứng thời tiết,2025-06-22 13:13:00
+800,1199157318,Đinh Thuỳ Hoa,26,Nữ,1999-05-25,"Số 610 Trung Tú, Xã Hoa Sơn, Huyện Ứng Hòa, Hà Nội",8026578149,835501935,Nhân viên IT,161,62,23.9,O+,Không có,2025-06-20 16:30:00
+801,1068749317,Lý Gia Minh,57,Nam,1968-12-06,"Số 854 Ngách 13 ngõ 227 Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",3621892240,361386549,Kỹ sư điện,166,74,26.9,A+,Rối loạn mỡ máu,2025-06-20 12:35:00
+802,1070450153,Trịnh Khánh Long,55,Nam,1970-01-17,"Số 819 Phương Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",7605485625,850422464,Nhân viên nhà hàng,166,65,23.6,B+,Tăng huyết áp,2025-06-11 14:08:00
+803,1185541827,Tạ Thị Dung,40,Nữ,1985-09-09,"Số 582 Lê Văn Lương, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",9267865044,714429426,Đầu bếp,164,72,26.8,A+,Không có,2025-06-11 14:57:00
+804,1182704241,Lê Thanh Yến,43,Nữ,1982-11-13,"Số 11 Phạm Văn Đồng, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",7597239766,305417150,Nhân viên văn phòng,168,85,30.1,O+,Rối loạn mỡ máu,2025-06-25 11:27:00
+805,1057761867,Tạ Khánh Minh,68,Nam,1957-07-05,"Số 307 Hàng Bài, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",3152725978,536740891,Nhân viên khách sạn,171,70,23.9,O+,Thoái hóa khớp,2025-06-15 13:44:00
+806,1059562083,Lê Hải Sơn,66,Nam,1959-03-26,"Số 896 Quang Trung (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",4703559591,716761662,Hướng dẫn viên du lịch,156,64,26.3,AB+,Không có,2025-06-18 13:15:00
+807,1161080694,Phan Hải Mai,64,Nữ,1961-07-04,"Số 914 Kim Mã, Phường Kim Mã, Quận Ba Đình, Hà Nội",7584843930,346035608,Chủ cửa hàng,172,83,28.1,A+,Hội chứng chuyển hóa,2025-06-14 15:00:00
+808,1154470278,Đỗ Hải Chi,71,Nữ,1954-01-30,"Số 919 Liên Hiệp, Xã Long Xuyên, Huyện Phúc Thọ, Hà Nội",5738808427,706282850,Ngư dân,163,62,23.3,A+,Suy tim; Tăng huyết áp,2025-06-22 10:22:00
+809,1074788750,Hồ Phương Dũng,51,Nam,1974-02-17,"Số 842 Tây Sơn, Phường Láng Hạ, Quận Đống Đa, Hà Nội",8404515699,532769268,Công nhân,166,46,16.7,A+,Tăng huyết áp,2025-06-23 16:15:00
+810,1094523906,Phạm Gia Hải,31,Nam,1994-03-19,"Số 211 Ngõ 166 Hoàng Mai, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",4669436436,731459456,Bộ đội,164,62,23.1,A+,Không có,2025-06-19 16:30:00
+811,1070330230,Ngô Văn Khánh,55,Nam,1970-07-30,"Số 333 Trần Phú (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",1043866684,807260275,Thiết kế đồ họa,162,53,20.2,A+,Rối loạn mỡ máu,2025-06-10 16:30:00
+812,1206380882,Huỳnh Quang Tuấn,19,Nam,2006-09-06,"Số 512 Nguyễn Chí Thanh, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",7210986367,928168960,Học sinh,163,57,21.5,O+,Không có,2025-06-24 12:29:00
+813,1181806817,Phan Thuỳ Chi,44,Nữ,1981-06-15,"Số 571 Đại Cồ Việt, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",9544878904,933465867,Huấn luyện viên,165,78,28.7,B+,Đái tháo đường type 2,2025-06-10 16:30:00
+814,1070997430,Lý Hữu Khánh,55,Nam,1970-11-24,"Số 429 Tây Tựu, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",2557813731,721756247,Dược sĩ,166,69,25.0,A+,Không có,2025-06-12 11:36:00
+815,1169084078,Ngô Ngọc Hà,56,Nữ,1969-03-11,"Số 615 Hồ Tùng Mậu, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",6255424586,872929907,Bảo vệ,163,57,21.5,O+,Rối loạn mỡ máu,2025-06-13 16:30:00
+816,1067986225,Vũ Tuấn Sơn,58,Nam,1967-10-02,"Số 382 Ngõ 234 Duy Tân, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",2492627350,800126646,Nhân viên chăm sóc khách hàng,161,78,30.1,A+,Rối loạn mỡ máu,2025-06-13 16:30:00
+817,1182091665,Đặng Minh Hoa,43,Nữ,1982-01-04,"Số 671 Lê Quang Đạo, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",1522589873,373216656,Giáo viên,152,44,19.0,A+,Không có,2025-06-17 16:30:00
+818,1175006422,Dương Hải Giang,50,Nữ,1975-07-03,"Số 937 Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",5116028595,588755987,Nhân viên văn phòng,162,69,26.3,AB+,Thoái hóa khớp,2025-06-17 16:30:00
+819,1165297744,Võ Hải Trà,60,Nữ,1965-11-18,"Số 290 Nguyễn Văn Huyên (kéo dài), Xã Vân Nội, Huyện Đông Anh, Hà Nội",8246497283,719067100,Nhân viên văn phòng,166,84,30.5,A+,Viêm xoang mạn,2025-06-12 12:06:00
+820,1090421282,Đinh Hữu Anh,35,Nam,1990-11-22,"Số 351 Hồ Tùng Mậu, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",6843456512,543440708,Dược sĩ,164,58,21.6,B+,Không có,2025-06-18 16:30:00
+821,1181578459,Huỳnh Minh Mai,44,Nữ,1981-05-03,"Số 653 Ngõ 66 Duy Tân, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",9893770705,370950626,Giáo viên,146,42,19.7,A+,Không có,2025-06-22 14:44:00
+822,1053937987,Đinh Khánh Huy,72,Nam,1953-09-20,"Số 831 Lê Văn Lương, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",9385792826,590165159,Thợ xây,170,62,21.5,B+,Tăng huyết áp; Suy tim,2025-06-21 12:03:00
+823,1047196176,Dương Quang Kiên,78,Nam,1947-07-16,"Số 626 Đan Phượng, Xã Đan Phượng, Huyện Đan Phượng, Hà Nội",1512538063,390537693,Thợ mộc,154,71,29.9,O+,Gút,2025-06-15 13:03:00
+824,1186622689,Võ Ngọc Giang,39,Nữ,1986-12-12,"Số 27 Hồ Tùng Mậu, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",5449419964,796243840,Biên kịch,161,68,26.2,AB+,Không có,2025-06-21 16:30:00
+825,1191368507,Lê Hải Hạnh,34,Nữ,1991-08-19,"Số 445 Hoàng Hoa Thám, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",5456619667,801504340,Bác sĩ,175,69,22.5,B-,Không có,2025-06-24 16:30:00
+826,1067329774,Vũ Gia Bảo,58,Nam,1967-08-23,"Số 627 Đông Xuân, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",5706165373,353428907,Nhân viên nhà hàng,173,62,20.7,B+,Không có,2025-06-14 15:49:00
+827,1301150710,Đỗ Khánh Chi,24,Nữ,2001-07-13,"Số 276 Hồ Tùng Mậu, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",8963199467,399608749,Sinh viên,177,70,22.3,A+,Không có,2025-06-19 16:30:00
+828,1096847798,Ngô Anh Kiên,29,Nam,1996-10-04,"Số 442 Thạch Xá, Xã Bình Phú, Huyện Thạch Thất, Hà Nội",4009715475,950133672,Nhân viên IT,167,53,19.0,B+,Mất ngủ mạn tính,2025-06-13 16:30:00
+829,1155942315,Phạm Phương Trà,70,Nữ,1955-01-29,"Số 77 Nguyễn Sơn, Phường Bồ Đề, Quận Long Biên, Hà Nội",5790464494,358151939,Tạp vụ,170,96,33.2,O+,Tăng huyết áp,2025-06-11 16:30:00
+830,1179268900,Dương Minh Hà,46,Nữ,1979-12-18,"Số 106 Mễ Trì, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",3067080585,924049779,Giảng viên,162,54,20.6,AB+,Không có,2025-06-24 10:24:00
+831,1070622494,Huỳnh Tuấn Dũng,55,Nam,1970-11-08,"Số 614 Phố Huế, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",4349227770,959426823,Thợ mộc,176,49,15.8,A+,Loãng xương,2025-06-10 15:48:00
+832,1137513985,Võ Bích Hà,88,Nữ,1937-12-11,"Số 474 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa, Hà Nội",3434213957,965628073,Thợ xây,168,61,21.6,B+,Tăng huyết áp,2025-06-12 16:30:00
+833,1087482940,Huỳnh Minh Long,38,Nam,1987-01-23,"Số 889 Phạm Hùng, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",6873608055,922623167,Phi công,174,73,24.1,O+,Không có,2025-06-17 10:35:00
+834,1074568863,Nguyễn Hải Lâm,51,Nam,1974-09-02,"Số 995 Phú Túc, Xã Đại Thắng, Huyện Phú Xuyên, Hà Nội",3239657537,844512562,Lái xe,172,76,25.7,AB+,Tăng huyết áp,2025-06-21 16:30:00
+835,1172071860,Ngô Hải Bích,53,Nữ,1972-09-22,"Số 205 Ô Chợ Dừa, Phường Phương Liên, Quận Đống Đa, Hà Nội",3986042785,810363056,Đầu bếp,174,81,26.8,A+,Tăng huyết áp,2025-06-16 11:10:00
+836,1307235288,Lê Thuỳ Anh,18,Nữ,2007-02-07,"Số 472 Tô Ngọc Vân, Phường Nhật Tân, Quận Tây Hồ, Hà Nội",7036808588,744372132,Sinh viên,160,58,22.7,A+,Mất ngủ mạn tính,2025-06-11 13:12:00
+837,1173843097,Trần Thuỳ Bích,52,Nữ,1973-04-30,"Số 869 Kim Đồng, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",4112659746,330231217,Ngân hàng,171,67,22.9,A+,Đái tháo đường type 2,2025-06-21 10:50:00
+838,1163063041,Nguyễn Khánh Ngọc,62,Nữ,1963-03-27,"Số 231 Kim Mã, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",8925136223,901370209,Thợ hàn,172,78,26.4,A+,Không có,2025-06-12 11:00:00
+839,1162272045,Hồ Thị Hà,63,Nữ,1962-09-11,"Số 978 Phạm Ngọc Thạch, Phường Láng Hạ, Quận Đống Đa, Hà Nội",1494617305,351332096,Nhân viên IT,153,55,23.5,A+,Đái tháo đường type 2,2025-06-11 16:30:00
+840,1144339195,Võ Anh Chi,81,Nữ,1944-05-22,"Số 95 Nguyễn Sơn, Phường Bồ Đề, Quận Long Biên, Hà Nội",5650039455,946420181,Hướng dẫn viên du lịch,164,87,32.3,B+,Rối loạn mỡ máu; Đái tháo đường type 2,2025-06-20 15:36:00
+841,1080890609,Lý Thái Duy,45,Nam,1980-09-24,"Số 363 Phương Tú, Xã Trung Tú, Huyện Ứng Hòa, Hà Nội",7228439656,987202048,Công an,165,61,22.4,AB+,Không có,2025-06-20 09:47:00
+842,1087974531,Trịnh Văn Thắng,38,Nam,1987-12-18,"Số 737 Kim Đồng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",7427294361,390982450,Bộ đội,171,80,27.4,A+,Đái tháo đường type 2; Hội chứng chuyển hóa,2025-06-20 16:30:00
+843,1170553134,Lê Thanh Ngọc,55,Nữ,1970-03-28,"Số 273 Lý Thường Kiệt, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",1584828173,933969108,Đầu bếp,162,44,16.8,O+,Viêm xoang mạn,2025-06-16 14:11:00
+844,1160562508,Hồ Thanh Anh,65,Nữ,1960-10-11,"Số 902 Ô Chợ Dừa, Phường Láng Hạ, Quận Đống Đa, Hà Nội",3855143825,720328659,Chủ cửa hàng,165,67,24.6,O+,Không có,2025-06-14 16:30:00
+845,1072067308,Lý Khánh Sơn,53,Nam,1972-04-09,"Số 607 Quang Trung (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",1507197095,844540691,Biên phiên dịch,163,61,23.0,B+,Tăng huyết áp,2025-06-14 15:30:00
+846,1209556769,Huỳnh Phương Hải,16,Nam,2009-12-21,"Số 224 Lĩnh Nam, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",4919056651,713430768,Học sinh,165,70,25.7,A+,Không có,2025-06-25 12:04:00
+847,1194605191,Phan Thanh Linh,31,Nữ,1994-11-21,"Số 547 Bạch Mai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",4413571682,811147620,Vận động viên,162,60,22.9,A+,Không có,2025-06-12 16:30:00
+848,1160168859,Đặng Bích Hạnh,65,Nữ,1960-11-29,"Số 200 Hoàng Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",9165608804,389024462,Huấn luyện viên,150,42,18.7,A+,Tăng huyết áp,2025-06-24 14:54:00
+849,1067045030,Đặng Minh Khoa,58,Nam,1967-09-24,"Số 743 Trần Cung, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",4372278181,753925883,Kế toán,159,69,27.3,O+,Mất ngủ mạn tính; Tăng huyết áp,2025-06-12 13:45:00
+850,1081876028,Lê Văn Quân,44,Nam,1981-08-31,"Số 712 Xuân Diệu, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",2288379398,793082278,Ngân hàng,165,56,20.6,O+,Viêm xoang mạn,2025-06-18 11:02:00
+851,1067611562,Võ Văn Dũng,58,Nam,1967-09-19,"Số 284 Tràng Tiền, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",5471208362,787485623,Hướng dẫn viên du lịch,152,42,18.2,B+,Rối loạn mỡ máu,2025-06-21 15:19:00
+852,1309760639,Võ Hạnh Dung,16,Nữ,2009-08-20,"Số 715 Xuân Đỉnh, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",7337561845,557777859,Học sinh,174,48,15.9,O+,Không có,2025-06-12 13:42:00
+853,1152702178,Vũ Thanh Trà,73,Nữ,1952-07-18,"Số 421 Ô Chợ Dừa, Phường Trung Liệt, Quận Đống Đa, Hà Nội",9043741269,908655108,Nghiên cứu viên,163,73,27.5,O+,Gút,2025-06-24 11:45:00
+854,1170275942,Bùi Phương Như,55,Nữ,1970-01-17,"Số 218 Phạm Văn Đồng, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",1560557384,309600661,Hướng dẫn viên du lịch,169,68,23.8,O+,Đái tháo đường type 2,2025-06-16 16:30:00
+855,1176244569,Lý Anh Trang,49,Nữ,1976-01-11,"Số 341 Liên Trung, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",1683426053,588249969,Giáo viên,172,73,24.7,O+,Không có,2025-06-19 16:30:00
+856,1160512619,Bùi Hạnh Lan,65,Nữ,1960-05-13,"Số 967 Quất Động, Xã Văn Bình, Huyện Thường Tín, Hà Nội",5557999007,556687230,Huấn luyện viên,165,62,22.8,O+,Loãng xương; Thoái hóa khớp,2025-06-15 16:30:00
+857,1045959322,Đỗ Tuấn Tuấn,80,Nam,1945-09-07,"Số 597 Cao Viên, Xã Cao Viên, Huyện Thanh Oai, Hà Nội",6402894438,926976941,Luật sư,166,64,23.2,O+,Đái tháo đường type 2,2025-06-22 16:30:00
+858,1094908786,Trịnh Quang Tùng,31,Nam,1994-07-20,"Số 55 Tân Mai, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",8072544527,961095472,Vận động viên,163,58,21.8,A+,Không có,2025-06-11 13:36:00
+859,1061689910,Phạm Gia Trung,64,Nam,1961-06-10,"Số 670 Trương Định, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",7797463177,386266786,Thợ cơ khí,166,73,26.5,O+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-23 13:12:00
+860,1167705364,Ngô Ngọc Chi,58,Nữ,1967-09-07,"Số 927 Kim Mã, Phường Liễu Giai, Quận Ba Đình, Hà Nội",4482800920,736504568,Diễn viên,165,75,27.5,A+,Đái tháo đường type 2; Loãng xương,2025-06-17 16:30:00
+861,1063758427,Vũ Gia Quân,62,Nam,1963-11-23,"Số 447 An Mỹ, Xã Hương Sơn, Huyện Mỹ Đức, Hà Nội",2844576616,595064103,Giảng viên,172,75,25.4,O+,Thoái hóa khớp,2025-06-11 12:27:00
+862,1174612038,Mai Khánh Hương,51,Nữ,1974-05-25,"Số 723 Sóc Sơn, Xã Tiên Dược, Huyện Sóc Sơn, Hà Nội",6354256286,378138475,Ngân hàng,165,56,20.6,B+,Rối loạn mỡ máu,2025-06-24 13:29:00
+863,1194582405,Dương Thuỳ Hà,31,Nữ,1994-01-10,"Số 640 Đan Phượng, Xã Liên Trung, Huyện Đan Phượng, Hà Nội",8253031584,843944280,Vận động viên,165,64,23.5,A+,Dị ứng thời tiết,2025-06-11 12:54:00
+864,1090390034,Hồ Phương Sơn,35,Nam,1990-12-17,"Số 839 Xuân Đỉnh, Phường Liên Mạc, Quận Bắc Từ Liêm, Hà Nội",7578339399,731095188,Hướng dẫn viên du lịch,169,78,27.3,A+,Gút,2025-06-12 10:40:00
+865,1145018986,Huỳnh Hải Ngân,80,Nữ,1945-04-12,"Số 696 Ngách 58 ngõ 54 Nguyễn Chí Thanh, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",9875875098,320752046,Phóng viên,167,69,24.7,B+,Không có,2025-06-12 16:30:00
+866,1085477392,Võ Hữu Phúc,40,Nam,1985-09-30,"Số 669 Cầu Giấy, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",1367291694,561666471,Kế toán,175,76,24.8,AB+,Mất ngủ mạn tính,2025-06-21 16:30:00
+867,1167016183,Ngô Minh My,58,Nữ,1967-01-06,"Số 713 Nguyễn Thái Học, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",3831672324,844710606,Chủ cửa hàng,161,58,22.4,O+,Thoái hóa khớp,2025-06-11 13:10:00
+868,1180980117,Hồ Thanh Quỳnh,45,Nữ,1980-08-29,"Số 22 Châu Can, Xã Phú Túc, Huyện Phú Xuyên, Hà Nội",6947910999,937848652,Ngân hàng,155,75,31.2,O+,Gút,2025-06-17 11:52:00
+869,1075675547,Đỗ Hữu Huy,50,Nam,1975-03-20,"Số 483 Kim Bài, Xã Bích Hòa, Huyện Thanh Oai, Hà Nội",4582172633,380480886,Thợ cơ khí,157,42,17.0,B+,Tăng huyết áp,2025-06-15 16:30:00
+870,1088577211,Lý Tấn Thắng,37,Nam,1988-07-22,"Số 998 Ngách 62 ngõ 39 Khuất Duy Tiến, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",8110706868,846414735,Bán hàng,169,72,25.2,B+,Không có,2025-06-25 09:38:00
+871,1062951660,Trần Thanh Tuấn,63,Nam,1962-04-24,"Số 816 Hàng Bài, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",7323047725,961159533,Biên phiên dịch,149,51,23.0,B+,Rối loạn mỡ máu; Tăng huyết áp,2025-06-21 12:44:00
+872,1081628815,Mai Gia Nam,44,Nam,1981-01-09,"Số 954 Tô Ngọc Vân, Phường Quảng An, Quận Tây Hồ, Hà Nội",7808779347,544167621,Nội trợ,163,52,19.6,B+,Không có,2025-06-10 10:59:00
+873,1081268348,Đinh Văn Phúc,44,Nam,1981-04-13,"Số 320 Cầu Diễn, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",8331258128,866340419,Nông dân,166,66,24.0,A+,Không có,2025-06-14 16:30:00
+874,1061217517,Đỗ Văn Duy,64,Nam,1961-10-31,"Số 24 Lê Quang Đạo, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",1766487841,583127607,Kế toán,154,55,23.2,A+,Tăng huyết áp,2025-06-11 12:30:00
+875,1053341765,Bùi Thanh Tuấn,72,Nam,1953-07-06,"Số 886 Cầu Giấy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",9358448012,871277156,Thợ mộc,153,49,20.9,A+,Rối loạn mỡ máu; Tăng huyết áp,2025-06-21 16:30:00
+876,1067892290,Hoàng Phương Trung,58,Nam,1967-01-15,"Số 251 Tân Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",6872802386,762600805,Nhân viên IT,166,60,21.8,A+,Tăng huyết áp,2025-06-10 16:30:00
+877,1174071081,Phạm Anh Ly,51,Nữ,1974-04-08,"Số 71 Quang Trung (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",1702729294,586358349,Phóng viên,168,77,27.3,O+,Tăng huyết áp,2025-06-25 11:10:00
+878,1086588572,Trịnh Văn Quang,39,Nam,1986-07-04,"Số 329 Vân Hòa, Xã Vân Hòa, Huyện Ba Vì, Hà Nội",1296149909,716795202,Hướng dẫn viên du lịch,166,82,29.8,A+,Béo phì; Hội chứng chuyển hóa,2025-06-19 13:19:00
+879,1171458487,Mai Minh Ngọc,54,Nữ,1971-09-20,"Số 753 Hoàng Hoa Thám, Phường Ngọc Hà, Quận Ba Đình, Hà Nội",1805701974,557529255,Pha chế,155,46,19.1,AB+,Tăng huyết áp,2025-06-15 16:30:00
+880,1172624249,Lý Ngọc Mai,53,Nữ,1972-04-18,"Số 712 Nguyễn Văn Cừ, Phường Gia Thụy, Quận Long Biên, Hà Nội",8724877476,508357289,Nhân viên logistics,172,70,23.7,O+,Tăng huyết áp; Thoái hóa khớp,2025-06-16 11:58:00
+881,1167573368,Đỗ Phương Thảo,58,Nữ,1967-09-02,"Số 571 Nguyễn Sơn, Phường Thạch Bàn, Quận Long Biên, Hà Nội",7487826487,330002554,Pha chế,156,67,27.5,O+,Loãng xương,2025-06-23 11:42:00
+882,1187844704,Dương Khánh Ngân,38,Nữ,1987-11-22,"Số 665 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",2387595594,529813324,Bảo vệ,159,67,26.5,O+,Không có,2025-06-19 12:30:00
+883,1200743604,Đặng Gia Kiên,25,Nam,2000-08-14,"Số 426 Kim Đồng, Phường Mai Động, Quận Hoàng Mai, Hà Nội",4476889386,361877645,Kế toán,165,52,19.1,A+,Mất ngủ mạn tính,2025-06-13 16:30:00
+884,1069028459,Dương Anh Dũng,56,Nam,1969-06-03,"Số 233 Cầu Diễn, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",2835941234,792325802,Giảng viên,161,84,32.4,O+,Đái tháo đường type 2,2025-06-16 16:30:00
+885,1175327023,Võ Minh Linh,50,Nữ,1975-07-30,"Số 851 Minh Khai, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",1263356416,598702521,Kỹ sư cơ khí,178,83,26.2,O+,Không có,2025-06-16 16:30:00
+886,1082723685,Đỗ Quang Duy,43,Nam,1982-02-18,"Số 482 Ngách 47 ngõ 82 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa, Hà Nội",1611390045,992752340,Pha chế,166,62,22.5,A+,Không có,2025-06-16 16:30:00
+887,1066800557,Đinh Thanh Phong,59,Nam,1966-10-24,"Số 11 Ngách 2 ngõ 117 Lê Quang Đạo, Phường Đại Mỗ, Quận Nam Từ Liêm, Hà Nội",7655899065,969722324,Nhiếp ảnh,158,76,30.4,O+,Đái tháo đường type 2,2025-06-10 14:16:00
+888,1056612232,Hoàng Quang Khang,69,Nam,1956-10-07,"Số 609 Ngách 8 ngõ 60 Lĩnh Nam, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",1132789282,735097913,Nội trợ,164,85,31.6,O+,Tăng huyết áp; Loãng xương,2025-06-24 09:51:00
+889,1168089779,Trần Khánh Chi,57,Nữ,1968-05-26,"Số 402 Ngách 16 ngõ 125 Phố Vọng, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",7726173629,545989777,Tạp vụ,172,71,24.0,O+,Tăng huyết áp,2025-06-18 09:53:00
+890,1064138522,Trần Phương Kiên,61,Nam,1964-09-24,"Số 99 Hương Sơn, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",5522924567,389393504,Thợ hàn,163,67,25.2,O+,Đái tháo đường type 2,2025-06-17 16:30:00
+891,1167878959,Võ Anh Quỳnh,58,Nữ,1967-04-17,"Số 354 Trần Phú (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",3323007086,386948467,Nhân viên khách sạn,158,55,22.0,O+,Tăng huyết áp,2025-06-16 16:30:00
+892,1173227025,Bùi Thuỳ Hoa,52,Nữ,1973-10-20,"Số 433 Đình Thôn, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",1940596470,536424532,Điều dưỡng,165,65,23.9,O+,Không có,2025-06-14 13:49:00
+893,1190403715,Vũ Hải Anh,35,Nữ,1990-04-23,"Số 634 Song Phượng, Xã Đan Phượng, Huyện Đan Phượng, Hà Nội",3252649747,970676442,Tiếp viên hàng không,170,67,23.2,A+,Không có,2025-06-22 14:41:00
+894,1141490044,Nguyễn Hạnh Quỳnh,84,Nữ,1941-09-04,"Số 616 Nguyễn Trãi (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",2210704310,750315887,Ngư dân,147,62,28.7,A+,Mất ngủ mạn tính,2025-06-12 16:30:00
+895,1080483515,Hoàng Hữu Quân,45,Nam,1980-02-29,"Số 798 Nguyễn Văn Cừ, Phường Gia Thụy, Quận Long Biên, Hà Nội",2116271435,934106165,Vận động viên,170,64,22.1,O+,Không có,2025-06-15 16:30:00
+896,1197737122,Nguyễn Phương Bích,28,Nữ,1997-01-19,"Số 448 Nguyễn Thái Học, Phường Liễu Giai, Quận Ba Đình, Hà Nội",3533601099,931914009,Ngân hàng,170,70,24.2,A+,Không có,2025-06-18 16:30:00
+897,1095228874,Đỗ Hải Bảo,30,Nam,1995-10-28,"Số 153 Lĩnh Nam, Phường Mai Động, Quận Hoàng Mai, Hà Nội",7966481105,329272430,Tiếp viên hàng không,184,74,21.9,B+,Không có,2025-06-22 16:29:00
+898,1149331579,Nguyễn Thuỳ Trang,76,Nữ,1949-02-12,"Số 847 Thanh Cao, Xã Bích Hòa, Huyện Thanh Oai, Hà Nội",3660869611,384039092,Phóng viên,159,64,25.3,A+,Bệnh mạch vành,2025-06-18 13:27:00
+899,1189333995,Mai Hải Anh,36,Nữ,1989-08-02,"Số 665 Ngõ 56 Nguyễn Thái Học, Phường Liễu Giai, Quận Ba Đình, Hà Nội",3509805564,719941243,Nội trợ,159,64,25.3,O+,Không có,2025-06-23 16:30:00
+900,1094761918,Nguyễn Gia Khánh,31,Nam,1994-01-22,"Số 858 Yên Trung, Xã Cẩm Yên, Huyện Thạch Thất, Hà Nội",2176755004,575315752,Nhân viên khách sạn,158,50,20.0,B+,Không có,2025-06-24 14:20:00
+901,1067753515,Phạm Đức Bảo,58,Nam,1967-07-22,"Số 470 Quang Trung (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",2010320823,716099097,Thiết kế đồ họa,168,76,26.9,O+,Đái tháo đường type 2,2025-06-25 10:38:00
+902,1155277261,Dương Anh Trà,70,Nữ,1955-12-20,"Số 340 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",9864993397,753918023,Huấn luyện viên,174,83,27.4,A+,Bệnh mạch vành,2025-06-17 16:24:00
+903,1041575379,Nguyễn Văn Khoa,84,Nam,1941-09-20,"Số 293 Nhị Khê, Xã Tô Hiệu, Huyện Thường Tín, Hà Nội",3346151216,860896010,Huấn luyện viên,164,65,24.2,O+,Rối loạn mỡ máu,2025-06-21 10:23:00
+904,1160398638,Trịnh Phương Như,65,Nữ,1960-12-18,"Số 45 Nguyễn Trãi (Hà Đông), Phường Mộ Lao, Quận Hà Đông, Hà Nội",3831530707,919048786,Nghiên cứu viên,162,85,32.4,AB+,Gút,2025-06-17 10:02:00
+905,1084512982,Phạm Quang Duy,41,Nam,1984-05-21,"Số 504 An Mỹ, Xã An Tiến, Huyện Mỹ Đức, Hà Nội",1743820395,307867755,Phi công,170,70,24.2,O+,Không có,2025-06-23 16:30:00
+906,1059295661,Lý Anh Khoa,66,Nam,1959-04-25,"Số 713 Nguyễn Xiển, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",7146017419,840009256,Nhạc công,154,73,30.8,A+,Hội chứng chuyển hóa,2025-06-15 16:14:00
+907,1172540234,Tạ Hải Hương,53,Nữ,1972-07-14,"Số 429 Nghĩa Hương, Xã Đông Xuân, Huyện Quốc Oai, Hà Nội",4675627545,703498939,Pha chế,166,56,20.3,A+,Không có,2025-06-15 15:43:00
+908,1059769270,Mai Gia Nam,66,Nam,1959-10-15,"Số 668 Trung Tú, Xã Trung Tú, Huyện Ứng Hòa, Hà Nội",3997385442,702948046,Nội trợ,160,70,27.3,A+,Thoái hóa khớp,2025-06-24 15:50:00
+909,1183763427,Phan Thanh Hạnh,42,Nữ,1983-12-31,"Số 88 Nguyễn Văn Cừ, Phường Thạch Bàn, Quận Long Biên, Hà Nội",3173671387,514031916,Nhân viên logistics,158,51,20.4,A+,Không có,2025-06-19 10:13:00
+910,1309896762,Võ Minh Yến,16,Nữ,2009-10-07,"Số 999 Phượng Cách, Xã Ngọc Liệp, Huyện Quốc Oai, Hà Nội",8167148957,925785235,Học sinh,165,70,25.7,AB+,Không có,2025-06-14 16:30:00
+911,1063558221,Nguyễn Tấn Tuấn,62,Nam,1963-02-03,"Số 484 Duy Tân, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",4164538336,725503533,Nông dân,164,60,22.3,B+,Tăng huyết áp,2025-06-11 16:30:00
+912,1187770317,Lê Hạnh Lan,38,Nữ,1987-10-20,"Số 338 Cổ Linh, Phường Thạch Bàn, Quận Long Biên, Hà Nội",9836863644,798106326,Dược sĩ,168,80,28.3,B+,Béo phì,2025-06-13 11:18:00
+913,1167924743,Phan Phương Vy,58,Nữ,1967-02-15,"Số 138 Xuân Thuỷ (địa phương), Xã Mai Đình, Huyện Sóc Sơn, Hà Nội",4829983990,350595476,Nhân viên logistics,152,45,19.5,O+,Tăng huyết áp,2025-06-18 10:31:00
+914,1194054680,Đặng Bích Hương,31,Nữ,1994-01-16,"Số 105 Phố Huế, Phường Hàng Bạc, Quận Hoàn Kiếm, Hà Nội",5959929179,396909136,Tiếp viên hàng không,176,68,22.0,O+,Mất ngủ mạn tính,2025-06-23 16:30:00
+915,1095360901,Ngô Quang Long,30,Nam,1995-10-05,"Số 624 Xuân Thủy, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội",8320096015,553053256,Nhân viên khách sạn,158,47,18.8,B+,Viêm xoang mạn,2025-06-12 16:30:00
+916,1185049704,Huỳnh Hạnh Chi,40,Nữ,1985-10-04,"Số 864 Nguyễn Chí Thanh, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội",2193539103,991667709,Nhiếp ảnh,164,60,22.3,B+,Không có,2025-06-19 10:26:00
+917,1044892585,Lý Thái Long,81,Nam,1944-09-20,"Số 770 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, Hà Nội",7948530748,881340951,Nghiên cứu viên,172,66,22.3,AB+,Không có,2025-06-13 16:05:00
+918,1083348109,Hồ Tấn Dũng,42,Nam,1983-03-11,"Số 279 Ô Chợ Dừa, Phường Láng Hạ, Quận Đống Đa, Hà Nội",2093215294,376111483,Giáo viên,175,93,30.4,O+,Gút,2025-06-19 15:06:00
+919,1202216694,Phạm Tấn Tuấn,23,Nam,2002-02-09,"Số 594 Xuân Phú, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",8323836841,734462280,Nội trợ,164,60,22.3,B+,Không có,2025-06-20 14:29:00
+920,1160816836,Lý Hạnh Hà,65,Nữ,1960-03-23,"Số 977 Ngách 59 ngõ 246 Vũ Trọng Phụng, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",9155518495,729643522,Nhân viên văn phòng,179,73,22.8,O+,Bệnh mạch vành,2025-06-10 16:30:00
+921,1181651342,Ngô Ngọc Trà,44,Nữ,1981-03-30,"Số 382 Bạch Mai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",2300113146,742143778,Bác sĩ,168,82,29.1,A+,Đái tháo đường type 2,2025-06-21 10:38:00
+922,1180979987,Nguyễn Thanh My,45,Nữ,1980-07-23,"Số 445 La Phù, Xã An Khánh, Huyện Hoài Đức, Hà Nội",8633968007,319475052,Bán hàng,160,70,27.3,O+,Béo phì,2025-06-21 16:30:00
+923,1076259332,Ngô Phương Tùng,49,Nam,1976-03-13,"Số 901 Tân Mai, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",8071198951,315787239,Huấn luyện viên,166,66,24.0,O+,Không có,2025-06-12 16:30:00
+924,1071693714,Lê Hải Hải,54,Nam,1971-12-31,"Số 542 Ngách 34 ngõ 40 Tân Mai, Phường Mai Động, Quận Hoàng Mai, Hà Nội",5244379366,804486711,Nhân viên nhà hàng,169,63,22.1,A+,Đái tháo đường type 2,2025-06-13 10:25:00
+925,1076749678,Đỗ Tấn Hải,49,Nam,1976-08-16,"Số 335 Xuân Thuỷ (địa phương), Xã Phù Lỗ, Huyện Sóc Sơn, Hà Nội",5557970790,870455300,Điều dưỡng,170,57,19.7,O+,Không có,2025-06-23 10:42:00
+926,1183552517,Đặng Bích Trang,42,Nữ,1983-07-07,"Số 316 Trần Phú (Hà Đông), Phường Nguyễn Trãi, Quận Hà Đông, Hà Nội",3204106496,372652014,Thợ xây,153,64,27.3,A+,Đái tháo đường type 2,2025-06-21 15:49:00
+927,1171696158,Lê Thuỳ Trà,54,Nữ,1971-01-22,"Số 28 Quất Động, Xã Ninh Sở, Huyện Thường Tín, Hà Nội",8604062321,717519679,Luật sư,153,64,27.3,B+,Rối loạn mỡ máu,2025-06-24 16:30:00
+928,1078422070,Lý Quang Tùng,47,Nam,1978-04-19,"Số 954 Tam Hiệp, Xã Sen Chiểu, Huyện Phúc Thọ, Hà Nội",8428601767,973880111,Kinh doanh tự do,157,57,23.1,B+,Không có,2025-06-18 12:49:00
+929,1047041261,Đinh Thái Bảo,78,Nam,1947-07-29,"Số 136 Ngách 5 ngõ 99 Kim Đồng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",8610296544,390437702,Pha chế,160,69,27.0,A+,Bệnh mạch vành,2025-06-14 16:22:00
+930,1159990656,Mai Anh Hà,66,Nữ,1959-02-13,"Số 185 Trần Phú (Hà Đông), Phường Mộ Lao, Quận Hà Đông, Hà Nội",2694222925,584187576,Ngư dân,167,83,29.8,O+,Gút,2025-06-10 16:30:00
+931,1180836607,Phan Minh Yến,45,Nữ,1980-09-23,"Số 116 Duy Tân, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội",7866808079,765300022,Điều dưỡng,155,47,19.6,A+,Không có,2025-06-17 11:36:00
+932,1172213747,Đặng Khánh Ngân,53,Nữ,1972-05-15,"Số 267 Cổ Linh, Phường Ngọc Thụy, Quận Long Biên, Hà Nội",7983240728,395981618,Nhân viên khách sạn,156,59,24.2,O+,Không có,2025-06-19 16:09:00
+933,1168227594,Đỗ Anh Linh,57,Nữ,1968-06-17,"Số 150 Lý Thường Kiệt, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",4297451165,360862495,Nông dân,172,74,25.0,B+,Thoái hóa khớp,2025-06-17 13:04:00
+934,1308296647,Đinh Thuỳ Quỳnh,17,Nữ,2008-06-14,"Số 727 Kim Đồng, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội",1636985167,855999196,Học sinh,167,55,19.7,AB+,Viêm xoang mạn,2025-06-19 16:30:00
+935,1065704342,Võ Khánh Nam,60,Nam,1965-05-01,"Số 726 Kim Bài, Xã Thanh Thùy, Huyện Thanh Oai, Hà Nội",2242197381,903473175,Nhân viên văn phòng,165,72,26.4,O+,Không có,2025-06-12 13:15:00
+936,1179634317,Hồ Hạnh Lan,46,Nữ,1979-06-12,"Số 249 Quang Minh, Xã Mê Linh, Huyện Mê Linh, Hà Nội",5176892206,929945802,Bán hàng,173,93,31.1,AB+,Đái tháo đường type 2; Rối loạn mỡ máu,2025-06-25 15:48:00
+937,1094816254,Mai Tấn Huy,31,Nam,1994-10-16,"Số 806 Lê Quang Đạo, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",7160543370,836712747,Kỹ sư điện,154,57,24.0,O+,Không có,2025-06-11 16:30:00
+938,1173967204,Lý Phương Yến,52,Nữ,1973-03-13,"Số 464 Phùng Hưng (Hà Đông), Phường Phú La, Quận Hà Đông, Hà Nội",8401925531,855046161,Bán hàng,179,79,24.7,O+,Loãng xương,2025-06-14 16:07:00
+939,1149385528,Mai Bích Mai,76,Nữ,1949-01-29,"Số 208 Phùng, Xã Song Phượng, Huyện Đan Phượng, Hà Nội",8638586922,743763662,Thợ điện,147,61,28.2,A+,Dị ứng thời tiết,2025-06-11 12:26:00
+940,1080955394,Đặng Anh Thắng,45,Nam,1980-06-24,"Số 242 Võ Nguyên Giáp (địa phận huyện), Xã Liên Hà, Huyện Đông Anh, Hà Nội",9554179394,514914215,Kỹ sư điện,158,57,22.8,O+,Không có,2025-06-17 12:36:00
+941,1191857404,Dương Minh Linh,34,Nữ,1991-03-15,"Số 52 Yên Trung, Xã Cẩm Yên, Huyện Thạch Thất, Hà Nội",2090651940,823461504,Ngư dân,167,69,24.7,O+,Không có,2025-06-10 10:19:00
+942,1166905552,Võ Hạnh Ngân,59,Nữ,1966-11-12,"Số 386 Phù Lưu Tế, Xã Phùng Xá, Huyện Mỹ Đức, Hà Nội",7333388465,390348308,Nghiên cứu viên,171,87,29.8,O+,Hội chứng chuyển hóa; Đái tháo đường type 2,2025-06-12 13:00:00
+943,1207903593,Phạm Anh Khang,18,Nam,2007-05-15,"Số 838 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",1639231867,911080238,Học sinh,167,70,25.1,A+,Không có,2025-06-23 16:30:00
+944,1164411935,Bùi Thị Giang,61,Nữ,1964-06-07,"Số 161 Tố Hữu (Hà Đông), Phường Mộ Lao, Quận Hà Đông, Hà Nội",1317591450,909039572,Pha chế,176,71,22.9,A+,Viêm xoang mạn,2025-06-20 16:30:00
+945,1092067333,Bùi Minh Sơn,33,Nam,1992-02-15,"Số 401 Tô Ngọc Vân, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",6855201015,744847920,Kinh doanh tự do,158,67,26.8,A+,Không có,2025-06-13 15:43:00
+946,1093221775,Phan Đức Anh,32,Nam,1993-04-07,"Số 708 Quang Trung (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",3810297295,855126370,Tiếp viên hàng không,163,59,22.2,A+,Không có,2025-06-25 11:11:00
+947,1197251766,Huỳnh Thuỳ Lan,28,Nữ,1997-04-03,"Số 220 Âu Cơ, Phường Phú Thượng, Quận Tây Hồ, Hà Nội",6656219295,909944147,Vận động viên,163,58,21.8,O+,Không có,2025-06-22 10:20:00
+948,1078564858,Nguyễn Tuấn Huy,47,Nam,1978-03-31,"Số 575 Nguyễn Trãi, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",7451159059,556870426,Lái xe,172,53,17.9,O+,Không có,2025-06-25 16:30:00
+949,1307638285,Trịnh Ngọc Hương,18,Nữ,2007-01-04,"Số 343 Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội",5462763514,974971512,Chủ cửa hàng,160,65,25.4,A+,Dị ứng thời tiết; Mất ngủ mạn tính,2025-06-14 16:30:00
+950,1051953595,Lê Anh Dũng,74,Nam,1951-08-10,"Số 509 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội",2149633609,991050459,Diễn viên,160,59,23.0,B+,Rối loạn mỡ máu,2025-06-19 14:46:00
+951,1086597583,Nguyễn Thanh Hoàng,39,Nam,1986-12-27,"Số 927 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",6490787255,354151909,Nhân viên nhà hàng,149,52,23.4,O+,Không có,2025-06-24 13:59:00
+952,1063694135,Đinh Hải Quang,62,Nam,1963-02-17,"Số 552 Tây Đằng, Xã Tản Lĩnh, Huyện Ba Vì, Hà Nội",7992269156,949060827,Kế toán,159,63,24.9,A+,Không có,2025-06-11 16:30:00
+953,1207596915,Phan Thái Quang,18,Nam,2007-05-13,"Số 581 Vân Đình, Xã Hoa Sơn, Huyện Ứng Hòa, Hà Nội",9787018811,333795233,Bộ đội,163,63,23.7,O+,Không có,2025-06-23 16:30:00
+954,1084787963,Trần Hải Hoàng,41,Nam,1984-03-15,"Số 961 Đội Cấn, Phường Trúc Bạch, Quận Ba Đình, Hà Nội",4519788164,957104259,Nhân viên logistics,168,65,23.0,A+,Viêm xoang mạn,2025-06-23 16:30:00
+955,1176018313,Đinh Ngọc Ngân,49,Nữ,1976-09-12,"Số 725 Dương Xá, Xã Dương Xá, Huyện Gia Lâm, Hà Nội",4358136822,315297968,Nhân viên logistics,168,68,24.1,O+,Không có,2025-06-24 15:44:00
+956,1094536292,Ngô Anh Lâm,31,Nam,1994-05-26,"Số 904 Vân Phúc, Xã Vân Phúc, Huyện Phúc Thọ, Hà Nội",2848994549,797254720,Giảng viên,172,86,29.1,O+,Rối loạn mỡ máu; Hội chứng chuyển hóa,2025-06-17 13:17:00
+957,1187904651,Bùi Anh Hương,38,Nữ,1987-05-12,"Số 325 Tây Tựu, Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội",5650893043,378421391,Kỹ sư phần mềm,155,53,22.1,O+,Không có,2025-06-15 10:42:00
+958,1179224125,Huỳnh Bích Trang,46,Nữ,1979-05-09,"Số 936 Lê Quang Đạo, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",8537006323,998877335,Ngân hàng,161,88,33.9,O+,Không có,2025-06-25 12:00:00
+959,1183263218,Mai Hải Dung,42,Nữ,1983-10-07,"Số 541 Trần Hưng Đạo, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",9178342064,539553433,Phóng viên,158,64,25.6,O+,Không có,2025-06-20 12:03:00
+960,1196424300,Nguyễn Hải Bích,29,Nữ,1996-04-04,"Số 672 Cẩm Lĩnh, Xã Cẩm Lĩnh, Huyện Ba Vì, Hà Nội",5783907121,557989691,Vận động viên,160,54,21.1,O+,Mất ngủ mạn tính,2025-06-16 15:55:00
+961,1042283119,Phạm Anh Bảo,83,Nam,1942-07-02,"Số 54 Giải Phóng, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội",8601231625,851000366,Nghiên cứu viên,165,64,23.5,B+,Tăng huyết áp,2025-06-19 16:30:00
+962,1179471845,Tạ Ngọc Lan,46,Nữ,1979-10-08,"Số 417 Mễ Trì, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",2298031026,537050674,Bảo vệ,171,64,21.9,A+,Không có,2025-06-15 16:30:00
+963,1170316914,Huỳnh Bích Trang,55,Nữ,1970-07-12,"Số 164 Phương Tú, Xã Đại Hùng, Huyện Ứng Hòa, Hà Nội",8622676174,890455224,Điều dưỡng,158,44,17.6,B+,Tăng huyết áp,2025-06-12 15:29:00
+964,1084780643,Vũ Hữu Huy,41,Nam,1984-11-05,"Số 439 Nguyễn Xiển, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",6211542401,704379086,Nhân viên IT,159,58,22.9,B+,Không có,2025-06-17 16:30:00
+965,1173759799,Ngô Phương Hương,52,Nữ,1973-10-15,"Số 817 Nguyễn Sơn, Phường Thạch Bàn, Quận Long Biên, Hà Nội",9507867253,381580867,Bảo vệ,163,58,21.8,A+,Không có,2025-06-11 16:30:00
+966,1149523710,Võ Anh Trang,76,Nữ,1949-08-26,"Số 57 Tây Sơn, Phường Trung Liệt, Quận Đống Đa, Hà Nội",7130144641,972941036,Thợ xây,171,71,24.3,A+,Thoái hóa khớp,2025-06-24 13:02:00
+967,1066037097,Vũ Thái Long,59,Nam,1966-04-08,"Số 995 Nguyễn Sơn, Phường Thạch Bàn, Quận Long Biên, Hà Nội",6927460100,897740097,Biên phiên dịch,161,42,16.2,O+,Loãng xương,2025-06-24 16:30:00
+968,1069070010,Đỗ Hữu Khang,56,Nam,1969-01-21,"Số 37 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",4491067698,810149411,Nhân viên logistics,166,48,17.4,B+,Thoái hóa khớp,2025-06-23 15:52:00
+969,1190642958,Đỗ Hạnh Mai,35,Nữ,1990-10-18,"Số 806 An Khánh, Xã Đức Giang, Huyện Hoài Đức, Hà Nội",1242182548,357595024,Bộ đội,161,68,26.2,O+,Không có,2025-06-15 10:58:00
+970,1301206139,Bùi Phương Hương,24,Nữ,2001-01-02,"Số 183 Ngõ 234 Hồ Tùng Mậu, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",1496309666,862960296,Sinh viên,165,78,28.7,AB+,Tăng huyết áp; Béo phì,2025-06-24 16:17:00
+971,1186649545,Phạm Anh Lan,39,Nữ,1986-03-04,"Số 261 Tây Tựu, Phường Đông Ngạc, Quận Bắc Từ Liêm, Hà Nội",9732276654,942749464,Giáo viên,158,64,25.6,O+,Không có,2025-06-11 16:30:00
+972,1094594538,Ngô Tấn Hoàng,31,Nam,1994-08-01,"Số 829 Ô Chợ Dừa, Phường Phương Liên, Quận Đống Đa, Hà Nội",6754920398,313376191,Tiếp viên hàng không,162,55,21.0,B+,Viêm xoang mạn; Dị ứng thời tiết,2025-06-15 16:30:00
+973,1082816231,Lý Phương Sơn,43,Nam,1982-07-02,"Số 346 Lý Thường Kiệt, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",8505792151,398100944,Công nhân,181,76,23.2,O+,Không có,2025-06-12 16:30:00
+974,1090763808,Bùi Gia Dũng,35,Nam,1990-03-16,"Số 765 Khuất Duy Tiến, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội",8141426429,506461438,Bộ đội,162,62,23.6,B+,Viêm xoang mạn,2025-06-19 15:56:00
+975,1187058474,Huỳnh Hải Mai,38,Nữ,1987-06-09,"Số 342 Bình Phú, Xã Bình Phú, Huyện Thạch Thất, Hà Nội",5554042100,349961177,Nhạc công,158,49,19.6,A+,Dị ứng thời tiết,2025-06-24 13:53:00
+976,1203866269,Hồ Gia Tùng,22,Nam,2003-11-14,"Số 343 Hòa Bình, Xã Ninh Sở, Huyện Thường Tín, Hà Nội",4773125245,970131117,Biên phiên dịch,174,67,22.1,O+,Không có,2025-06-17 16:30:00
+977,1175787171,Đặng Phương Hương,50,Nữ,1975-10-11,"Số 339 Nguyễn Trãi (Hà Đông), Phường La Khê, Quận Hà Đông, Hà Nội",5331612099,586878427,Bán hàng,175,67,21.9,A+,Thoái hóa khớp,2025-06-24 14:35:00
+978,1082066991,Dương Quang Trung,43,Nam,1982-07-01,"Số 243 Phố Huế, Phường Hàng Đào, Quận Hoàn Kiếm, Hà Nội",6402621806,336323518,Đầu bếp,162,51,19.4,O+,Không có,2025-06-19 13:27:00
+979,1164484544,Phạm Hải Mai,61,Nữ,1964-02-10,"Số 921 Tố Hữu (Hà Đông), Phường Văn Quán, Quận Hà Đông, Hà Nội",4163325336,505757866,Giảng viên,161,59,22.8,B+,Rối loạn mỡ máu,2025-06-16 12:06:00
+980,1078606950,Hồ Tuấn Khang,47,Nam,1978-08-07,"Số 215 Kim Đồng, Phường Tân Mai, Quận Hoàng Mai, Hà Nội",5124043968,783596000,Biên kịch,163,64,24.1,B+,Không có,2025-06-23 16:30:00
+981,1177193927,Tạ Thanh Phương,48,Nữ,1977-10-10,"Số 132 Ngách 60 ngõ 135 Nguyễn Trãi, Phường Hạ Đình, Quận Thanh Xuân, Hà Nội",8601808675,526249152,Công nhân,161,61,23.5,A+,Không có,2025-06-16 16:30:00
+982,1072931352,Lê Hữu Hoàng,53,Nam,1972-05-28,"Số 900 Đức Giang, Phường Gia Thụy, Quận Long Biên, Hà Nội",2639172715,783628134,Kỹ sư cơ khí,164,57,21.2,O+,Đái tháo đường type 2,2025-06-18 10:17:00
+983,1054482187,Võ Thái Nam,71,Nam,1954-06-05,"Số 842 Nguyễn Trãi, Phường Khương Trung, Quận Thanh Xuân, Hà Nội",6134650865,899638744,Lái xe,164,61,22.7,A+,Viêm xoang mạn,2025-06-25 10:40:00
+984,1064657299,Vũ Minh Minh,61,Nam,1964-01-14,"Số 220 Yên Trung, Xã Thạch Xá, Huyện Thạch Thất, Hà Nội",5410843971,382003409,Giảng viên,163,47,17.7,B+,Không có,2025-06-13 16:30:00
+985,1164887978,Võ Thuỳ Hà,61,Nữ,1964-08-31,"Số 300 Dương Xá, Xã Trâu Quỳ, Huyện Gia Lâm, Hà Nội",7190692395,308327866,Dược sĩ,155,69,28.7,A+,Tăng huyết áp,2025-06-10 16:30:00
+986,1173114207,Hồ Thanh Thảo,52,Nữ,1973-05-14,"Số 55 Duy Tân, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",1849297045,586876129,Nhân viên IT,170,62,21.5,A+,Mất ngủ mạn tính; Tăng huyết áp,2025-06-19 09:57:00
+987,1068834899,Bùi Văn Anh,57,Nam,1968-12-06,"Số 889 Ngách 24 ngõ 104 Lý Thường Kiệt, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",8331342414,818976217,Nhân viên logistics,173,68,22.7,B+,Tăng huyết áp,2025-06-10 16:30:00
+988,1178921017,Nguyễn Thanh Giang,47,Nữ,1978-11-25,"Số 582 Tràng Tiền, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",5961965196,827145706,Đầu bếp,169,75,26.3,O+,Không có,2025-06-16 09:58:00
+989,1306785771,Võ Minh Trà,19,Nữ,2006-04-20,"Số 761 Nguyễn Chí Thanh, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",3279624452,884300398,Học sinh,148,47,21.5,A+,Không có,2025-06-19 16:30:00
+990,1081918684,Huỳnh Tấn Phúc,44,Nam,1981-06-07,"Số 880 Thanh Lâm, Xã Đại Thịnh, Huyện Mê Linh, Hà Nội",4755785457,853092464,Huấn luyện viên,163,56,21.1,O+,Không có,2025-06-15 12:28:00
+991,1098226643,Đinh Đức Kiên,27,Nam,1998-02-08,"Số 981 Thái Hà, Phường Kim Liên, Quận Đống Đa, Hà Nội",8760382807,300245886,Kỹ sư phần mềm,158,66,26.4,O+,Không có,2025-06-22 11:35:00
+992,1305393383,Đinh Phương Hoa,20,Nữ,2005-12-03,"Số 354 Mễ Trì, Phường Phú Đô, Quận Nam Từ Liêm, Hà Nội",9165223507,993787352,Bảo vệ,166,51,18.5,O+,Không có,2025-06-17 16:30:00
+993,1060226628,Vũ Phương Tùng,65,Nam,1960-08-25,"Số 494 Ngách 34 ngõ 167 Trần Hưng Đạo, Phường Tràng Thi, Quận Hoàn Kiếm, Hà Nội",9993305374,362426103,Phóng viên,169,69,24.2,O+,Thoái hóa khớp,2025-06-25 13:43:00
+994,1172940635,Hoàng Minh Giang,53,Nữ,1972-03-13,"Số 717 Kim Mã, Phường Liễu Giai, Quận Ba Đình, Hà Nội",5385800999,966924505,Kiểm toán,157,45,18.3,O+,Đái tháo đường type 2,2025-06-17 10:09:00
+995,1044222264,Hoàng Thái Quang,81,Nam,1944-08-21,"Số 760 Đình Thôn, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",8693805145,586901681,Nghiên cứu viên,157,77,31.2,O+,Đái tháo đường type 2,2025-06-15 14:45:00
+996,1082585939,Huỳnh Đức Huy,43,Nam,1982-06-28,"Số 311 Tây Tựu, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội",4999517699,530381569,Kinh doanh tự do,168,54,19.1,O+,Viêm xoang mạn,2025-06-15 10:38:00
+997,1062874081,Lê Quang Quân,63,Nam,1962-03-13,"Số 136 Tây Tựu, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",7289302840,721850560,Chủ cửa hàng,161,61,23.5,A+,Rối loạn mỡ máu,2025-06-14 13:06:00
+998,1060409386,Mai Thái Phong,65,Nam,1960-05-19,"Số 543 Nguyễn Xiển, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",1056094461,701235066,Kỹ sư cơ khí,160,49,19.1,A+,Không có,2025-06-11 16:30:00
+999,1081939194,Hoàng Hữu Lâm,44,Nam,1981-09-01,"Số 810 Lai Xá, Xã Vân Canh, Huyện Hoài Đức, Hà Nội",1276471424,521119026,Nhân viên văn phòng,154,64,27.0,A+,Rối loạn mỡ máu,2025-06-21 13:12:00
+1000,1075523780,Hồ Tấn Quân,50,Nam,1975-05-15,"Số 414 La Phù, Xã Vân Canh, Huyện Hoài Đức, Hà Nội",6800058953,915750154,Ngân hàng,173,77,25.7,O+,Tăng huyết áp; Rối loạn mỡ máu,2025-06-25 16:30:00
