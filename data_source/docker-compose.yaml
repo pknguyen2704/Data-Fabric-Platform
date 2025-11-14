@@ -4,9 +4,10 @@ services:
     container_name: ds-postgres
     hostname: ds-postgres
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Postgres123@
-      POSTGRES_DB: mydb
+      - TZ=Asia/Ho_Chi_Minh
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Postgres123@
+      - POSTGRES_DB=mydb
     ports:
       - "54321:5432"
     volumes:

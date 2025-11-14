@@ -1,0 +1,42 @@
+services:
+  hive-metastore-db:
+    image: postgres:14
+    container_name: hive-metastore-db
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - POSTGRES_DB=metastore
+      - POSTGRES_USER=hive
+      - POSTGRES_PASSWORD=hive
+    networks:
+      - dfp_net
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./hive-metastore-db:/var/lib/postgresql/data
+
+  hive-metastore:
+    image: apache/hive:4.0.0
+    container_name: hive-metastore
+    depends_on:
+      - hive-metastore-db
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - HIVE_METASTORE_DB_TYPE=postgres
+      - SERVICE_NAME=metastore
+      - DB_HOST=hive-metastore-db
+      - DB_PORT=5432
+      - DB_NAME=metastore
+      - DB_USER=hive
+      - DB_PASSWORD=hive
+    command: >
+      bash -c "
+        schematool -dbType postgres -initSchema &&
+        /opt/hive/bin/hive --service metastore
+      "
+    ports:
+      - "9083:9083"
+    networks:
+      - dfp_net
+networks:
+  dfp_net:
+    external: true
