@@ -14,4 +14,4 @@ sudo apt install docker-ce
 
 #create network in docker
 
-docker network create dfp_net --driver bridge
+dosudo cker network create dfp_net --driver bridge

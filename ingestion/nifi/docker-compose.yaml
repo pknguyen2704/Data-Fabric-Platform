@@ -1,0 +1,27 @@
+services:
+  nifi:
+    image: apache/nifi:1.28.1
+    container_name: nifi
+    hostname: nifi
+    ports:
+      - "8443:8443"
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - NIFI_WEB_HTTPS_PORT=8443
+      - SINGLE_USER_CREDENTIALS_USERNAME=admin
+      - SINGLE_USER_CREDENTIALS_PASSWORD=Admin@123456
+      # NIFI_JVM_HEAP_INIT: "2g"
+      # NIFI_JVM_HEAP_MAX: "4g"
+
+    volumes:
+      - ./hadoop_config/core-site.xml:/opt/nifi/nifi-current/conf/core-site.xml
+      - ./hadoop_config/hdfs-site.xml:/opt/nifi/nifi-current/conf/hdfs-site.xml
+      - nifi_data:/opt/nifi/nifi-current
+    networks:
+      - dfp_net
+
+volumes:
+  nifi_data:
+networks:
+  dfp_net:
+    external: true

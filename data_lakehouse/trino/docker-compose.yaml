@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  trino:
+    image: 'trinodb/trino:476'
+    hostname: trino
+    container_name: trino
+    ports:
+      - '8085:8080'
+    volumes:
+      - ./etc:/etc/trino
+      - ./hadoop_config:/etc/hadoop/conf
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    networks:
+      - dfp_net
+
+networks:
+  dfp_net:
+    external: true

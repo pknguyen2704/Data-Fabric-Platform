@@ -1,0 +1,5 @@
+csv/*
+!csv/sample.csv
+device_log/venv
+mysql-data
+postgres-data

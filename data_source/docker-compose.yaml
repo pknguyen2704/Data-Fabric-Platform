@@ -1,0 +1,37 @@
+services:
+  ds-postgres:
+    image: postgres:15
+    container_name: ds-postgres
+    hostname: ds-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Postgres123@
+      POSTGRES_DB: mydb
+    ports:
+      - "54321:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    command:
+      - "postgres"
+      - "-c"
+      - "shared_preload_libraries=pg_stat_statements"
+    networks:
+      - dfp_net
+
+  ds-mysql:
+    image: mysql:latest
+    container_name: ds-mysql
+    hostname: ds-mysql
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - MYSQL_ROOT_PASSWORD=Mysqlroot123@
+    ports:
+      - "33061:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      - dfp_net
+
+networks:
+  dfp_net:
+    external: true
