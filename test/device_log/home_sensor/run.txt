@@ -1,14 +1,15 @@
 Send history
-python env_send.py \
+python3 env_send.py \
   --num_devices 10 \
   --num_users 10 \
   --mode history \
-  --start 2024-01-01 \
-  --end 2024-01-03 \
-  --dirty_rate 0.1
+  --start 2025-11-15 \
+  --end 2025-11-15 \
+  --exclude device_id,user_id,created_at \
+  --dirty_rate 0.3
 
 Send realtime
-python env_send.py \
+python3 env_send.py \
   --num_devices 5 \
   --num_users 5 \
   --mode realtime \

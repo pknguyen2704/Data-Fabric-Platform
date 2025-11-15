@@ -22,7 +22,8 @@ def convert_np(obj):
     if isinstance(obj, np.generic):
         return obj.item()
     if isinstance(obj, datetime):
-        return obj.isoformat()
+        # Trả về epoch millis
+        return int(obj.timestamp() * 1000)
     raise TypeError(f"Cannot convert type: {type(obj)}")
 
 

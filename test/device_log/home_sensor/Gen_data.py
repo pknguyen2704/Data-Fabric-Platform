@@ -36,11 +36,10 @@ def generate_environment_record(device_id, user_id, timestamp):
     return {
         "device_id": device_id,
         "user_id": user_id,
-        "timestamp": timestamp,
-
         "temperature": round(random.uniform(20.0, 35.0), 2),
         "humidity": round(random.uniform(40.0, 85.0), 2),
         "air_quality_index": random.randint(1, 5),
+        "created_at": timestamp  # đặt cuối cùng, Iceberg sẽ đọc ok với định dạng sửa trên
     }
 
 
@@ -83,8 +82,7 @@ def apply_noise(record, dirty_rate=0.1, excluded_fields=None):
         if field in excluded_fields:
             continue
 
-        # timestamp không làm outlier / noise
-        if field == "timestamp":
+        if field == "created_at":
             continue
 
         noise = random.choice(noise_types)
@@ -100,7 +98,12 @@ def apply_noise(record, dirty_rate=0.1, excluded_fields=None):
 
         # 3) Sai kiểu dữ liệu
         elif noise == "wrong_type":
-            dirty_record[field] = "INVALID_DATA"
+            # Chỉ áp dụng cho các cột kiểu string
+            if isinstance(dirty_record[field], str):
+                dirty_record[field] = "INVALID_DATA"
+            # Nếu là số hoặc timestamp → bỏ qua
+            else:
+                continue
 
         # 4) Noise nhẹ
         elif noise == "small_noise":

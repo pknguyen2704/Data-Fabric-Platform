@@ -1,15 +1,16 @@
-python smartwatch_send.py \
+python3 smartwatch_send.py \
   --num_devices 5 --num_users 5 \
   --mode history \
-  --start 2024-01-01 --end 2024-01-04 \
+  --start 2025-11-15 --end 2025-11-15 \
   --interval 5 \
-  --dirty_rate 0.05 \
-  --exclude device_id,user_id,timestamp
+  --dirty_rate 0.1 \
+  --exclude device_id,user_id,created_at
 
-python smartwatch_send.py \
-  --num_devices 3 --num_users 3 \
+python3 smartwatch_send.py \
+  --num_devices 5 --num_users 5 \
   --mode realtime \
   --date 2024-01-20 \
   --interval 5 \
-  --delay 0.5 \
-  --dirty_rate 0.02
+  --delay 0.1 \
+  --dirty_rate 0.05 \
+  --exclude device_id,user_id,created_at

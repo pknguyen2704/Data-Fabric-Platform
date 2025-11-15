@@ -14,6 +14,7 @@ drop schema iceberg.gold
 
 drop table iceberg.bronze.info
 drop table iceberg.bronze.visits 
+drop table iceberg.bronze.home_sensor
 
 CREATE TABLE iceberg.bronze.info (
     patient_id BIGINT COMMENT 'Mã định danh duy nhất của bệnh nhân',
@@ -40,7 +41,6 @@ WITH (
     partitioning = ARRAY['day(created_at)']
 );
 
-
 CREATE TABLE iceberg.bronze.visits (
     visit_id BIGINT COMMENT 'Mã định danh duy nhất cho mỗi lần khám',
     patient_id BIGINT NOT NULL COMMENT 'Tham chiếu đến patient_id trong bảng info',
@@ -57,7 +57,43 @@ CREATE TABLE iceberg.bronze.visits (
 COMMENT 'Bảng lưu trữ thông tin các lần khám của bệnh nhân phục vụ phân tích y tế và quản lý hồ sơ sức khỏe điện tử'
 WITH (
     format = 'PARQUET',
-    partitioning = ARRAY['day(visit_datetime)']
+    partitioning = ARRAY['day(created_at)']
+);
+
+CREATE TABLE iceberg.bronze.home_sensor (
+    device_id INTEGER COMMENT 'Mã định danh duy nhất cho mỗi thiết bị cảm biến',
+    user_id INTEGER NOT NULL COMMENT 'Mã định danh người dùng sở hữu thiết bị',
+    temperature DOUBLE COMMENT 'Nhiệt độ đo được (°C)',
+    humidity DOUBLE COMMENT 'Độ ẩm đo được (%)',
+    air_quality_index INTEGER COMMENT 'Chỉ số chất lượng không khí (AQI)',
+    created_at TIMESTAMP NOT NULL COMMENT 'Thời gian ghi nhận dữ liệu cảm biến'
+)
+COMMENT 'Bảng lưu trữ dữ liệu cảm biến gia đình ghi nhận nhiệt độ, độ ẩm và chất lượng không khí phục vụ phân tích môi trường và sức khỏe'
+WITH (
+    format = 'PARQUET',
+    partitioning = ARRAY['day(created_at)']
+);
+
+CREATE TABLE iceberg.bronze.smartwatch (
+    device_id INTEGER COMMENT 'Mã định danh duy nhất cho mỗi thiết bị smartwatch',
+    user_id INTEGER NOT NULL COMMENT 'Mã định danh người dùng sở hữu thiết bị',
+    created_at TIMESTAMP NOT NULL COMMENT 'Thời gian ghi nhận dữ liệu smartwatch',
+    daily_steps INTEGER COMMENT 'Số bước đi trong ngày',
+    SpO2 INTEGER COMMENT 'Mức oxy trong máu (%)',
+    sleep_hours DOUBLE COMMENT 'Số giờ ngủ tổng cộng',
+    deep_sleep_hours DOUBLE COMMENT 'Số giờ ngủ sâu',
+    calories_burned DOUBLE COMMENT 'Số calo đã đốt cháy',
+    standing_hours DOUBLE COMMENT 'Số giờ đứng',
+    run_distance DOUBLE COMMENT 'Quãng đường chạy (km)',
+    stress_level INTEGER COMMENT 'Mức độ căng thẳng (1-3)',
+    heart_rate INTEGER COMMENT 'Nhịp tim trung bình'
+)
+COMMENT 'Bảng lưu trữ dữ liệu smartwatch ghi nhận hoạt động, nhịp tim, giấc ngủ, calo và mức độ căng thẳng phục vụ phân tích sức khỏe người dùng'
+WITH (
+    format = 'PARQUET',
+    partitioning = ARRAY['day(created_at)']
 );
 
 select count(*) from iceberg.bronze.visits
+select count(*) from iceberg.bronze.home_sensor
+select count(*) from iceberg.bronze.smartwatch

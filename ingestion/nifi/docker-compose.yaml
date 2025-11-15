@@ -10,8 +10,8 @@ services:
       - NIFI_WEB_HTTPS_PORT=8443
       - SINGLE_USER_CREDENTIALS_USERNAME=admin
       - SINGLE_USER_CREDENTIALS_PASSWORD=Admin@123456
-      - NIFI_JVM_HEAP_INIT=2g
-      - NIFI_JVM_HEAP_MAX=4g
+      - NIFI_JVM_HEAP_INIT=1g
+      - NIFI_JVM_HEAP_MAX=3g
 
     volumes:
       - ./hadoop_config/core-site.xml:/opt/nifi/nifi-current/conf/core-site.xml
